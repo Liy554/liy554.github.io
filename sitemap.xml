@@ -466,14 +466,14 @@
   </url>
   
   <url>
-    <loc>https://blog.lizxx.com/tags/%E8%BD%AF%E4%BB%B6%E5%85%B1%E4%BA%AB/</loc>
+    <loc>https://blog.lizxx.com/tags/Windows%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/</loc>
     <lastmod>2020-10-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.lizxx.com/tags/Windows%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/</loc>
+    <loc>https://blog.lizxx.com/tags/%E8%BD%AF%E4%BB%B6%E5%85%B1%E4%BA%AB/</loc>
     <lastmod>2020-10-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1056,14 +1056,14 @@
   </url>
   
   <url>
-    <loc>https://blog.lizxx.com/categories/Adobe/%E8%BD%AF%E4%BB%B6%E5%85%B1%E4%BA%AB/</loc>
+    <loc>https://blog.lizxx.com/categories/Windows/</loc>
     <lastmod>2020-10-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.lizxx.com/categories/Windows/</loc>
+    <loc>https://blog.lizxx.com/categories/Adobe/%E8%BD%AF%E4%BB%B6%E5%85%B1%E4%BA%AB/</loc>
     <lastmod>2020-10-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1140,6 +1140,13 @@
   </url>
   
   <url>
+    <loc>https://blog.lizxx.com/categories/Windows/%E8%BD%AF%E4%BB%B6%E5%85%B1%E4%BA%AB/</loc>
+    <lastmod>2020-10-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.lizxx.com/categories/%E8%BD%AF%E4%BB%B6%E5%85%B1%E4%BA%AB/</loc>
     <lastmod>2020-10-01</lastmod>
     <changefreq>daily</changefreq>
@@ -1148,13 +1155,6 @@
   
   <url>
     <loc>https://blog.lizxx.com/categories/SEO/</loc>
-    <lastmod>2020-10-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.lizxx.com/categories/Windows/%E8%BD%AF%E4%BB%B6%E5%85%B1%E4%BA%AB/</loc>
     <lastmod>2020-10-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
