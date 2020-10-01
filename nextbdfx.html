@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
+
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.0/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"blog.lizxx.com","root":"/","scheme":"Gemini","version":"8.0.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
+  </script>
+
+  <meta name="description" content="事情起因今天忽然想在博客中增加分享功能，记得看开发文档的时候Next主题有集成百度分享插件。所以又去官方文档找了找。 1官方文档：http:&#x2F;&#x2F;theme-next.iissnan.com&#x2F; ![Next官方文档百度分享部分](&#x2F;images&#x2F;wdbdfx .png)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo Next主题开启百度分享功能">
+<meta property="og:url" content="https://blog.lizxx.com/nextbdfx.html">
+<meta property="og:site_name" content="荔枝碎碎念">
+<meta property="og:description" content="事情起因今天忽然想在博客中增加分享功能，记得看开发文档的时候Next主题有集成百度分享插件。所以又去官方文档找了找。 1官方文档：http:&#x2F;&#x2F;theme-next.iissnan.com&#x2F; ![Next官方文档百度分享部分](&#x2F;images&#x2F;wdbdfx .png)">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2018-04-28T04:54:39.000Z">
+<meta property="article:modified_time" content="2020-10-01T06:21:13.620Z">
+<meta property="article:author" content="荔枝">
+<meta property="article:tag" content="Next分享服务">
+<meta property="article:tag" content="Next开启分享功能">
+<meta property="article:tag" content="百度分享服务">
+<meta property="article:tag" content="Hexo分享服务">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://blog.lizxx.com/nextbdfx.html">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>Hexo Next主题开启百度分享功能 | 荔枝碎碎念</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="荔枝碎碎念" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">荔枝碎碎念</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">用于写笔记，或记录一些不想用脑子记的东西，并分享给你们。</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <section class="post-toc-wrap sidebar-panel">
+          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8B%E6%83%85%E8%B5%B7%E5%9B%A0"><span class="nav-number">1.</span> <span class="nav-text">事情起因</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%97%AE%E9%A2%98%E6%89%80%E5%9C%A8"><span class="nav-number">2.</span> <span class="nav-text">问题所在</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95"><span class="nav-number">3.</span> <span class="nav-text">解决办法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%A6%E5%A4%96"><span class="nav-number">3.1.</span> <span class="nav-text">另外</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%80%E5%90%8E"><span class="nav-number">4.</span> <span class="nav-text">最后</span></a></li></ol></div>
+      </section>
+      <!--/noindex-->
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">荔枝</p>
+  <div class="site-description" itemprop="description">分享我所知道的。</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">49</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">48</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">88</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="bWFpbHRvOnlvdXJuYW1lQGdtYWlsLmNvbQ==" title="E-Mail → mailto:yourname@gmail.com"><i class="fa fa-envelope fa-fw"></i>E-Mail</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly93ZWliby5jb20veW91cm5hbWU=" title="Weibo → https:&#x2F;&#x2F;weibo.com&#x2F;yourname"><i class="fab fa-weibo fa-fw"></i>Weibo</span>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll site-overview-item animated">
+    <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+      友情链接
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://blog.lizxx.com/" title="https:&#x2F;&#x2F;blog.lizxx.com">荔枝碎碎念</a>
+        </li>
+    </ul>
+  </div>
+
+      </section>
+        <div class="back-to-top animated">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+      
+
+      
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.lizxx.com/nextbdfx.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="荔枝">
+      <meta itemprop="description" content="分享我所知道的。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="荔枝碎碎念">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Hexo Next主题开启百度分享功能
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2018-04-28 12:54:39" itemprop="dateCreated datePublished" datetime="2018-04-28T12:54:39+08:00">2018-04-28</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2020-10-01 14:21:13" itemprop="dateModified" datetime="2020-10-01T14:21:13+08:00">2020-10-01</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/SEO/" itemprop="url" rel="index"><span itemprop="name">SEO</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/SEO/%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96/" itemprop="url" rel="index"><span itemprop="name">网站优化</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h2 id="事情起因"><a href="#事情起因" class="headerlink" title="事情起因"></a>事情起因</h2><p>今天忽然想在博客中增加分享功能，记得看开发文档的时候Next主题有集成百度分享插件。所以又去官方文档找了找。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">官方文档：http:&#x2F;&#x2F;theme-next.iissnan.com&#x2F;</span><br></pre></td></tr></table></figure>
+<p>![Next官方文档百度分享部分](/images/wdbdfx .png)</p>
+<a id="more"></a>
+<p>根据官方文档的说法，只需要在主题配置文件中修改字段baidushare，为true即可开启百度分享功能。但是我设置以后并没有效果。<br>下面是我开启后的部分代码，并没有效果：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">#Baidu Share</span><br><span class="line"># Available value:</span><br><span class="line">#    button | slide</span><br><span class="line"># Warning: Baidu Share does not support https.</span><br><span class="line">baidushare: ture</span><br><span class="line">##  type: button</span><br><span class="line">按照官方文档的说法应该就是这样修改，但是我查看博客并没有开启分享功能。</span><br></pre></td></tr></table></figure>
+<p>然后我进行百度查找相关信息，无果。</p>
+<h2 id="问题所在"><a href="#问题所在" class="headerlink" title="问题所在"></a>问题所在</h2><p>由于Hexo是使用Node.js将Markdown渲染成静态页面，所以百度分享代码一定会在静态页面中。修改配置文件后生成静态文件，通过查看源代码并没有发现又分享相关的代码。所以可以确定配置没有成功启用。</p>
+<p>Hexo中文章模板是在Next/layout/post.swig中，打开文件寻找分享功能的代码，从16到26行是关于分享的，在其中寻找关于百度分享的字段。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">找到百度分享功能了：</span><br><span class="line">&#123;% include &#39;_partials&#x2F;share&#x2F;baidushare.swig&#39; %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>从这段中可以看出来百度分享的加载文件是在配置目录中的_partials/share/baidushare.swig下。也就是在next/layout/_partials/share/baidushare.swig这里。</p>
+<p>打开baidushare.swig文件可以看到以下内容：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&#123;% if theme.baidushare.type &#x3D;&#x3D;&#x3D; &quot;button&quot; %&#125;</span><br><span class="line">  &lt;div class&#x3D;&quot;bdsharebuttonbox&quot;&gt;</span><br><span class="line">    &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;bds_tsina&quot; data-cmd&#x3D;&quot;tsina&quot; title&#x3D;&quot;分享到新浪微博&quot;&gt;&lt;&#x2F;a&gt;</span><br><span class="line">    &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;bds_douban&quot; data-cmd&#x3D;&quot;douban&quot; title&#x3D;&quot;分享到豆瓣网&quot;&gt;&lt;&#x2F;a&gt;</span><br><span class="line">    &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;bds_sqq&quot; data-cmd&#x3D;&quot;sqq&quot; title&#x3D;&quot;分享到QQ好友&quot;&gt;&lt;&#x2F;a&gt;</span><br><span class="line">    &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;bds_qzone&quot; data-cmd&#x3D;&quot;qzone&quot; title&#x3D;&quot;分享到QQ空间&quot;&gt;&lt;&#x2F;a&gt;</span><br><span class="line">    &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;bds_weixin&quot; data-cmd&#x3D;&quot;weixin&quot; title&#x3D;&quot;分享到微信&quot;&gt;&lt;&#x2F;a&gt;</span><br><span class="line">    &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;bds_tieba&quot; data-cmd&#x3D;&quot;tieba&quot; title&#x3D;&quot;分享到百度贴吧&quot;&gt;&lt;&#x2F;a&gt;</span><br><span class="line">    &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;bds_twi&quot; data-cmd&#x3D;&quot;twi&quot; title&#x3D;&quot;分享到Twitter&quot;&gt;&lt;&#x2F;a&gt;</span><br><span class="line">    &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;bds_fbook&quot; data-cmd&#x3D;&quot;fbook&quot; title&#x3D;&quot;分享到Facebook&quot;&gt;&lt;&#x2F;a&gt;</span><br><span class="line">    &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;bds_more&quot; data-cmd&#x3D;&quot;more&quot;&gt;&lt;&#x2F;a&gt;</span><br><span class="line">    &lt;a class&#x3D;&quot;bds_count&quot; data-cmd&#x3D;&quot;count&quot;&gt;&lt;&#x2F;a&gt;</span><br><span class="line">.....太长了，以下省略....</span><br></pre></td></tr></table></figure>
+<p>在这段中可以看到，第一行首先判断了theme.baidushare.type的值，如果为button才会执行后面的代码，在配置文件中发现type被注释掉了，所以无法启用百度分享功能。</p>
+<h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><p>只需要在主题配置文件中写上以下几行，即可开启Next集成的百度分享功能。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">baidushare:</span><br><span class="line">  type: button</span><br><span class="line">  baidushare: true</span><br></pre></td></tr></table></figure>
+
+<h3 id="另外"><a href="#另外" class="headerlink" title="另外"></a>另外</h3><p>主题自带的代码可能有一些会失效，可以打开百度分享网站，按照百度提供的新代码进行修改baidushare.swig的内容。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">百度分享：http:&#x2F;&#x2F;share.baidu.com&#x2F;</span><br></pre></td></tr></table></figure>
+
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>我只想说RTFSC大法好。</p>
+<p>有朋友问我RTFSC是什么，RTFSC就是Read the fucking source code，翻译过来就是阅读源代码。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">附上一些问答网站常见的大佬们说的话：</span><br><span class="line"></span><br><span class="line">RTFSC--(Read the fucking source code)</span><br><span class="line">RTFM--(Read the fucking manual)</span><br><span class="line">UTFH--(Use The Fucking Help)</span><br><span class="line">STFW--(Search The Fucking Web)</span><br><span class="line">STFG--(Search The Fucking Google或Search The Fantastic Google)</span><br><span class="line">GIYF--(Google Is Your Friend)</span><br><span class="line">JFGI--(Just Fucking Google It)</span><br><span class="line">RTFE--(Read The Fucking Email)</span><br><span class="line">RTFC--(Read The Fucking Code或Reboot The Fucking Computer) </span><br><span class="line">RTFQ--(Read The Fucking Question)</span><br><span class="line">LMGTFY--(Let Me Google That For You)</span><br><span class="line">FIOTI--(Find It On The Internet)</span><br><span class="line"></span><br><span class="line">来源于网络</span><br></pre></td></tr></table></figure>
+
+<p><strong>恩…捯饬完了以后，感觉不美观，我还是关闭了分享功能。</strong></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+  <div class="followme">
+    <span>欢迎关注我的其它发布渠道</span>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+        </div>
+    </div>
+  </div>
+
+          <div class="post-tags">
+              <a href="/tags/Next%E5%88%86%E4%BA%AB%E6%9C%8D%E5%8A%A1/" rel="tag"><i class="fa fa-tag"></i> Next分享服务</a>
+              <a href="/tags/Next%E5%BC%80%E5%90%AF%E5%88%86%E4%BA%AB%E5%8A%9F%E8%83%BD/" rel="tag"><i class="fa fa-tag"></i> Next开启分享功能</a>
+              <a href="/tags/%E7%99%BE%E5%BA%A6%E5%88%86%E4%BA%AB%E6%9C%8D%E5%8A%A1/" rel="tag"><i class="fa fa-tag"></i> 百度分享服务</a>
+              <a href="/tags/Hexo%E5%88%86%E4%BA%AB%E6%9C%8D%E5%8A%A1/" rel="tag"><i class="fa fa-tag"></i> Hexo分享服务</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/wznextseo.html" rel="prev" title="针对Hexo和Next主题的SEO优化">
+                  <i class="fa fa-chevron-left"></i> 针对Hexo和Next主题的SEO优化
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/nextmh.html" rel="next" title="Hexo Next主题整体美化">
+                  Hexo Next主题整体美化 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+      
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      
+
+      
+
+<div class="copyright">
+  
+  &copy; 2018 – 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-ghost"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder"><a class="theme-link" target="_blank" href="https://blog.lizxx.com">Powered by - 荔枝</a></span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+  <script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript">
+/* 鼠标特效 */
+var a_idx = 0;
+jQuery(document).ready(function($) {
+   $("body").click(function(e) {
+       var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正" ,"法治", "爱国", "敬业", "诚信", "友善");
+       var $i = $("<span/>").text(a[a_idx]);
+       a_idx = (a_idx + 1) % a.length;
+       var x = e.pageX,
+       y = e.pageY;
+       $i.css({
+           "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+           "top": y - 20,
+           "left": x,
+           "position": "absolute",
+           "font-weight": "bold",
+           "color": "#ff6651"
+       });
+       $("body").append($i);
+       $i.animate({
+           "top": y - 180,
+           "opacity": 0
+       },
+       1500,
+       function() {
+           $i.remove();
+       });
+   });
+});
+    </script>
+
+</body>
+</html>

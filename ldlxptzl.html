@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
+
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.0/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"blog.lizxx.com","root":"/","scheme":"Gemini","version":"8.0.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
+  </script>
+
+  <meta name="description" content="漏洞及渗透练习平台WebGoat漏洞练习环境 1234567https:&#x2F;&#x2F;github.com&#x2F;WebGoat&#x2F;WebGoathttps:&#x2F;&#x2F;github.com&#x2F;WebGoat&#x2F;WebGoat-LegacyDamn Vulnerable Web Application(漏洞练习平台)https:&#x2F;&amp;#x2">
+<meta property="og:type" content="article">
+<meta property="og:title" content="渗透漏洞练习平台整理">
+<meta property="og:url" content="https://blog.lizxx.com/ldlxptzl.html">
+<meta property="og:site_name" content="荔枝碎碎念">
+<meta property="og:description" content="漏洞及渗透练习平台WebGoat漏洞练习环境 1234567https:&#x2F;&#x2F;github.com&#x2F;WebGoat&#x2F;WebGoathttps:&#x2F;&#x2F;github.com&#x2F;WebGoat&#x2F;WebGoat-LegacyDamn Vulnerable Web Application(漏洞练习平台)https:&#x2F;&amp;#x2">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2018-08-29T04:54:29.000Z">
+<meta property="article:modified_time" content="2020-10-01T07:00:13.578Z">
+<meta property="article:author" content="荔枝">
+<meta property="article:tag" content="漏洞练习平台">
+<meta property="article:tag" content="渗透漏洞练习平台">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://blog.lizxx.com/ldlxptzl.html">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>渗透漏洞练习平台整理 | 荔枝碎碎念</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="荔枝碎碎念" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">荔枝碎碎念</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">用于写笔记，或记录一些不想用脑子记的东西，并分享给你们。</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <section class="post-toc-wrap sidebar-panel">
+          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%BC%8F%E6%B4%9E%E5%8F%8A%E6%B8%97%E9%80%8F%E7%BB%83%E4%B9%A0%E5%B9%B3%E5%8F%B0"><span class="nav-number">1.</span> <span class="nav-text">漏洞及渗透练习平台</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E5%BA%93%E6%B3%A8%E5%85%A5%E7%BB%83%E4%B9%A0%E5%B9%B3%E5%8F%B0"><span class="nav-number">2.</span> <span class="nav-text">数据库注入练习平台</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%8A%B1%E5%BC%8F%E6%89%AB%E6%8F%8F%E5%99%A8"><span class="nav-number">3.</span> <span class="nav-text">花式扫描器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BF%A1%E6%81%AF%E6%90%9C%E9%9B%86%E5%B7%A5%E5%85%B7"><span class="nav-number">4.</span> <span class="nav-text">信息搜集工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#WEB%E7%9B%B8%E5%85%B3"><span class="nav-number">5.</span> <span class="nav-text">WEB相关</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Windows%E5%9F%9F%E6%B8%97%E9%80%8F%E5%B7%A5%E5%85%B7%E7%B1%BB"><span class="nav-number">6.</span> <span class="nav-text">Windows域渗透工具类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Fuzz%E7%B1%BB"><span class="nav-number">7.</span> <span class="nav-text">Fuzz类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8%E5%8F%8A%E6%94%BB%E5%87%BB%E6%A1%86%E6%9E%B6"><span class="nav-number">8.</span> <span class="nav-text">漏洞利用及攻击框架</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%BC%8F%E6%B4%9EPOC-amp-EXP"><span class="nav-number">9.</span> <span class="nav-text">漏洞POC&amp;EXP</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AF%86%E7%A0%81%E7%A0%B4%E8%A7%A3%E7%B1%BB"><span class="nav-number">10.</span> <span class="nav-text">密码破解类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%8F%8A%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7"><span class="nav-number">11.</span> <span class="nav-text">二进制及代码分析工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#EXP%E7%BC%96%E5%86%99%E6%A1%86%E6%9E%B6%E5%8F%8A%E5%B7%A5%E5%85%B7"><span class="nav-number">12.</span> <span class="nav-text">EXP编写框架及工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9A%90%E5%86%99"><span class="nav-number">13.</span> <span class="nav-text">隐写</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%84%E7%B1%BB%E5%AE%89%E5%85%A8%E8%B5%84%E6%96%99"><span class="nav-number">14.</span> <span class="nav-text">各类安全资料</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%84%E7%B1%BB%E7%BC%96%E7%A8%8B%E8%B5%84%E6%BA%90"><span class="nav-number">15.</span> <span class="nav-text">各类编程资源</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Python%E7%B1%BB"><span class="nav-number">16.</span> <span class="nav-text">Python类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91"><span class="nav-number">17.</span> <span class="nav-text">科学上网</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B6%E4%BB%96"><span class="nav-number">18.</span> <span class="nav-text">其他</span></a></li></ol></div>
+      </section>
+      <!--/noindex-->
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">荔枝</p>
+  <div class="site-description" itemprop="description">分享我所知道的。</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">49</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">48</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">88</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="bWFpbHRvOnlvdXJuYW1lQGdtYWlsLmNvbQ==" title="E-Mail → mailto:yourname@gmail.com"><i class="fa fa-envelope fa-fw"></i>E-Mail</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly93ZWliby5jb20veW91cm5hbWU=" title="Weibo → https:&#x2F;&#x2F;weibo.com&#x2F;yourname"><i class="fab fa-weibo fa-fw"></i>Weibo</span>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll site-overview-item animated">
+    <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+      友情链接
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://blog.lizxx.com/" title="https:&#x2F;&#x2F;blog.lizxx.com">荔枝碎碎念</a>
+        </li>
+    </ul>
+  </div>
+
+      </section>
+        <div class="back-to-top animated">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+      
+
+      
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.lizxx.com/ldlxptzl.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="荔枝">
+      <meta itemprop="description" content="分享我所知道的。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="荔枝碎碎念">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          渗透漏洞练习平台整理
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2018-08-29 12:54:29" itemprop="dateCreated datePublished" datetime="2018-08-29T12:54:29+08:00">2018-08-29</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2020-10-01 15:00:13" itemprop="dateModified" datetime="2020-10-01T15:00:13+08:00">2020-10-01</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%8A%80%E6%9C%AF%E5%85%B1%E4%BA%AB/" itemprop="url" rel="index"><span itemprop="name">技术共享</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h2 id="漏洞及渗透练习平台"><a href="#漏洞及渗透练习平台" class="headerlink" title="漏洞及渗透练习平台"></a>漏洞及渗透练习平台</h2><p><strong>WebGoat漏洞练习环境</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">https:&#x2F;&#x2F;github.com&#x2F;WebGoat&#x2F;WebGoat</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;WebGoat&#x2F;WebGoat-Legacy</span><br><span class="line"></span><br><span class="line">Damn Vulnerable Web Application(漏洞练习平台)</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;RandomStorm&#x2F;DVWA</span><br></pre></td></tr></table></figure>
+
+<h2 id="数据库注入练习平台"><a href="#数据库注入练习平台" class="headerlink" title="数据库注入练习平台"></a>数据库注入练习平台</h2><a id="more"></a>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">https:&#x2F;&#x2F;github.com&#x2F;Audi-1&#x2F;sqli-labs</span><br><span class="line"></span><br><span class="line">用node编写的漏洞练习平台，like OWASP Node Goat</span><br><span class="line">&lt;!-- more --&gt;</span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;cr0hn&#x2F;vulnerable-node</span><br></pre></td></tr></table></figure>
+
+<h2 id="花式扫描器"><a href="#花式扫描器" class="headerlink" title="花式扫描器"></a>花式扫描器</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">端口扫描器Nmap</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;nmap&#x2F;nmap</span><br><span class="line"></span><br><span class="line">本地网络扫描器</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;SkyLined&#x2F;LocalNetworkScanner</span><br><span class="line"></span><br><span class="line">子域名扫描器</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;lijiejie&#x2F;subDomainsBrute</span><br><span class="line"></span><br><span class="line">漏洞路由扫描器</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;jh00nbr&#x2F;Routerhunter-2.0</span><br><span class="line"></span><br><span class="line">迷你批量信息泄漏扫描脚本</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;lijiejie&#x2F;BBScan</span><br><span class="line"></span><br><span class="line">Waf类型检测工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;EnableSecurity&#x2F;wafw00f</span><br></pre></td></tr></table></figure>
+
+<h2 id="信息搜集工具"><a href="#信息搜集工具" class="headerlink" title="信息搜集工具"></a>信息搜集工具</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">社工插件，可查找以email、phone、username的注册的所有网站账号信息</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;n0tr00t&#x2F;Sreg</span><br><span class="line"></span><br><span class="line">Github信息搜集，可实时扫描查询git最新上传有关邮箱账号密码信息</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;sea-god&#x2F;gitscan</span><br><span class="line"></span><br><span class="line">github Repo信息搜集工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;metac0rtex&#x2F;GitHarvester</span><br></pre></td></tr></table></figure>
+
+<h2 id="WEB相关"><a href="#WEB相关" class="headerlink" title="WEB相关"></a>WEB相关</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br></pre></td><td class="code"><pre><span class="line">webshell大合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;tennc&#x2F;webshell</span><br><span class="line"></span><br><span class="line">渗透以及web攻击脚本</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;brianwrf&#x2F;hackUtils</span><br><span class="line"></span><br><span class="line">web渗透小工具大合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;rootphantomer&#x2F;hack_tools_for_me</span><br><span class="line"></span><br><span class="line">XSS数据接收平台</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;firesunCN&#x2F;BlueLotus_XSSReceiver</span><br><span class="line"></span><br><span class="line">XSS与CSRF工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;evilcos&#x2F;xssor</span><br><span class="line"></span><br><span class="line">Short for command injection exploiter，web向命令注入检测工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;stasinopoulos&#x2F;commix</span><br><span class="line"></span><br><span class="line">数据库注入工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;sqlmapproject&#x2F;sqlmap</span><br><span class="line"></span><br><span class="line">Web代理，通过加载sqlmap api进行sqli实时检测</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;zt2&#x2F;sqli-hunter</span><br><span class="line"></span><br><span class="line">新版中国菜刀</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;Chora10&#x2F;Cknife</span><br><span class="line"></span><br><span class="line">.git泄露利用EXP</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;lijiejie&#x2F;GitHack</span><br><span class="line"></span><br><span class="line">浏览器攻击框架</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;beefproject&#x2F;beef</span><br><span class="line"></span><br><span class="line">自动化绕过WAF脚本</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;khalilbijjou&#x2F;WAFNinja</span><br><span class="line"></span><br><span class="line">http命令行客户端，可以从命令行构造发送各种http请求（类似于Curl）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;jkbrzt&#x2F;httpie</span><br><span class="line"></span><br><span class="line">浏览器调试利器</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;firebug&#x2F;firebug</span><br><span class="line"></span><br><span class="line">一款开源WAF</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;SpiderLabs&#x2F;ModSecurity</span><br></pre></td></tr></table></figure>
+
+<h2 id="Windows域渗透工具类"><a href="#Windows域渗透工具类" class="headerlink" title="Windows域渗透工具类"></a>Windows域渗透工具类</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">windows渗透神器</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;gentilkiwi&#x2F;mimikatz</span><br><span class="line"></span><br><span class="line">Powershell渗透库合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;PowerShellMafia&#x2F;PowerSploit</span><br><span class="line"></span><br><span class="line">Powershell tools合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;clymb3r&#x2F;PowerShell</span><br></pre></td></tr></table></figure>
+
+<h2 id="Fuzz类"><a href="#Fuzz类" class="headerlink" title="Fuzz类"></a>Fuzz类</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Web向Fuzz工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;xmendez&#x2F;wfuzz</span><br><span class="line"></span><br><span class="line">HTTP暴力破解，撞库攻击脚本</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;lijiejie&#x2F;htpwdScan</span><br></pre></td></tr></table></figure>
+
+<h2 id="漏洞利用及攻击框架"><a href="#漏洞利用及攻击框架" class="headerlink" title="漏洞利用及攻击框架"></a>漏洞利用及攻击框架</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">MSF</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;rapid7&#x2F;metasploit-framework</span><br><span class="line"></span><br><span class="line">Poc调用框架，可加载Pocsuite,Tangscan，Beebeeto等</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;erevus-cn&#x2F;pocscan</span><br><span class="line"></span><br><span class="line">Pocsuite</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;knownsec&#x2F;Pocsuite</span><br><span class="line"></span><br><span class="line">Beebeeto</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;n0tr00t&#x2F;Beebeeto-framework</span><br></pre></td></tr></table></figure>
+
+<h2 id="漏洞POC-amp-EXP"><a href="#漏洞POC-amp-EXP" class="headerlink" title="漏洞POC&amp;EXP"></a>漏洞POC&amp;EXP</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br></pre></td><td class="code"><pre><span class="line">ExploitDB官方git版本</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;offensive-security&#x2F;exploit-database</span><br><span class="line"></span><br><span class="line">php漏洞代码分析</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;80vul&#x2F;phpcodz</span><br><span class="line"></span><br><span class="line">Simple test for CVE-2016-2107</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;FiloSottile&#x2F;CVE-2016-2107</span><br><span class="line"></span><br><span class="line">CVE-2015-7547 POC</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;fjserna&#x2F;CVE-2015-7547</span><br><span class="line"></span><br><span class="line">JAVA反序列化POC生成工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;frohoff&#x2F;ysoserial</span><br><span class="line"></span><br><span class="line">JAVA反序列化EXP</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;foxglovesec&#x2F;JavaUnserializeExploits</span><br><span class="line"></span><br><span class="line">Jenkins CommonCollections EXP</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;CaledoniaProject&#x2F;jenkins-cli-exploit</span><br><span class="line"></span><br><span class="line">CVE-2015-2426 EXP (windows内核提权)</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;vlad902&#x2F;hacking-team-windows-kernel-lpe</span><br><span class="line"></span><br><span class="line">use docker to show web attack(php本地文件包含结合phpinfo getshell 以及ssrf结合curl的利用演示)</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;hxer&#x2F;vulnapp</span><br><span class="line"></span><br><span class="line">php7缓存覆写漏洞Demo及相关工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;GoSecure&#x2F;php7-opcache-override</span><br><span class="line"></span><br><span class="line">XcodeGhost木马样本</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;XcodeGhostSource&#x2F;XcodeGhost</span><br><span class="line"></span><br><span class="line">中间人攻击及钓鱼</span><br><span class="line"></span><br><span class="line">中间人攻击框架</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;secretsquirrel&#x2F;the-backdoor-factory</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;secretsquirrel&#x2F;BDFProxy</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;byt3bl33d3r&#x2F;MITMf</span><br><span class="line"></span><br><span class="line">Inject code, jam wifi, and spy on wifi users</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;DanMcInerney&#x2F;LANs.py</span><br><span class="line"></span><br><span class="line">可扩展的中间人代理工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;intrepidusgroup&#x2F;mallory</span><br><span class="line"></span><br><span class="line">wifi钓鱼</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;sophron&#x2F;wifiphisher</span><br></pre></td></tr></table></figure>
+
+<h2 id="密码破解类"><a href="#密码破解类" class="headerlink" title="密码破解类"></a>密码破解类</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">密码破解工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;shinnok&#x2F;johnny</span><br><span class="line"></span><br><span class="line">本地存储的各类密码提取利器</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;AlessandroZ&#x2F;LaZagne</span><br></pre></td></tr></table></figure>
+
+<h2 id="二进制及代码分析工具"><a href="#二进制及代码分析工具" class="headerlink" title="二进制及代码分析工具"></a>二进制及代码分析工具</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line">二进制分析工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;devttys0&#x2F;binwalk</span><br><span class="line"></span><br><span class="line">系统扫描器，用于寻找程序和库然后收集他们的依赖关系，链接等信息</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;quarkslab&#x2F;binmap</span><br><span class="line"></span><br><span class="line">rp++ is a full-cpp written tool that aims to find ROP sequences in PE&#x2F;Elf&#x2F;Mach-O (doesn&#39;t support the FAT binaries) x86&#x2F;x64 binaries.</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;0vercl0k&#x2F;rp</span><br><span class="line"></span><br><span class="line">Windows Exploit Development工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;lillypad&#x2F;badger</span><br><span class="line"></span><br><span class="line">二进制静态分析工具（python）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;bdcht&#x2F;amoco</span><br><span class="line"></span><br><span class="line">Python Exploit Development Assistance for GDB</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;longld&#x2F;peda</span><br><span class="line"></span><br><span class="line">对BillGates Linux Botnet系木马活动的监控工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;ValdikSS&#x2F;billgates-botnet-tracker</span><br><span class="line"></span><br><span class="line">木马配置参数提取工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;kevthehermit&#x2F;RATDecoders</span><br><span class="line"></span><br><span class="line">Shellphish编写的二进制分析工具（CTF向）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;angr&#x2F;angr</span><br><span class="line"></span><br><span class="line">针对python的静态代码分析工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;yinwang0&#x2F;pysonar2</span><br><span class="line"></span><br><span class="line">一个自动化的脚本（shell）分析工具，用来给出警告和建议</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;koalaman&#x2F;shellcheck</span><br><span class="line"></span><br><span class="line">基于AST变换的简易Javascript反混淆辅助工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;ChiChou&#x2F;etacsufbo</span><br></pre></td></tr></table></figure>
+
+<h2 id="EXP编写框架及工具"><a href="#EXP编写框架及工具" class="headerlink" title="EXP编写框架及工具"></a>EXP编写框架及工具</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">二进制EXP编写工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;t00sh&#x2F;rop-tool</span><br><span class="line"></span><br><span class="line">CTF Pwn 类题目脚本编写框架</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;Gallopsled&#x2F;pwntools</span><br><span class="line"></span><br><span class="line">an easy-to-use io library for pwning development</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;zTrix&#x2F;zio</span><br><span class="line"></span><br><span class="line">跨平台注入工具（ Inject JavaScript to explore native apps on Windows, Mac, Linux, iOS and Android.）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;frida&#x2F;frida</span><br></pre></td></tr></table></figure>
+
+<h2 id="隐写"><a href="#隐写" class="headerlink" title="隐写"></a>隐写</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">隐写检测工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;abeluck&#x2F;stegdetect</span><br></pre></td></tr></table></figure>
+
+<h2 id="各类安全资料"><a href="#各类安全资料" class="headerlink" title="各类安全资料"></a>各类安全资料</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br></pre></td><td class="code"><pre><span class="line">域渗透教程</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;l3m0n&#x2F;pentest_study</span><br><span class="line"></span><br><span class="line">python security教程（原文链接http:&#x2F;&#x2F;www.primalsecurity.net&#x2F;tutorials&#x2F;python-tutorials&#x2F;）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;smartFlash&#x2F;pySecurity</span><br><span class="line"></span><br><span class="line">data_hacking合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;ClickSecurity&#x2F;data_hacking</span><br><span class="line"></span><br><span class="line">mobile-security-wiki</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;exploitprotocol&#x2F;mobile-security-wiki</span><br><span class="line"></span><br><span class="line">书籍《reverse-engineering-for-beginners》</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;veficos&#x2F;reverse-engineering-for-beginners</span><br><span class="line"></span><br><span class="line">一些信息安全标准及设备配置</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;luyg24&#x2F;IT_security</span><br><span class="line"></span><br><span class="line">APT相关笔记</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;kbandla&#x2F;APTnotes</span><br><span class="line"></span><br><span class="line">Kcon资料</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;knownsec&#x2F;KCon</span><br><span class="line"></span><br><span class="line">ctf及黑客资源合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;bt3gl&#x2F;My-Gray-Hacker-Resources</span><br><span class="line"></span><br><span class="line">ctf和安全工具大合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;zardus&#x2F;ctf-tools</span><br><span class="line"></span><br><span class="line">《DO NOT FUCK WITH A HACKER》</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;citypw&#x2F;DNFWAH</span><br><span class="line"></span><br><span class="line">各类CTF资源</span><br><span class="line"></span><br><span class="line">近年ctf writeup大全</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;ctfs&#x2F;write-ups-2016</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;ctfs&#x2F;write-ups-2015</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;ctfs&#x2F;write-ups-2014</span><br><span class="line"></span><br><span class="line">fbctf竞赛平台Demo</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;facebook&#x2F;fbctf</span><br><span class="line"></span><br><span class="line">ctf Resources</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;ctfs&#x2F;resources</span><br></pre></td></tr></table></figure>
+
+<h2 id="各类编程资源"><a href="#各类编程资源" class="headerlink" title="各类编程资源"></a>各类编程资源</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">大礼包（什么都有）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;bayandin&#x2F;awesome-awesomeness</span><br><span class="line"></span><br><span class="line">bash-handbook</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;denysdovhan&#x2F;bash-handbook</span><br><span class="line"></span><br><span class="line">python资源大全</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;jobbole&#x2F;awesome-python-cn</span><br><span class="line"></span><br><span class="line">git学习资料</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;xirong&#x2F;my-git</span><br><span class="line"></span><br><span class="line">安卓开源代码解析</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;android-cn&#x2F;android-open-project-analysis</span><br><span class="line"></span><br><span class="line">python框架，库，资源大合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;vinta&#x2F;awesome-python</span><br><span class="line"></span><br><span class="line">JS 正则表达式库（用于简化构造复杂的JS正则表达式）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;VerbalExpressions&#x2F;JSVerbalExpressions</span><br></pre></td></tr></table></figure>
+
+<h2 id="Python类"><a href="#Python类" class="headerlink" title="Python类"></a>Python类</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line">python 正则表达式库（用于简化构造复杂的python正则表达式）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;VerbalExpressions&#x2F;PythonVerbalExpressions</span><br><span class="line"></span><br><span class="line">python任务管理以及命令执行库</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;pyinvoke&#x2F;invoke</span><br><span class="line"></span><br><span class="line">python exe打包库</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;pyinstaller&#x2F;pyinstaller</span><br><span class="line"></span><br><span class="line">py3 爬虫框架</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;orf&#x2F;cyborg</span><br><span class="line"></span><br><span class="line">一个提供底层接口数据包编程和网络协议支持的python库</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;CoreSecurity&#x2F;impacket</span><br><span class="line"></span><br><span class="line">python requests 库</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;kennethreitz&#x2F;requests</span><br><span class="line"></span><br><span class="line">python 实用工具合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;mahmoud&#x2F;boltons</span><br><span class="line"></span><br><span class="line">python爬虫系统</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;binux&#x2F;pyspider</span><br><span class="line"></span><br><span class="line">ctf向 python工具包</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;P1kachu&#x2F;v0lt</span><br></pre></td></tr></table></figure>
+
+<h2 id="科学上网"><a href="#科学上网" class="headerlink" title="科学上网"></a>科学上网</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">科学上网工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;XX-net&#x2F;XX-Net</span><br></pre></td></tr></table></figure>
+
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">各种安全相关思维导图整理收集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;phith0n&#x2F;Mind-Map</span><br><span class="line"></span><br><span class="line">微信自动抢红包动态库</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;east520&#x2F;AutoGetRedEnv</span><br><span class="line"></span><br><span class="line">微信抢红包插件（安卓版）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;geeeeeeeeek&#x2F;WeChatLuckyMoney</span><br><span class="line"></span><br><span class="line">神器</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;yangyangwithgnu&#x2F;hardseed</span><br></pre></td></tr></table></figure>
+
+<p>本文收集自网络。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+  <div class="followme">
+    <span>欢迎关注我的其它发布渠道</span>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+        </div>
+    </div>
+  </div>
+
+          <div class="post-tags">
+              <a href="/tags/%E6%BC%8F%E6%B4%9E%E7%BB%83%E4%B9%A0%E5%B9%B3%E5%8F%B0/" rel="tag"><i class="fa fa-tag"></i> 漏洞练习平台</a>
+              <a href="/tags/%E6%B8%97%E9%80%8F%E6%BC%8F%E6%B4%9E%E7%BB%83%E4%B9%A0%E5%B9%B3%E5%8F%B0/" rel="tag"><i class="fa fa-tag"></i> 渗透漏洞练习平台</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/phpmsdmy.html" rel="prev" title="免杀PHP大马支持菜刀、Xise">
+                  <i class="fa fa-chevron-left"></i> 免杀PHP大马支持菜刀、Xise
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+      
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      
+
+      
+
+<div class="copyright">
+  
+  &copy; 2018 – 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-ghost"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder"><a class="theme-link" target="_blank" href="https://blog.lizxx.com">Powered by - 荔枝</a></span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+  <script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript">
+/* 鼠标特效 */
+var a_idx = 0;
+jQuery(document).ready(function($) {
+   $("body").click(function(e) {
+       var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正" ,"法治", "爱国", "敬业", "诚信", "友善");
+       var $i = $("<span/>").text(a[a_idx]);
+       a_idx = (a_idx + 1) % a.length;
+       var x = e.pageX,
+       y = e.pageY;
+       $i.css({
+           "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+           "top": y - 20,
+           "left": x,
+           "position": "absolute",
+           "font-weight": "bold",
+           "color": "#ff6651"
+       });
+       $("body").append($i);
+       $i.animate({
+           "top": y - 180,
+           "opacity": 0
+       },
+       1500,
+       function() {
+           $i.remove();
+       });
+   });
+});
+    </script>
+
+</body>
+</html>

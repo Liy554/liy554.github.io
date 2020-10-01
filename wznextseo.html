@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
+
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.0/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"blog.lizxx.com","root":"/","scheme":"Gemini","version":"8.0.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
+  </script>
+
+  <meta name="description" content="SEO是什么？对于SEO（Search Engine Optimization）最简单的解释方法就是，利用搜索引擎的搜索规则进行提高网站在有关搜索引擎的排名，让人们更容易看到你的网站。SEO还包含站外SEO和站内SEO两个方面，抛开站外SEO，自己能做的有两方面，一：针对个人网站的页面排版进行SEO相关的优化、二：针对于搜索引擎的主动优化。 对于搜索引擎的优化">
+<meta property="og:type" content="article">
+<meta property="og:title" content="针对Hexo和Next主题的SEO优化">
+<meta property="og:url" content="https://blog.lizxx.com/wznextseo.html">
+<meta property="og:site_name" content="荔枝碎碎念">
+<meta property="og:description" content="SEO是什么？对于SEO（Search Engine Optimization）最简单的解释方法就是，利用搜索引擎的搜索规则进行提高网站在有关搜索引擎的排名，让人们更容易看到你的网站。SEO还包含站外SEO和站内SEO两个方面，抛开站外SEO，自己能做的有两方面，一：针对个人网站的页面排版进行SEO相关的优化、二：针对于搜索引擎的主动优化。 对于搜索引擎的优化">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2018-04-27T06:25:54.000Z">
+<meta property="article:modified_time" content="2020-10-01T06:17:21.812Z">
+<meta property="article:author" content="荔枝">
+<meta property="article:tag" content="SEO">
+<meta property="article:tag" content="Next主题SEO">
+<meta property="article:tag" content="HexoSEO">
+<meta property="article:tag" content="文章SEO">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://blog.lizxx.com/wznextseo.html">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>针对Hexo和Next主题的SEO优化 | 荔枝碎碎念</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="荔枝碎碎念" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">荔枝碎碎念</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">用于写笔记，或记录一些不想用脑子记的东西，并分享给你们。</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <section class="post-toc-wrap sidebar-panel">
+          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#SEO%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="nav-number">1.</span> <span class="nav-text">SEO是什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AF%B9%E4%BA%8E%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E7%9A%84%E4%BC%98%E5%8C%96"><span class="nav-number">2.</span> <span class="nav-text">对于搜索引擎的优化</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0%E7%99%BE%E5%BA%A6Sitemap"><span class="nav-number">2.1.</span> <span class="nav-text">添加百度Sitemap</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0robots-txt%E6%96%87%E4%BB%B6"><span class="nav-number">2.2.</span> <span class="nav-text">添加robots.txt文件</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%92%88%E5%AF%B9Next%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BC%98%E5%8C%96"><span class="nav-number">3.</span> <span class="nav-text">针对Next主题的优化</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%99%E5%87%BA%E7%AB%99%E9%93%BE%E6%8E%A5%E6%B7%BB%E5%8A%A0nofollow%E6%A0%87%E7%AD%BE"><span class="nav-number">3.1.</span> <span class="nav-text">给出站链接添加nofollow标签</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#keywords%E5%92%8Cdescription"><span class="nav-number">3.2.</span> <span class="nav-text">keywords和description</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A6%96%E9%A1%B5title%E6%A0%87%E7%AD%BE%E4%BC%98%E5%8C%96"><span class="nav-number">3.3.</span> <span class="nav-text">首页title标签优化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%89%93%E5%BC%80%E4%B8%BB%E9%A2%98%E8%87%AA%E5%B8%A6SEO%E5%8A%9F%E8%83%BD"><span class="nav-number">3.4.</span> <span class="nav-text">打开主题自带SEO功能</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo%E9%80%9A%E7%94%A8%E4%BC%98%E5%8C%96"><span class="nav-number">4.</span> <span class="nav-text">Hexo通用优化</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9%E6%96%87%E7%AB%A0%E9%93%BE%E6%8E%A5%E5%BD%A2%E5%BC%8F"><span class="nav-number">4.1.</span> <span class="nav-text">修改文章链接形式</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D"><span class="nav-number">5.</span> <span class="nav-text">关于绑定域名</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%86%99%E6%96%87%E7%AB%A0%E6%97%B6%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F"><span class="nav-number">6.</span> <span class="nav-text">写文章时需要注意</span></a></li></ol></div>
+      </section>
+      <!--/noindex-->
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">荔枝</p>
+  <div class="site-description" itemprop="description">分享我所知道的。</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">49</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">48</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">88</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="bWFpbHRvOnlvdXJuYW1lQGdtYWlsLmNvbQ==" title="E-Mail → mailto:yourname@gmail.com"><i class="fa fa-envelope fa-fw"></i>E-Mail</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly93ZWliby5jb20veW91cm5hbWU=" title="Weibo → https:&#x2F;&#x2F;weibo.com&#x2F;yourname"><i class="fab fa-weibo fa-fw"></i>Weibo</span>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll site-overview-item animated">
+    <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+      友情链接
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://blog.lizxx.com/" title="https:&#x2F;&#x2F;blog.lizxx.com">荔枝碎碎念</a>
+        </li>
+    </ul>
+  </div>
+
+      </section>
+        <div class="back-to-top animated">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+      
+
+      
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.lizxx.com/wznextseo.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="荔枝">
+      <meta itemprop="description" content="分享我所知道的。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="荔枝碎碎念">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          针对Hexo和Next主题的SEO优化
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2018-04-27 14:25:54" itemprop="dateCreated datePublished" datetime="2018-04-27T14:25:54+08:00">2018-04-27</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2020-10-01 14:17:21" itemprop="dateModified" datetime="2020-10-01T14:17:21+08:00">2020-10-01</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96/" itemprop="url" rel="index"><span itemprop="name">网站优化</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96/SEO/" itemprop="url" rel="index"><span itemprop="name">SEO</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h2 id="SEO是什么？"><a href="#SEO是什么？" class="headerlink" title="SEO是什么？"></a>SEO是什么？</h2><p>对于SEO（Search Engine Optimization）最简单的解释方法就是，利用搜索引擎的搜索规则进行提高网站在有关搜索引擎的排名，让人们更容易看到你的网站。<br>SEO还包含站外SEO和站内SEO两个方面，抛开站外SEO，自己能做的有两方面，一：针对个人网站的页面排版进行SEO相关的优化、二：针对于搜索引擎的主动优化。</p>
+<h2 id="对于搜索引擎的优化"><a href="#对于搜索引擎的优化" class="headerlink" title="对于搜索引擎的优化"></a>对于搜索引擎的优化</h2><a id="more"></a>
+<p>在我大天朝，搜索引擎用的最多的毫无疑问就是百度了。谷歌在国内毕竟不是很容易访问，所以还是尽可能地去迎合百度吧。</p>
+<h3 id="添加百度Sitemap"><a href="#添加百度Sitemap" class="headerlink" title="添加百度Sitemap"></a>添加百度Sitemap</h3><p>首先安装两个插件用于生成Sitemap文件：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">这个是正常的Sitemap文件：</span><br><span class="line">npm install hexo-generator-sitemap --save-dev</span><br><span class="line">这个是百度专有的Sitemap文件：</span><br><span class="line">npm install hexo-generator-baidu-sitemap --save-dev</span><br><span class="line">安装以后本地运行Hexo服务，打开http:&#x2F;&#x2F;localhost:4000&#x2F;sitemap.xml和http:&#x2F;&#x2F;localhost:4000&#x2F;baidusitemap.xml就可以看到两个Sitemap文件了。</span><br></pre></td></tr></table></figure>
+<p>在网站的站点配置文件中添加以下代码：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sitemap:</span><br><span class="line">path: sitemap.xml</span><br><span class="line">baidusitemap:</span><br><span class="line">path: baidusitemap.xml</span><br></pre></td></tr></table></figure>
+
+<p><strong>然后注册百度站长平台</strong></p>
+<p><strong>添加个人网站</strong></p>
+<p>这里要注意：在百度站长平台添加网站有，文件、html标签、cname，三种验证方式。<br>由于我们用的是Github分配的域名所以cname方式不可取。<br>然后我使用添加文件的方式，将验证文件放在source文件夹下，但是Hexo在发布的时候会处理所有html文件，结果就在百度验证文件里添加了其他的东西，导致验证失败了。<br>所以最终的方法就是添加html标签，添加完相应的标签后上传到自己的博客中，稍等一会百度那边就通过认证了。</p>
+<p><strong>后经测试也可以在站点配置中添加指定不渲染验证文件，只需要打开站点配置文件，找到skip_render: 添加以下内容：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">skip_render: </span><br><span class="line">  - baidu******.html</span><br><span class="line">  - google*****.html</span><br></pre></td></tr></table></figure>
+
+<p><strong>提交Sitemap文件</strong></p>
+<p>在百度站长平台打开链接提交页面，选择自动提交，选Sitemap，按照提示添加自己的Sitemap地址即可。</p>
+<p>接下来只需要等上一两天就可以看到爬行的Url数量了。</p>
+<h3 id="添加robots-txt文件"><a href="#添加robots-txt文件" class="headerlink" title="添加robots.txt文件"></a>添加robots.txt文件</h3><p>新建文本文档，命名为robots，添加以下内容，把robots.txt放在source文件夹下。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"># hexo robots.txt</span><br><span class="line">User-agent: *</span><br><span class="line">Allow: &#x2F;</span><br><span class="line">Allow: &#x2F;archives&#x2F;</span><br><span class="line"></span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;js&#x2F;</span><br><span class="line">Disallow: &#x2F;css&#x2F;</span><br><span class="line">Disallow: &#x2F;fonts&#x2F;</span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;fancybox&#x2F;</span><br><span class="line"></span><br><span class="line">Sitemap: http:&#x2F;&#x2F;你的域名&#x2F;sitemap.xml</span><br><span class="line">Sitemap: http:&#x2F;&#x2F;你的域名&#x2F;baidusitemap.xml</span><br><span class="line"></span><br><span class="line">可以针对自己的博客目录进行修改</span><br></pre></td></tr></table></figure>
+
+<h2 id="针对Next主题的优化"><a href="#针对Next主题的优化" class="headerlink" title="针对Next主题的优化"></a>针对Next主题的优化</h2><h3 id="给出站链接添加nofollow标签"><a href="#给出站链接添加nofollow标签" class="headerlink" title="给出站链接添加nofollow标签"></a>给出站链接添加nofollow标签</h3><p>蜘蛛程序会顺着a标签跳出到其他网站可能就回不来了。nofollow标签是由谷歌领头创新的反垃圾标签，可以让蜘蛛程序不抓取带有nofollow属性的任何出站链接。</p>
+<p>Next主题需要改以下几个地方：</p>
+<p>找到footer.swig，路径在Hexo文件夹\themes\next\layout_partials，将下面代码中的a标签加上rel=”external nofollow”属性:<br>将下面这段：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;&#123; __(&#39;footer.powered&#39;, &#39;&lt;a  class&#x3D;&quot;theme-link&quot;  href&#x3D;&quot;http:&#x2F;&#x2F;hexo.io&quot;&gt;Hexo&lt;&#x2F;a&gt;&#39;) &#125;&#125;</span><br></pre></td></tr></table></figure>
+<p>改为：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;&#123; __(&#39;footer.powered&#39;, &#39;&lt;a class&#x3D;&quot;theme-link&quot; href&#x3D;&quot;http:&#x2F;&#x2F;hexo.io&quot; rel&#x3D;&quot;external nofollow&quot;&gt;Hexo&lt;&#x2F;a&gt;&#39;) &#125;&#125;</span><br><span class="line"></span><br><span class="line">在我的网站中我关闭了这一条的显示，只需要打开主题配置文件，路径在Hexo文件夹\themes\next\_config.yml，将powered、enable、version这三个后面的true改为false即可</span><br></pre></td></tr></table></figure>
+<p>将下面这段：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a class&#x3D;&quot;theme-link&quot; href&#x3D;&quot;https:&#x2F;&#x2F;github.com&#x2F;iissnan&#x2F;hexo-theme-next&quot;&gt;</span><br></pre></td></tr></table></figure>
+<p>改为：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a class&#x3D;&quot;theme-link&quot; href&#x3D;&quot;https:&#x2F;&#x2F;github.com&#x2F;iissnan&#x2F;hexo-theme-next&quot; rel&#x3D;&quot;external nofollow&quot;&gt;</span><br></pre></td></tr></table></figure>
+
+<p>修改sidebar.swig文件，路径在Hexo文件夹\themes\next\layout_macro，将下面代码中的a标签加上rel=”external nofollow”属性:<br>将下面这段：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;&#123;&#123; link &#125;&#125;&quot; target&#x3D;&quot;_blank&quot;&gt;&#123;&#123; name &#125;&#125;&lt;&#x2F;a&gt;</span><br></pre></td></tr></table></figure>
+<p>改为：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;&#123;&#123; link &#125;&#125;&quot; target&#x3D;&quot;_blank&quot; rel&#x3D;&quot;external nofollow&quot;&gt;&#123;&#123; name &#125;&#125;&lt;&#x2F;a&gt;</span><br><span class="line"></span><br><span class="line">这个改完以后会在侧边栏友情链接处添加external nofollow，自行选择是否添加</span><br></pre></td></tr></table></figure>
+<p>将下面这段：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;&#123;&#123; link.split(&#39;||&#39;)[0] | trim &#125;&#125;&quot; target&#x3D;&quot;_blank&quot; title&#x3D;&quot;&#123;&#123; name &#125;&#125;&quot;&gt;</span><br></pre></td></tr></table></figure>
+<p>改为：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;&#123;&#123; link.split(&#39;||&#39;)[0] | trim &#125;&#125;&quot; target&#x3D;&quot;_blank&quot; rel&#x3D;&quot;external nofollow&quot; title&#x3D;&quot;&#123;&#123; name &#125;&#125;&quot;&gt;</span><br><span class="line"></span><br><span class="line">这段改完以后会在侧边栏友情链接上面的个人链接处添加external nofollow，自行选择是否添加。</span><br></pre></td></tr></table></figure>
+<p>将下面这段：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;http:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;&#123;&#123; theme.creative_commons &#125;&#125;&#x2F;4.0&quot; class&#x3D;&quot;cc-opacity&quot; target&#x3D;&quot;_blank&quot;&gt;</span><br></pre></td></tr></table></figure>
+<p>改为：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;http:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;&#123;&#123; theme.creative_commons &#125;&#125;&#x2F;4.0&quot; class&#x3D;&quot;cc-opacity&quot; target&#x3D;&quot;_blank&quot; rel&#x3D;&quot;external nofollow&quot;&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="keywords和description"><a href="#keywords和description" class="headerlink" title="keywords和description"></a>keywords和description</h3><p>在Hexo文件夹\scaffolds\post.md中添加如下代码，用于生成的文章中添加关键字和描述。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">keywords:</span><br><span class="line">description:</span><br></pre></td></tr></table></figure>
+<p><del>在Hexo文件夹\themes\next\layout_partials\head.swig有如下代码，用于生成文章的keywords。原本是没有description的位置，可以自己在这段代码后加上以下代码：</del></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;% if page.description %&#125;</span><br><span class="line">	&lt;meta name&#x3D;&quot;description&quot; content&#x3D;&quot;&#123;&#123; page.description &#125;&#125;&quot; &#x2F;&gt;</span><br><span class="line">&#123;% elif theme.description %&#125;</span><br><span class="line">	&lt;meta name&#x3D;&quot;description&quot; content&#x3D;&quot;&#123;&#123; theme.description &#125;&#125;&quot; &#x2F;&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>后来经过实践发现NexT会默认添加description，所以这里可以不添加这段代码。</p>
+</blockquote>
+<h3 id="首页title标签优化"><a href="#首页title标签优化" class="headerlink" title="首页title标签优化"></a>首页title标签优化</h3><p>更改index.swig文件，路径在Hexo文件夹\themes\next\layout，将下面代码</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% block title %&#125; &#123;&#123; config.title &#125;&#125; &#123;% endblock %&#125;</span><br></pre></td></tr></table></figure>
+<p>更改为</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#123;% block title %&#125;  &#123;&#123; config.title &#125;&#125; - &#123;&#123; theme.description &#125;&#125;  &#123;% endblock %&#125;</span><br><span class="line">改成这样你的网站会更符合网站名称 - 网站描述这种习惯</span><br></pre></td></tr></table></figure>
+<p>或</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#123;% block title %&#125;&#123;&#123; config.title &#125;&#125;&#123;% if theme.index_with_subtitle and config.subtitle %&#125; - &#123;&#123;config.subtitle &#125;&#125;&#123;% endif %&#125;&#123;&#123; theme.description &#125;&#125; &#123;% endblock %&#125;</span><br><span class="line">改成这样会把关键词也显示在Title标题里。注意：别堆砌关键字，整个标题一般不超过80个字符，可以通过chinaz的seo综合查询检查。</span><br></pre></td></tr></table></figure>
+
+<h3 id="打开主题自带SEO功能"><a href="#打开主题自带SEO功能" class="headerlink" title="打开主题自带SEO功能"></a>打开主题自带SEO功能</h3><p>Next主题自带了一个SEO功能，默认是关闭的，只需要手动打开即可。</p>
+<p>打开主题配置文件，路径在Hexo文件夹\themes\next_config.yml，找到seo: false，更改为seo: true即可</p>
+<h2 id="Hexo通用优化"><a href="#Hexo通用优化" class="headerlink" title="Hexo通用优化"></a>Hexo通用优化</h2><h3 id="修改文章链接形式"><a href="#修改文章链接形式" class="headerlink" title="修改文章链接形式"></a>修改文章链接形式</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hexo默认的文章链接形式为domain&#x2F;year&#x2F;month&#x2F;day&#x2F;postname，默认就是一个四级url，并且可能造成url过长，对搜索引擎是十分不友好的，我们可以改成domain&#x2F;postname 的形式。编辑站点_config.yml文件，修改其中的permalink字段改为permalink: :title.html即可。</span><br></pre></td></tr></table></figure>
+
+<h2 id="关于绑定域名"><a href="#关于绑定域名" class="headerlink" title="关于绑定域名"></a>关于绑定域名</h2><p>搜索引擎认为带www和不带www域名是两个不同的网站，如果带www和不带www的域名指向同一个站点，内容相同，是会导致权重分散的。，这里需要用到301重定向实现带www与不带www域名永久重定向到其中一个，达到权重集中带www和不带www域名其中一个上。<br>Github支持301重定向，如果你把CNAME中填写的是一级域名，并把二级域名也指向到xxxx.github.io，访问二级域名会301重定向到CNAME中填写的一级域名。从而不会导致权重分散。</p>
+<h2 id="写文章时需要注意"><a href="#写文章时需要注意" class="headerlink" title="写文章时需要注意"></a>写文章时需要注意</h2><ol>
+<li><p>写文章插入图片时尽量使用站内图片。调用外部图片可能会导致蜘蛛跳出。</p>
+</li>
+<li><p>写文章时插入链接时不要使用a标签，尽量使用调用方式或者代码高亮方式，这样可以防止蜘蛛跳出。</p>
+</li>
+</ol>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+  <div class="followme">
+    <span>欢迎关注我的其它发布渠道</span>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+        </div>
+    </div>
+  </div>
+
+          <div class="post-tags">
+              <a href="/tags/SEO/" rel="tag"><i class="fa fa-tag"></i> SEO</a>
+              <a href="/tags/Next%E4%B8%BB%E9%A2%98SEO/" rel="tag"><i class="fa fa-tag"></i> Next主题SEO</a>
+              <a href="/tags/HexoSEO/" rel="tag"><i class="fa fa-tag"></i> HexoSEO</a>
+              <a href="/tags/%E6%96%87%E7%AB%A0SEO/" rel="tag"><i class="fa fa-tag"></i> 文章SEO</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/nkwfyy.html" rel="prev" title="NVIDIA显卡更改3D设置时无法应用选定的设置到您的系统">
+                  <i class="fa fa-chevron-left"></i> NVIDIA显卡更改3D设置时无法应用选定的设置到您的系统
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/nextbdfx.html" rel="next" title="Hexo Next主题开启百度分享功能">
+                  Hexo Next主题开启百度分享功能 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+      
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      
+
+      
+
+<div class="copyright">
+  
+  &copy; 2018 – 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-ghost"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder"><a class="theme-link" target="_blank" href="https://blog.lizxx.com">Powered by - 荔枝</a></span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+  <script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript">
+/* 鼠标特效 */
+var a_idx = 0;
+jQuery(document).ready(function($) {
+   $("body").click(function(e) {
+       var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正" ,"法治", "爱国", "敬业", "诚信", "友善");
+       var $i = $("<span/>").text(a[a_idx]);
+       a_idx = (a_idx + 1) % a.length;
+       var x = e.pageX,
+       y = e.pageY;
+       $i.css({
+           "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+           "top": y - 20,
+           "left": x,
+           "position": "absolute",
+           "font-weight": "bold",
+           "color": "#ff6651"
+       });
+       $("body").append($i);
+       $i.animate({
+           "top": y - 180,
+           "opacity": 0
+       },
+       1500,
+       function() {
+           $i.remove();
+       });
+   });
+});
+    </script>
+
+</body>
+</html>
