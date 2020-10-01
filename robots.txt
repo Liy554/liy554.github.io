@@ -10,5 +10,4 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /lib/
 
-Sitemap: https://www.ly554.com/sitemap.xml
-Sitemap: https://www.ly554.com/baidusitemap.xml
+Sitemap: https://blog.lizxx.com/sitemap.xml
