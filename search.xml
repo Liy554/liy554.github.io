@@ -1,44 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Windows10安装运行AutoCAD2006问题解决</title>
-    <url>/azcadll.html</url>
-    <content><![CDATA[<h2 id="更简单的方法"><a href="#更简单的方法" class="headerlink" title="更简单的方法"></a>更简单的方法</h2><p>2018/5/7</p>
-<p>今天我发现了一个更简单的Win10安装CAD2006方法。</p>
-<p>右键单击安装包中的<strong>acad.msi</strong>，选择<strong>兼容性疑难解答</strong>，然后下一步下一步保存设置。</p>
+    <title>利用target=&quot;_blank&quot;属性进行钓鱼攻击和防御对策</title>
+    <url>/blankdygj.html</url>
+    <content><![CDATA[<h2 id="利用target-”-blank”属性进行钓鱼攻击"><a href="#利用target-”-blank”属性进行钓鱼攻击" class="headerlink" title="利用target=”_blank”属性进行钓鱼攻击"></a>利用target=”_blank”属性进行钓鱼攻击</h2><p>这个漏洞已经很久远了，在维护我的博客时忽然遇到这个问题，所以写了这篇文章。</p>
+<p>攻击者可以通过一个名为”window.opener”的浏览器API来与之前的网页进行短暂通信，将恶意代码嵌入在新打开的网站中，然后检测用户是从哪一个网站跳转过来的，最后再利用window.opener接口使原始网页打开一个新的URL地址。</p>
 <a id="more"></a>
-<p><img src="/images/cadel2.png" alt="Win10安装CAD2006"></p>
-<p>就可以正常安装了，正常流程安装输入邀请码。</p>
-<p>安装好CAD2006以后，桌面上会生成一个快捷方式，在快捷方式上右键属性，勾选兼容性运行此程序。</p>
-<p><img src="/images/cadel3.png" alt="Win10安装CAD2006"></p>
-<p>然后就可以正常打开CAD2006了，使用激活工具进行激活。</p>
-<h2 id="Windows10系统下安装AutoCAD2006"><a href="#Windows10系统下安装AutoCAD2006" class="headerlink" title="Windows10系统下安装AutoCAD2006"></a>Windows10系统下安装AutoCAD2006</h2><p>在Win10系统下安装CAD2006会出现一些问题，在这里写一下如何解决。</p>
-<p>安装时不能使用Setup.exe进行安装，直接运行acad.msi进行安装。</p>
-<h2 id="Win10安装CAD2006提示没有权限"><a href="#Win10安装CAD2006提示没有权限" class="headerlink" title="Win10安装CAD2006提示没有权限"></a>Win10安装CAD2006提示没有权限</h2><p>提示：<strong>您没有足够的权限来安装本产品，请重新启动计算机….</strong></p>
-<p>出现这个我的解决办法是开启win10管理员账户然后在管理员账户中进行安装</p>
-<p>以管理员身份运行cmd，运行以下命令：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">net user administrator &#x2F;active:yes</span><br></pre></td></tr></table></figure>
-<p>开启方法详细请看我上一篇文章：<span class="exturl" data-url="aHR0cDovL3d3dy5seTU1NC5jb20vd2luYWRtaW4uaHRtbA==">Windows10开启管理员账户<i class="fa fa-external-link-alt"></i></span></p>
-<p>在管理员账户中进行安装，然后回到常用账户打开CAD快捷方式会再走一遍安装流程，就可以正常安装了。</p>
-<h2 id="Win10运行CAD2006提示丢失-16-dll"><a href="#Win10运行CAD2006提示丢失-16-dll" class="headerlink" title="Win10运行CAD2006提示丢失****16.dll"></a>Win10运行CAD2006提示丢失****16.dll</h2><p>运行CAD2006时提示：<strong>无法启动此程序，因为计算机丢失**</strong>.dll。尝试重新安装该程序以解决此问题。**</p>
-<p>遇到这个问题，不需要重新安装，重新安装也还提示这个，按照下面的操作添加环境变量即可解决：</p>
-<p>右键单击<strong>此电脑</strong>-<strong>属性</strong>-<strong>高级系统设置</strong>-<strong>环境变量</strong><br><img src="/images/cadel.png" alt="Win10安装CAD2006"><br>后面的都很好找就不配图了</p>
-<p>再环境变量窗口中点击<strong>新建</strong></p>
-<p>变量名填：AutoCAD<br>变量值填：C:\Program Files (x86)\Common Files\Autodesk Shared</p>
-<p>即可正常运行。</p>
-<h2 id="AutoCAD2006或其他版本激活失败"><a href="#AutoCAD2006或其他版本激活失败" class="headerlink" title="AutoCAD2006或其他版本激活失败"></a>AutoCAD2006或其他版本激活失败</h2><p>CAD2006或其他版本的CAD提示激活失败时，只需要把电脑的时间改为以前几年，断网，否则时间会自动更新。就可以正常激活了。</p>
-<h2 id="AutoCAD安装提示写入文件失败"><a href="#AutoCAD安装提示写入文件失败" class="headerlink" title="AutoCAD安装提示写入文件失败"></a>AutoCAD安装提示写入文件失败</h2><p>CAD安装时提示写入文件失败的时候，把电脑的杀毒软件关闭，重新安装CAD就可以了，因为老版本的CAD会修改系统敏感文件，所以会被杀软后台拦截导致写入失败。</p>
-<h2 id="AutoCAD注册机无效"><a href="#AutoCAD注册机无效" class="headerlink" title="AutoCAD注册机无效"></a>AutoCAD注册机无效</h2><p>有一些版本的CAD注册机需要管理员运行，然后再进行操作。</p>
-<h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><p>安装旧版本CAD时，可以右键单击acad.msi选择<strong>兼容性疑难解答</strong>，会为你的安装过程免去一些问题。</p>
-<p>安装老版本的CAD后，可以设置一下兼容性，找到CAD安装目录，将兼容性设置为Windows XP</p>
-]]></content>
+<p>看起来只是跳转了，并没有多大的安全隐患。打个比方，<strong>论坛A</strong>存在此漏洞，然后论坛A的友情链接中的<strong>邪恶网站B</strong>被放置了恶意代码。当用户通过论坛A的外链访问<strong>邪恶网站B</strong>时，<strong>论坛A</strong>被强制跳转到一个仿制的<strong>论坛A</strong>的用户登陆页面，这时用户关闭了<strong>邪恶网站B</strong>，回到论坛A的标签页发现需要登陆，可是这个用户没有发现的是：他输入了论坛账号密码的页面并不是原本的论坛A，而是用来钓鱼的高仿页面。</p>
+<p>比方结束，现在我们来说一下如何利用这个漏洞。</p>
+<h2 id="如何利用target-”-blank”属性进行钓鱼攻击"><a href="#如何利用target-”-blank”属性进行钓鱼攻击" class="headerlink" title="如何利用target=”_blank”属性进行钓鱼攻击"></a>如何利用target=”_blank”属性进行钓鱼攻击</h2><p>我们可以直接在本地构建实验环境：</p>
+<p>新建一个ces1.html文件写入以下内容：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;meta charset&#x3D;&quot;UTF-8&quot;&gt;</span><br><span class="line">&lt;&#x2F;head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;a href&#x3D;&quot;.&#x2F;ces2.html&quot; target&#x3D;&quot;_blank&quot;&gt;点击测试target&#x3D;&quot;_blank&quot;钓鱼漏洞&lt;&#x2F;a&gt;</span><br><span class="line">	&lt;br&gt;Liyme&lt;&#x2F;br&gt;</span><br><span class="line">&lt;&#x2F;body&gt;</span><br><span class="line">&lt;&#x2F;html&gt;</span><br></pre></td></tr></table></figure>
+<p>在同一个目录下再新建一个ces2.html文件写入以下内容：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;meta charset&#x3D;&quot;UTF-8&quot;&gt;</span><br><span class="line">&lt;&#x2F;head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;p align&#x3D;&quot;center&quot;&gt;测试target&#x3D;&quot;_blank&quot;钓鱼漏洞&lt;&#x2F;p&gt;</span><br><span class="line">    &lt;script&gt;</span><br><span class="line">        window.opener.location &#x3D; &quot;https:&#x2F;&#x2F;www.360.cn&#x2F;&quot;;</span><br><span class="line">    &lt;&#x2F;script&gt;</span><br><span class="line">&lt;&#x2F;body&gt;</span><br><span class="line">&lt;&#x2F;html&gt;</span><br></pre></td></tr></table></figure>
+<p>我们打开ces1.html，然后通过点击ces1.html页面中的链接跳转到ces2.html页面。</p>
+<p>打开ces1.html：<br><img src="/images/blankdygj.png" alt="钓鱼攻击测试"><br>点击跳转链接后：<br><img src="/images/blankdygj2.png" alt="钓鱼攻击测试"><br>看图中可以看出，点击跳转链接后ces2.html中的JS命令：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">window.opener.location&#x3D;&quot;http:&#x2F;&#x2F;www.360.cn&#x2F;&quot;;</span><br></pre></td></tr></table></figure>
+<p>被执行了，原来的ces1.html页面已经被强制跳转到了360官网。</p>
+<p>这是因为，当用户点击了target=”_blank”属性的超链接后，浏览器会新建一个标签页来显示该链接所指向的地址。注意：在跳转的一瞬间，浏览器会允许新建的标签页通过名为”window.opener”的浏览器API来与之前的网页进行短暂通信。这时，攻击者便可以把恶意代码嵌入在新打开的网站中，然后利用window.opener接口使原网页打开一个新的URL地址。</p>
+<h2 id="防御对策"><a href="#防御对策" class="headerlink" title="防御对策"></a>防御对策</h2><p>解决方法很简单，只需要在a标签中加入rel=”noopener noreferrer”即可，因为火狐浏览器不支持noopener所以多加一个noreferrer。</p>
+<p>只需要将ces1.html中的这段代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;.&#x2F;ces2.html&quot; target&#x3D;&quot;_blank&quot;&gt;点击测试target&#x3D;&quot;_blank&quot;钓鱼漏洞&lt;&#x2F;a&gt;</span><br></pre></td></tr></table></figure>
+<p>改为：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;.&#x2F;ces2.html&quot; target&#x3D;&quot;_blank&quot; rel&#x3D;&quot;noopener noreferrer&quot;&gt;点击测试target&#x3D;&quot;_blank&quot;钓鱼漏洞&lt;&#x2F;a&gt;</span><br></pre></td></tr></table></figure>
+<p>这样就可以了，加入rel=”noopener noreferrer”后，再通过ces1.html中的链接打开ces2.html，原网页就不会再被强制跳转了。</p>
+<p>从SEO的角度出发，为了防止权重流失，还可以带上rel=”nofollow”，超链接可以写成下面的格式：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;.&#x2F;ces2.html&quot; target&#x3D;&quot;_blank&quot; rel&#x3D;&quot;nofollow noopener noreferrer&quot;&gt;点击测试target&#x3D;&quot;_blank&quot;钓鱼漏洞&lt;&#x2F;a&gt;</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>系统</category>
-        <category>软件</category>
+        <category>钓鱼</category>
+        <category>漏洞信息与防御</category>
       </categories>
       <tags>
-        <tag>Win10安装CAD2006</tag>
-        <tag>Win10无法安装CAD2006</tag>
+        <tag>钓鱼</tag>
+        <tag>漏洞</tag>
       </tags>
   </entry>
   <entry>
@@ -102,38 +96,80 @@
       </tags>
   </entry>
   <entry>
-    <title>利用target=&quot;_blank&quot;属性进行钓鱼攻击和防御对策</title>
-    <url>/blankdygj.html</url>
-    <content><![CDATA[<h2 id="利用target-”-blank”属性进行钓鱼攻击"><a href="#利用target-”-blank”属性进行钓鱼攻击" class="headerlink" title="利用target=”_blank”属性进行钓鱼攻击"></a>利用target=”_blank”属性进行钓鱼攻击</h2><p>这个漏洞已经很久远了，在维护我的博客时忽然遇到这个问题，所以写了这篇文章。</p>
-<p>攻击者可以通过一个名为”window.opener”的浏览器API来与之前的网页进行短暂通信，将恶意代码嵌入在新打开的网站中，然后检测用户是从哪一个网站跳转过来的，最后再利用window.opener接口使原始网页打开一个新的URL地址。</p>
+    <title>Windows10安装运行AutoCAD2006问题解决</title>
+    <url>/azcadll.html</url>
+    <content><![CDATA[<h2 id="更简单的方法"><a href="#更简单的方法" class="headerlink" title="更简单的方法"></a>更简单的方法</h2><p>2018/5/7</p>
+<p>今天我发现了一个更简单的Win10安装CAD2006方法。</p>
+<p>右键单击安装包中的<strong>acad.msi</strong>，选择<strong>兼容性疑难解答</strong>，然后下一步下一步保存设置。</p>
 <a id="more"></a>
-<p>看起来只是跳转了，并没有多大的安全隐患。打个比方，<strong>论坛A</strong>存在此漏洞，然后论坛A的友情链接中的<strong>邪恶网站B</strong>被放置了恶意代码。当用户通过论坛A的外链访问<strong>邪恶网站B</strong>时，<strong>论坛A</strong>被强制跳转到一个仿制的<strong>论坛A</strong>的用户登陆页面，这时用户关闭了<strong>邪恶网站B</strong>，回到论坛A的标签页发现需要登陆，可是这个用户没有发现的是：他输入了论坛账号密码的页面并不是原本的论坛A，而是用来钓鱼的高仿页面。</p>
-<p>比方结束，现在我们来说一下如何利用这个漏洞。</p>
-<h2 id="如何利用target-”-blank”属性进行钓鱼攻击"><a href="#如何利用target-”-blank”属性进行钓鱼攻击" class="headerlink" title="如何利用target=”_blank”属性进行钓鱼攻击"></a>如何利用target=”_blank”属性进行钓鱼攻击</h2><p>我们可以直接在本地构建实验环境：</p>
-<p>新建一个ces1.html文件写入以下内容：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;meta charset&#x3D;&quot;UTF-8&quot;&gt;</span><br><span class="line">&lt;&#x2F;head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;a href&#x3D;&quot;.&#x2F;ces2.html&quot; target&#x3D;&quot;_blank&quot;&gt;点击测试target&#x3D;&quot;_blank&quot;钓鱼漏洞&lt;&#x2F;a&gt;</span><br><span class="line">	&lt;br&gt;Liyme&lt;&#x2F;br&gt;</span><br><span class="line">&lt;&#x2F;body&gt;</span><br><span class="line">&lt;&#x2F;html&gt;</span><br></pre></td></tr></table></figure>
-<p>在同一个目录下再新建一个ces2.html文件写入以下内容：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;meta charset&#x3D;&quot;UTF-8&quot;&gt;</span><br><span class="line">&lt;&#x2F;head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;p align&#x3D;&quot;center&quot;&gt;测试target&#x3D;&quot;_blank&quot;钓鱼漏洞&lt;&#x2F;p&gt;</span><br><span class="line">    &lt;script&gt;</span><br><span class="line">        window.opener.location &#x3D; &quot;https:&#x2F;&#x2F;www.360.cn&#x2F;&quot;;</span><br><span class="line">    &lt;&#x2F;script&gt;</span><br><span class="line">&lt;&#x2F;body&gt;</span><br><span class="line">&lt;&#x2F;html&gt;</span><br></pre></td></tr></table></figure>
-<p>我们打开ces1.html，然后通过点击ces1.html页面中的链接跳转到ces2.html页面。</p>
-<p>打开ces1.html：<br><img src="/images/blankdygj.png" alt="钓鱼攻击测试"><br>点击跳转链接后：<br><img src="/images/blankdygj2.png" alt="钓鱼攻击测试"><br>看图中可以看出，点击跳转链接后ces2.html中的JS命令：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">window.opener.location&#x3D;&quot;http:&#x2F;&#x2F;www.360.cn&#x2F;&quot;;</span><br></pre></td></tr></table></figure>
-<p>被执行了，原来的ces1.html页面已经被强制跳转到了360官网。</p>
-<p>这是因为，当用户点击了target=”_blank”属性的超链接后，浏览器会新建一个标签页来显示该链接所指向的地址。注意：在跳转的一瞬间，浏览器会允许新建的标签页通过名为”window.opener”的浏览器API来与之前的网页进行短暂通信。这时，攻击者便可以把恶意代码嵌入在新打开的网站中，然后利用window.opener接口使原网页打开一个新的URL地址。</p>
-<h2 id="防御对策"><a href="#防御对策" class="headerlink" title="防御对策"></a>防御对策</h2><p>解决方法很简单，只需要在a标签中加入rel=”noopener noreferrer”即可，因为火狐浏览器不支持noopener所以多加一个noreferrer。</p>
-<p>只需要将ces1.html中的这段代码：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;.&#x2F;ces2.html&quot; target&#x3D;&quot;_blank&quot;&gt;点击测试target&#x3D;&quot;_blank&quot;钓鱼漏洞&lt;&#x2F;a&gt;</span><br></pre></td></tr></table></figure>
-<p>改为：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;.&#x2F;ces2.html&quot; target&#x3D;&quot;_blank&quot; rel&#x3D;&quot;noopener noreferrer&quot;&gt;点击测试target&#x3D;&quot;_blank&quot;钓鱼漏洞&lt;&#x2F;a&gt;</span><br></pre></td></tr></table></figure>
-<p>这样就可以了，加入rel=”noopener noreferrer”后，再通过ces1.html中的链接打开ces2.html，原网页就不会再被强制跳转了。</p>
-<p>从SEO的角度出发，为了防止权重流失，还可以带上rel=”nofollow”，超链接可以写成下面的格式：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;.&#x2F;ces2.html&quot; target&#x3D;&quot;_blank&quot; rel&#x3D;&quot;nofollow noopener noreferrer&quot;&gt;点击测试target&#x3D;&quot;_blank&quot;钓鱼漏洞&lt;&#x2F;a&gt;</span><br></pre></td></tr></table></figure>]]></content>
+<p><img src="/images/cadel2.png" alt="Win10安装CAD2006"></p>
+<p>就可以正常安装了，正常流程安装输入邀请码。</p>
+<p>安装好CAD2006以后，桌面上会生成一个快捷方式，在快捷方式上右键属性，勾选兼容性运行此程序。</p>
+<p><img src="/images/cadel3.png" alt="Win10安装CAD2006"></p>
+<p>然后就可以正常打开CAD2006了，使用激活工具进行激活。</p>
+<h2 id="Windows10系统下安装AutoCAD2006"><a href="#Windows10系统下安装AutoCAD2006" class="headerlink" title="Windows10系统下安装AutoCAD2006"></a>Windows10系统下安装AutoCAD2006</h2><p>在Win10系统下安装CAD2006会出现一些问题，在这里写一下如何解决。</p>
+<p>安装时不能使用Setup.exe进行安装，直接运行acad.msi进行安装。</p>
+<h2 id="Win10安装CAD2006提示没有权限"><a href="#Win10安装CAD2006提示没有权限" class="headerlink" title="Win10安装CAD2006提示没有权限"></a>Win10安装CAD2006提示没有权限</h2><p>提示：<strong>您没有足够的权限来安装本产品，请重新启动计算机….</strong></p>
+<p>出现这个我的解决办法是开启win10管理员账户然后在管理员账户中进行安装</p>
+<p>以管理员身份运行cmd，运行以下命令：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">net user administrator &#x2F;active:yes</span><br></pre></td></tr></table></figure>
+<p>开启方法详细请看我上一篇文章：<span class="exturl" data-url="aHR0cDovL3d3dy5seTU1NC5jb20vd2luYWRtaW4uaHRtbA==">Windows10开启管理员账户<i class="fa fa-external-link-alt"></i></span></p>
+<p>在管理员账户中进行安装，然后回到常用账户打开CAD快捷方式会再走一遍安装流程，就可以正常安装了。</p>
+<h2 id="Win10运行CAD2006提示丢失-16-dll"><a href="#Win10运行CAD2006提示丢失-16-dll" class="headerlink" title="Win10运行CAD2006提示丢失****16.dll"></a>Win10运行CAD2006提示丢失****16.dll</h2><p>运行CAD2006时提示：<strong>无法启动此程序，因为计算机丢失**</strong>.dll。尝试重新安装该程序以解决此问题。**</p>
+<p>遇到这个问题，不需要重新安装，重新安装也还提示这个，按照下面的操作添加环境变量即可解决：</p>
+<p>右键单击<strong>此电脑</strong>-<strong>属性</strong>-<strong>高级系统设置</strong>-<strong>环境变量</strong><br><img src="/images/cadel.png" alt="Win10安装CAD2006"><br>后面的都很好找就不配图了</p>
+<p>再环境变量窗口中点击<strong>新建</strong></p>
+<p>变量名填：AutoCAD<br>变量值填：C:\Program Files (x86)\Common Files\Autodesk Shared</p>
+<p>即可正常运行。</p>
+<h2 id="AutoCAD2006或其他版本激活失败"><a href="#AutoCAD2006或其他版本激活失败" class="headerlink" title="AutoCAD2006或其他版本激活失败"></a>AutoCAD2006或其他版本激活失败</h2><p>CAD2006或其他版本的CAD提示激活失败时，只需要把电脑的时间改为以前几年，断网，否则时间会自动更新。就可以正常激活了。</p>
+<h2 id="AutoCAD安装提示写入文件失败"><a href="#AutoCAD安装提示写入文件失败" class="headerlink" title="AutoCAD安装提示写入文件失败"></a>AutoCAD安装提示写入文件失败</h2><p>CAD安装时提示写入文件失败的时候，把电脑的杀毒软件关闭，重新安装CAD就可以了，因为老版本的CAD会修改系统敏感文件，所以会被杀软后台拦截导致写入失败。</p>
+<h2 id="AutoCAD注册机无效"><a href="#AutoCAD注册机无效" class="headerlink" title="AutoCAD注册机无效"></a>AutoCAD注册机无效</h2><p>有一些版本的CAD注册机需要管理员运行，然后再进行操作。</p>
+<h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><p>安装旧版本CAD时，可以右键单击acad.msi选择<strong>兼容性疑难解答</strong>，会为你的安装过程免去一些问题。</p>
+<p>安装老版本的CAD后，可以设置一下兼容性，找到CAD安装目录，将兼容性设置为Windows XP</p>
+]]></content>
       <categories>
-        <category>钓鱼</category>
-        <category>漏洞信息与防御</category>
+        <category>系统</category>
+        <category>软件</category>
       </categories>
       <tags>
-        <tag>钓鱼</tag>
-        <tag>漏洞</tag>
+        <tag>Win10安装CAD2006</tag>
+        <tag>Win10无法安装CAD2006</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2018-6-5 可用Google-Hosts更新</title>
+    <url>/blwghosts.html</url>
+    <content><![CDATA[<h2 id="Hosts文件位置"><a href="#Hosts文件位置" class="headerlink" title="Hosts文件位置"></a>Hosts文件位置</h2><p>Windows 系统hosts位于 C:\Windows\System32\drivers\etc\hosts</p>
+<p>Android（安卓）系统hosts位于 /etc/hosts</p>
+<p>Mac（苹果电脑）系统hosts位于 /etc/hosts</p>
+<a id="more"></a>
+<p>iPhone（iOS）系统hosts位于 /etc/hosts</p>
+<p>Linux系统hosts位于 /etc/hosts</p>
+<p>绝大多数Unix系统都是在 /etc/hosts</p>
+<p>可以直接用记事本打开，也可以用Notepad直接编辑</p>
+<h2 id="如何使修改后的Hosts生效"><a href="#如何使修改后的Hosts生效" class="headerlink" title="如何使修改后的Hosts生效"></a>如何使修改后的Hosts生效</h2><p>Windows</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">开始 - 运行 - 输入cmd - 在CMD窗口输入</span><br><span class="line">ipconfig &#x2F;flushdns</span><br></pre></td></tr></table></figure>
+<p>Linux</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">终端输入</span><br><span class="line">sudo rcnscd restart</span><br></pre></td></tr></table></figure>
+<p>对于systemd发行版，请使用命令</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo systemctl restart NetworkManager</span><br></pre></td></tr></table></figure>
+<p>Mac OS X终端输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo killall -HUP mDNSResponder</span><br></pre></td></tr></table></figure>
+<p>Android</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">开启飞行模式 - 关闭飞行模式</span><br></pre></td></tr></table></figure>
+<p><strong>通用方法:拔掉网线(断开网络) - 插上网线(重新连接网络)</strong></p>
+<p>如果不行就清空浏览器缓存</p>
+<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><p>下载压缩包&gt;编辑本机中的Hosts文件并写入压缩包内文本中的内容：(修改前建议备份本机原来的Hosts文件)</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1p-fAfjJCku6AQlqBXXbABg</span><br><span class="line"></span><br><span class="line">密码：qh6o</span><br></pre></td></tr></table></figure>
+<p>本页资源来源于网络，出现任何问题与本站无关。</p>
+<p>感谢网络分享者。</p>
+]]></content>
+      <categories>
+        <category>技术共享</category>
+      </categories>
+      <tags>
+        <tag>Google</tag>
+        <tag>Hosts</tag>
       </tags>
   </entry>
   <entry>
@@ -188,42 +224,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2018-6-5 可用Google-Hosts更新</title>
-    <url>/blwghosts.html</url>
-    <content><![CDATA[<h2 id="Hosts文件位置"><a href="#Hosts文件位置" class="headerlink" title="Hosts文件位置"></a>Hosts文件位置</h2><p>Windows 系统hosts位于 C:\Windows\System32\drivers\etc\hosts</p>
-<p>Android（安卓）系统hosts位于 /etc/hosts</p>
-<p>Mac（苹果电脑）系统hosts位于 /etc/hosts</p>
-<a id="more"></a>
-<p>iPhone（iOS）系统hosts位于 /etc/hosts</p>
-<p>Linux系统hosts位于 /etc/hosts</p>
-<p>绝大多数Unix系统都是在 /etc/hosts</p>
-<p>可以直接用记事本打开，也可以用Notepad直接编辑</p>
-<h2 id="如何使修改后的Hosts生效"><a href="#如何使修改后的Hosts生效" class="headerlink" title="如何使修改后的Hosts生效"></a>如何使修改后的Hosts生效</h2><p>Windows</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">开始 - 运行 - 输入cmd - 在CMD窗口输入</span><br><span class="line">ipconfig &#x2F;flushdns</span><br></pre></td></tr></table></figure>
-<p>Linux</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">终端输入</span><br><span class="line">sudo rcnscd restart</span><br></pre></td></tr></table></figure>
-<p>对于systemd发行版，请使用命令</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo systemctl restart NetworkManager</span><br></pre></td></tr></table></figure>
-<p>Mac OS X终端输入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo killall -HUP mDNSResponder</span><br></pre></td></tr></table></figure>
-<p>Android</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">开启飞行模式 - 关闭飞行模式</span><br></pre></td></tr></table></figure>
-<p><strong>通用方法:拔掉网线(断开网络) - 插上网线(重新连接网络)</strong></p>
-<p>如果不行就清空浏览器缓存</p>
-<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><p>下载压缩包&gt;编辑本机中的Hosts文件并写入压缩包内文本中的内容：(修改前建议备份本机原来的Hosts文件)</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1p-fAfjJCku6AQlqBXXbABg</span><br><span class="line"></span><br><span class="line">密码：qh6o</span><br></pre></td></tr></table></figure>
-<p>本页资源来源于网络，出现任何问题与本站无关。</p>
-<p>感谢网络分享者。</p>
-]]></content>
-      <categories>
-        <category>技术共享</category>
-      </categories>
-      <tags>
-        <tag>Google</tag>
-        <tag>Hosts</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>游戏加速器-让低配电脑也能玩大型游戏的优化工具</title>
     <url>/dnjsq.html</url>
     <content><![CDATA[<h2 id="RAZER-CORTEX雷游：增强"><a href="#RAZER-CORTEX雷游：增强" class="headerlink" title="RAZER CORTEX雷游：增强"></a>RAZER CORTEX雷游：增强</h2><p>市面上的加速器，一般都是对游戏网络进行优化，偶然遇到一款对电脑本身进行优化从而让游戏更流畅的加速器，并且免费。</p>
@@ -272,22 +272,6 @@
       <tags>
         <tag>Adobe</tag>
         <tag>软件共享</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows10一键关闭自动更新工具</title>
-    <url>/gbwszdgx.html</url>
-    <content><![CDATA[<h2 id="Win10关闭自动更新工具"><a href="#Win10关闭自动更新工具" class="headerlink" title="Win10关闭自动更新工具"></a>Win10关闭自动更新工具</h2><p>Windows Update Blocker：Windows关闭自动更新软件 是由网上开发者开发并发布的一款简易一键关闭Win10自动更新的工具，Win10用户可以通过此软件一键关闭WIN10自动更新功能，完美解决WIN10经常弹出自动更新并且关不掉的情况。</p>
-<a id="more"></a>
-<p><img src="/images/gbwszdgx.png" alt="一键关闭自动更新工具"></p>
-<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Windows Update Blocker v1.1</span><br><span class="line"></span><br><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1X_EBtoj5vspUL4MkxANGgw</span><br><span class="line">密码：w7sb</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Windows</category>
-        <category>软件共享</category>
-      </categories>
-      <tags>
-        <tag>软件共享</tag>
-        <tag>Windows关闭自动更新</tag>
       </tags>
   </entry>
   <entry>
@@ -364,6 +348,22 @@
         <tag>百度爬虫</tag>
         <tag>SEO</tag>
         <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows10一键关闭自动更新工具</title>
+    <url>/gbwszdgx.html</url>
+    <content><![CDATA[<h2 id="Win10关闭自动更新工具"><a href="#Win10关闭自动更新工具" class="headerlink" title="Win10关闭自动更新工具"></a>Win10关闭自动更新工具</h2><p>Windows Update Blocker：Windows关闭自动更新软件 是由网上开发者开发并发布的一款简易一键关闭Win10自动更新的工具，Win10用户可以通过此软件一键关闭WIN10自动更新功能，完美解决WIN10经常弹出自动更新并且关不掉的情况。</p>
+<a id="more"></a>
+<p><img src="/images/gbwszdgx.png" alt="一键关闭自动更新工具"></p>
+<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Windows Update Blocker v1.1</span><br><span class="line"></span><br><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1X_EBtoj5vspUL4MkxANGgw</span><br><span class="line">密码：w7sb</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Windows</category>
+        <category>软件共享</category>
+      </categories>
+      <tags>
+        <tag>软件共享</tag>
+        <tag>Windows关闭自动更新</tag>
       </tags>
   </entry>
   <entry>
@@ -508,6 +508,42 @@
       </tags>
   </entry>
   <entry>
+    <title>格式工厂绿色免安装版及使用方法</title>
+    <url>/gsgclsmaz.html</url>
+    <content><![CDATA[<h2 id="格式工厂绿色免安装版使用方法"><a href="#格式工厂绿色免安装版使用方法" class="headerlink" title="格式工厂绿色免安装版使用方法"></a>格式工厂绿色免安装版使用方法</h2><p>这里以4.1.0版本做示范，下载地址在文末。</p>
+<p>解压，然后直接运行文件夹中<code>FormatFactoryPortable.exe</code>就可以打开格式工厂绿色免安装版了。</p>
+<p>使用方法也很简单，软件界面如下图：</p>
+<a id="more"></a>
+<p><img src="/images/gsgclsmaz.png" alt="FVD Downloader"></p>
+<p>左侧列表中分六个栏，想转换为什么格式就选哪个。</p>
+<p>比如我要将电脑中之前文章中下载的<code>肆无忌惮 - 薛之谦.m4a</code>和<code>童声与女声合唱《天耀中华》.mp4</code>转换为mp3格式的音频。</p>
+<p>就点击列表中的<code>音频</code></p>
+<p><img src="/images/gsgclsmaz2.png" alt="FVD Downloader"></p>
+<p>选择<code>-&gt;MP3</code></p>
+<p><img src="/images/gsgclsmaz3.png" alt="FVD Downloader"></p>
+<p>最下方有个输出文件夹，就是转换以后要保存在哪。源目录就是保存在转换之前的文件相同目录中。点击添加文件夹就可以选择一个文件夹保存转换后的文件。</p>
+<p><img src="/images/gsgclsmaz4.png" alt="FVD Downloader"></p>
+<p>这里我们就用输出至源文件目录了</p>
+<p>把要转换为音频的视频和音乐直接拖到窗口中</p>
+<p><img src="/images/gsgclsmaz5.png" alt="FVD Downloader"></p>
+<p>点击确定</p>
+<p><img src="/images/gsgclsmaz6.png" alt="FVD Downloader"></p>
+<p>点击上面的开始就可以开始转换格式了</p>
+<p><img src="/images/gsgclsmaz7.png" alt="FVD Downloader"></p>
+<p>等进度条走完就转换完成了。因为我转换之前的文件是在桌面上，并且选择了输出至源文件目录，所以新的文件也会在桌面上。</p>
+<p><img src="/images/gsgclsmaz8.png" alt="FVD Downloader"></p>
+<p>上面两个是转换前的文件，下面两个是转换为mp3格式后的文件。</p>
+<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">格式工厂4.1.0绿色免安装版</span><br><span class="line"></span><br><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1g2UydpLIuxDeV2ySS7qE0A</span><br><span class="line"></span><br><span class="line">密码：cbkm</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>L</category>
+        <category>软件共享</category>
+      </categories>
+      <tags>
+        <tag>软件共享</tag>
+        <tag>格式工厂绿色免安装版</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>如何使用Github的301重定向</title>
     <url>/githubcdx.html</url>
     <content><![CDATA[<h2 id="301重定向"><a href="#301重定向" class="headerlink" title="301重定向"></a>301重定向</h2><p>Github为大家提供了301重定向的功能，这是我很喜欢Github的原因之一。</p>
@@ -587,6 +623,117 @@
       </tags>
   </entry>
   <entry>
+    <title>自动随机时间上滑刷短视频</title>
+    <url>/dspsjsh.html</url>
+    <content><![CDATA[<h2 id="脚本介绍"><a href="#脚本介绍" class="headerlink" title="脚本介绍"></a>脚本介绍</h2><p>最近刷短视频赚钱兴起，例如刷宝短视频、快手极速版、抖音极速版等等</p>
+<p>本人也想要加入薅羊毛大军，便搞了一个自动上滑的脚本，分享给大家。</p>
+<p>为了防止系统认为是机器人，加入了随机时间上滑</p>
+<p>可设置多个软件，会自动依次启动。</p>
+<a id="more"></a>
+<h2 id="随机上滑脚本"><a href="#随机上滑脚本" class="headerlink" title="随机上滑脚本"></a>随机上滑脚本</h2><p><strong>使用方法：</strong></p>
+<p><img src="/images/dspsjsh.png" alt="随机上滑"></p>
+<p>首先安装 Auto.js 点击右下角加号新建脚本</p>
+<p><img src="/images/dspsjsh2.png" alt="薅羊毛脚本"></p>
+<p>随意设置脚本名称</p>
+<p><img src="/images/dspsjsh3.png" alt="短视频APP脚本"></p>
+<p>创建成功后点击新创建的脚本</p>
+<p><img src="/images/dspsjsh4.png" alt="薅羊毛APP脚本"></p>
+<p>点击main那条后面的小铅笔图标进行修改脚本</p>
+<p><img src="/images/dspsjsh5.png" alt="薅羊毛脚本"></p>
+<p>粘贴上脚本代码然后保存</p>
+<p><img src="/images/dspsjsh3.png" alt="随即上滑短视频脚本"></p>
+<p>然后返回点击新创建的脚本后面的三角符号运行脚本即可。</p>
+<p>就会自动启动设置好的软件，并进行上滑事件</p>
+<h2 id="Auto-js-pro-破解版"><a href="#Auto-js-pro-破解版" class="headerlink" title="Auto.js pro 破解版"></a>Auto.js pro 破解版</h2><p>附赠一个 Auto.js pro 的破解版</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Auto.js pro 破解版下载地址</span><br><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1rWzo7bGX9M_2FErGdL6ybg </span><br><span class="line">提取码：doh7</span><br></pre></td></tr></table></figure>
+
+<h2 id="脚本代码"><a href="#脚本代码" class="headerlink" title="脚本代码"></a>脚本代码</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">console.show()  &#x2F;&#x2F;显示悬浮窗（需要先打开悬浮窗权限）</span><br><span class="line"></span><br><span class="line">function nextVideo()&#123;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;获得手机分辨率</span><br><span class="line"></span><br><span class="line">var width &#x3D; device.width;</span><br><span class="line"></span><br><span class="line">var height &#x3D; device.height;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;swipe(x1,y1,x2,y2,t) 滑动函数 从x1,y1,到x2,y2用时t ms</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;屏幕的像素是从左上角开始的，向下，向右增加</span><br><span class="line"></span><br><span class="line">swipe(width&#x2F;2,height&#x2F;2,width&#x2F;2,height&#x2F;3,10);</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;获取范围内的随机数</span><br><span class="line"></span><br><span class="line">function randNum(minnum , maxnum)&#123;</span><br><span class="line"></span><br><span class="line">return Math.floor(minnum + Math.random() * (maxnum - minnum));</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 封装一下</span><br><span class="line"></span><br><span class="line">function runApp(appName,runTimes)&#123;</span><br><span class="line"></span><br><span class="line">toast(&#39;这是一个刷视频的工具,需要悬浮窗和无障碍权限,1s之后打开APP&#39;);</span><br><span class="line">    console.log(&#39;这是一个刷视频的工具,需要悬浮窗和无障碍权限,1s之后打开APP&#39;);</span><br><span class="line">sleep(1000);</span><br><span class="line"></span><br><span class="line">var launchResult&#x3D;launchApp(appName);</span><br><span class="line"></span><br><span class="line">if(!launchResult)&#123;</span><br><span class="line"></span><br><span class="line">toast(&#39;你还没有安装“&#39;+appName+&#39;”请结束脚本，否则空运行！&#39;);</span><br><span class="line">    console.log(&#39;你还没有安装“&#39;+appName+&#39;”请结束脚本，否则空运行！&#39;);</span><br><span class="line">sleep(10000);</span><br><span class="line">back();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">toast(&#39;等待软件打开，3s之后继续下个动作！&#39;);</span><br><span class="line">    console.log(&#39;等待软件打开，3s之后继续下个动作！&#39;);</span><br><span class="line"></span><br><span class="line">sleep(3000);</span><br><span class="line"></span><br><span class="line">var sleepTime &#x3D; 10;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 统计运行次数</span><br><span class="line"></span><br><span class="line">var flagTime&#x3D;0;</span><br><span class="line"></span><br><span class="line">while(true)&#123;</span><br><span class="line"></span><br><span class="line">flagTime++;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 超过次数终止程序</span><br><span class="line"></span><br><span class="line">if(flagTime&gt;runTimes)&#123;</span><br><span class="line"></span><br><span class="line">break;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 随机时间之后下个视频，避免软件认为是机器人,因为有广告</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 广告结束之后会有弹窗，因此时间设置短一点 可以防止广告结束</span><br><span class="line"></span><br><span class="line">sleepTime &#x3D; randNum(5,10);</span><br><span class="line"></span><br><span class="line">toast(sleepTime.toString() + &#39;s之后跳到下个视频！已经执行 &#39;+flagTime.toString()+&quot;次&quot;);</span><br><span class="line">    console.log(sleepTime.toString() + &#39;s之后跳到下个视频！已经执行 &#39;+flagTime.toString()+&quot;次&quot;);</span><br><span class="line"></span><br><span class="line">sleep(sleepTime*1000);</span><br><span class="line"></span><br><span class="line">nextVideo();</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">function main()&#123;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;以下是我设置好的软件和次数，可以按照下面的样式添加更多的软件；如果没有此软件你注释即可，在代码前加 &#x2F;&#x2F;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;runApp(&quot;手机中的软件名&quot;,要刷的次数);</span><br><span class="line"></span><br><span class="line">runApp(&quot;快手极速版&quot;,1900);</span><br><span class="line"></span><br><span class="line">runApp(&quot;刷宝短视频&quot;,500);</span><br><span class="line"></span><br><span class="line">runApp(&quot;抖音极速版&quot;,3000);</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">main();</span><br><span class="line">console.hide()</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>手机脚本</category>
+      </categories>
+      <tags>
+        <tag>短视频自动上滑</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>让Hexo对指定文件或文件夹不进行渲染处理</title>
+    <url>/hexojzxr.html</url>
+    <content><![CDATA[<p>Hexo会将source目录下的所有.md文件和.html文件都进行渲染，这样就导致了我们没办法在博客中加入自定义页面或一些不想被渲染的页面。比如README.md文件、谷歌和百度的验证文件等。</p>
+<p>其实这个问题很简单，只需要修改站点配置文件_config.yml中的skip_render即可。但是修改了站点配置文件后，要执行以下hexo clean命令，否则修改后的skip_render可能不会生效。</p>
+<h2 id="指定不渲染文件或文件夹所有文件"><a href="#指定不渲染文件或文件夹所有文件" class="headerlink" title="指定不渲染文件或文件夹所有文件"></a>指定不渲染文件或文件夹所有文件</h2><a id="more"></a>
+<p>制定不渲染某个文件只需要更改站点配置文件中的skip_render写为以下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render: README.md</span><br></pre></td></tr></table></figure>
+
+<p>如果要指定不渲染多个文件可以写成下面的格式：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">  - &quot;README.md&quot;</span><br><span class="line">  - &quot;google****.html&quot;</span><br><span class="line">  - &quot;baidu****.html&quot;</span><br></pre></td></tr></table></figure>
+
+<p>如果要指定不渲染某文件夹下所有文件：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">  - &quot;文件夹名&#x2F;*&quot;</span><br><span class="line">或</span><br><span class="line">skip_render:</span><br><span class="line">  - &quot;文件夹名&#x2F;**&quot;</span><br></pre></td></tr></table></figure>
+
+<h2 id="指定不渲染某文件夹下某个格式的文件"><a href="#指定不渲染某文件夹下某个格式的文件" class="headerlink" title="指定不渲染某文件夹下某个格式的文件"></a>指定不渲染某文件夹下某个格式的文件</h2><p>如果是不渲染单个文件夹中的所有html文件就把skip_render写成下面的样子：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render: 文件夹名&#x2F;*.html</span><br></pre></td></tr></table></figure>
+
+<p>如果是多个文件夹多个文件格式可以这样写：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">  - &quot;文件夹1&#x2F;*.html&quot;</span><br><span class="line">  - &quot;文件夹2&#x2F;*.md&quot;</span><br></pre></td></tr></table></figure>
+
+<h2 id="不渲染指定HTML文件"><a href="#不渲染指定HTML文件" class="headerlink" title="不渲染指定HTML文件"></a>不渲染指定HTML文件</h2><p>如果只有一个html文件不需要渲染可以在这个文件的头部加入以下代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">layout: false</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<h2 id="混合写法"><a href="#混合写法" class="headerlink" title="混合写法"></a>混合写法</h2><p>比如我想要指定不渲染<strong>README.md文件</strong>、<strong>baidu**</strong>.html文件<strong>、</strong>liyme文件夹下所有文件<strong>、和</strong>liyme9255文件夹下所有html文件**。可以这样写：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">  - &quot;README.md&quot;</span><br><span class="line">  - &quot;baidu****.html&quot;</span><br><span class="line">  - &quot;liyme&#x2F;**&quot;</span><br><span class="line">  - &quot;liyme9255&#x2F;*.html&quot;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>渲染</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo如何迁移到另一台电脑进行写作</title>
+    <url>/hexoghdn.html</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>因为只能固定在一台电脑上进行写文章有点麻烦，所以研究了一下Hexo如何迁移到另一台电脑。</p>
+<p>网上有很多更换电脑写作的教程，但是不是很实用，网友给出的办法是把Hexo主要文件都存在Github，更换电脑以后再安装环境、下载Hexo主要文件、安装插件、发布文章。但是我还是感觉太麻烦了。我个人建议是按照本文的方法把Hexo放在虚拟机里，这样就可以用U盘什么的随身携到，只要有电脑，安装一个虚拟机，不需要繁琐步骤，走到哪写到哪。</p>
+<a id="more"></a>
+<h2 id="备份文件"><a href="#备份文件" class="headerlink" title="备份文件"></a>备份文件</h2><p>如果要迁移到另一台电脑或虚拟机中，首先把Hexo中的重要文件复制出来。</p>
+<p>以下是必须备份的文件夹和文件：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">scaffolds            文章模版                           必须备份</span><br><span class="line">source               博客文章                           必须备份</span><br><span class="line">themes               主题                              必须备份</span><br><span class="line">.gitignore           限定在push时那些文件可以忽略         必须备份</span><br><span class="line">_config.yml          站点配置文件                       必须备份</span><br><span class="line">package.json         安装包的名称                       必须备份</span><br><span class="line"></span><br><span class="line">.ssh                 密钥文件                          必须备份</span><br></pre></td></tr></table></figure>
+<p>ssh密钥不在Hexo目录中，ssh密钥目录及生成方法详见本站第一篇文章中的<strong>创建GitHub仓库</strong>部分。</p>
+<p>上面的文件可以复制到优盘里或者干脆打包上传到网盘。</p>
+<h2 id="搭建环境"><a href="#搭建环境" class="headerlink" title="搭建环境"></a>搭建环境</h2><p>在虚拟机或新电脑中搭建环境，和当初建立博客流程基本一样，安装Node.js和Git。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Node.js官网：http:&#x2F;&#x2F;nodejs.org&#x2F;en&#x2F;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Git官网：http:&#x2F;&#x2F;git-scm.com&#x2F;</span><br></pre></td></tr></table></figure>
+<p>下载好安装包只要一直下一步就可以，这里不详细说了。<br>安装好安装Node.js和Git后，看一下有没有在path中自动添加npm环境变量。<br>如果没有就添加Path环境变量，使npm命令生效。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">;C:\Program Files\nodejs\node_modules\npm</span><br><span class="line">把这段添加到Path环境变量中</span><br></pre></td></tr></table></figure>
+
+<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>在任意盘中单击右键选择Git Bash Here打开终端，输入以下两条命令进行安装Hexo：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br><span class="line">npm install hexo --save</span><br></pre></td></tr></table></figure>
+
+<p>然后在任意本地磁盘根目录新建博客文件夹，名字随意。<br>在刚才创建的文件夹中单击右键选择Git Bash Here打开终端执行以下命令：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+<p>现在博客的基础已经搭建好了。</p>
+<h2 id="迁移"><a href="#迁移" class="headerlink" title="迁移"></a>迁移</h2><p>把刚才备份的文件移动到新电脑的博客文件夹，替换文件。</p>
+<p>密钥文件也要放到正确位置。</p>
+<p>然后在博客根目录右键选择Git Bash Here按照以前的方法重新安装一遍所需要的Hexo插件。</p>
+<p>这里就不需要详细说了。</p>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>在博客根目录单击右键选择Git Bash Here打开终端运行以下命令配置Git：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config –global user.email “邮箱”</span><br><span class="line">git config –global user.name “用户名” </span><br></pre></td></tr></table></figure>
+<p>邮箱和用户名就是你注册Github时设置的邮箱和用户名</p>
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>到此为止博客就已经迁移完成了，</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">生成新的public文件夹 </span><br><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">开始上传hexo博客 </span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<p>我个人还是建议将博客迁移到虚拟机中，然后随时备份虚拟机文件。</p>
+<p>本人的最终解决办法是，利用WTG制作了随身系统盘，用于博客的稳定后台，随用随插。</p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo如何更换电脑</tag>
+        <tag>Hexo如何备份</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo博客设置404页面</title>
     <url>/hexosls.html</url>
     <content><![CDATA[<h2 id="在Github上搭建的Hexo博客设置404页面"><a href="#在Github上搭建的Hexo博客设置404页面" class="headerlink" title="在Github上搭建的Hexo博客设置404页面"></a>在Github上搭建的Hexo博客设置404页面</h2><p>在Github上设置404页面很简单，只要将404页面文件命名为404.html放在source文件夹下就可以了。</p>
@@ -633,39 +780,54 @@
 ]]></content>
   </entry>
   <entry>
-    <title>格式工厂绿色免安装版及使用方法</title>
-    <url>/gsgclsmaz.html</url>
-    <content><![CDATA[<h2 id="格式工厂绿色免安装版使用方法"><a href="#格式工厂绿色免安装版使用方法" class="headerlink" title="格式工厂绿色免安装版使用方法"></a>格式工厂绿色免安装版使用方法</h2><p>这里以4.1.0版本做示范，下载地址在文末。</p>
-<p>解压，然后直接运行文件夹中<code>FormatFactoryPortable.exe</code>就可以打开格式工厂绿色免安装版了。</p>
-<p>使用方法也很简单，软件界面如下图：</p>
-<a id="more"></a>
-<p><img src="/images/gsgclsmaz.png" alt="FVD Downloader"></p>
-<p>左侧列表中分六个栏，想转换为什么格式就选哪个。</p>
-<p>比如我要将电脑中之前文章中下载的<code>肆无忌惮 - 薛之谦.m4a</code>和<code>童声与女声合唱《天耀中华》.mp4</code>转换为mp3格式的音频。</p>
-<p>就点击列表中的<code>音频</code></p>
-<p><img src="/images/gsgclsmaz2.png" alt="FVD Downloader"></p>
-<p>选择<code>-&gt;MP3</code></p>
-<p><img src="/images/gsgclsmaz3.png" alt="FVD Downloader"></p>
-<p>最下方有个输出文件夹，就是转换以后要保存在哪。源目录就是保存在转换之前的文件相同目录中。点击添加文件夹就可以选择一个文件夹保存转换后的文件。</p>
-<p><img src="/images/gsgclsmaz4.png" alt="FVD Downloader"></p>
-<p>这里我们就用输出至源文件目录了</p>
-<p>把要转换为音频的视频和音乐直接拖到窗口中</p>
-<p><img src="/images/gsgclsmaz5.png" alt="FVD Downloader"></p>
-<p>点击确定</p>
-<p><img src="/images/gsgclsmaz6.png" alt="FVD Downloader"></p>
-<p>点击上面的开始就可以开始转换格式了</p>
-<p><img src="/images/gsgclsmaz7.png" alt="FVD Downloader"></p>
-<p>等进度条走完就转换完成了。因为我转换之前的文件是在桌面上，并且选择了输出至源文件目录，所以新的文件也会在桌面上。</p>
-<p><img src="/images/gsgclsmaz8.png" alt="FVD Downloader"></p>
-<p>上面两个是转换前的文件，下面两个是转换为mp3格式后的文件。</p>
-<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">格式工厂4.1.0绿色免安装版</span><br><span class="line"></span><br><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1g2UydpLIuxDeV2ySS7qE0A</span><br><span class="line"></span><br><span class="line">密码：cbkm</span><br></pre></td></tr></table></figure>]]></content>
+    <title>渗透漏洞练习平台整理</title>
+    <url>/ldlxptzl.html</url>
+    <content><![CDATA[<h2 id="漏洞及渗透练习平台"><a href="#漏洞及渗透练习平台" class="headerlink" title="漏洞及渗透练习平台"></a>漏洞及渗透练习平台</h2><p><strong>WebGoat漏洞练习环境</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;github.com&#x2F;WebGoat&#x2F;WebGoat</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;WebGoat&#x2F;WebGoat-Legacy</span><br><span class="line"></span><br><span class="line">Damn Vulnerable Web Application(漏洞练习平台)</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;RandomStorm&#x2F;DVWA</span><br></pre></td></tr></table></figure>
+
+<h2 id="数据库注入练习平台"><a href="#数据库注入练习平台" class="headerlink" title="数据库注入练习平台"></a>数据库注入练习平台</h2><a id="more"></a>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;github.com&#x2F;Audi-1&#x2F;sqli-labs</span><br><span class="line"></span><br><span class="line">用node编写的漏洞练习平台，like OWASP Node Goat</span><br><span class="line">&lt;!-- more --&gt;</span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;cr0hn&#x2F;vulnerable-node</span><br></pre></td></tr></table></figure>
+
+<h2 id="花式扫描器"><a href="#花式扫描器" class="headerlink" title="花式扫描器"></a>花式扫描器</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">端口扫描器Nmap</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;nmap&#x2F;nmap</span><br><span class="line"></span><br><span class="line">本地网络扫描器</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;SkyLined&#x2F;LocalNetworkScanner</span><br><span class="line"></span><br><span class="line">子域名扫描器</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;lijiejie&#x2F;subDomainsBrute</span><br><span class="line"></span><br><span class="line">漏洞路由扫描器</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;jh00nbr&#x2F;Routerhunter-2.0</span><br><span class="line"></span><br><span class="line">迷你批量信息泄漏扫描脚本</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;lijiejie&#x2F;BBScan</span><br><span class="line"></span><br><span class="line">Waf类型检测工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;EnableSecurity&#x2F;wafw00f</span><br></pre></td></tr></table></figure>
+
+<h2 id="信息搜集工具"><a href="#信息搜集工具" class="headerlink" title="信息搜集工具"></a>信息搜集工具</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">社工插件，可查找以email、phone、username的注册的所有网站账号信息</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;n0tr00t&#x2F;Sreg</span><br><span class="line"></span><br><span class="line">Github信息搜集，可实时扫描查询git最新上传有关邮箱账号密码信息</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;sea-god&#x2F;gitscan</span><br><span class="line"></span><br><span class="line">github Repo信息搜集工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;metac0rtex&#x2F;GitHarvester</span><br></pre></td></tr></table></figure>
+
+<h2 id="WEB相关"><a href="#WEB相关" class="headerlink" title="WEB相关"></a>WEB相关</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">webshell大合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;tennc&#x2F;webshell</span><br><span class="line"></span><br><span class="line">渗透以及web攻击脚本</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;brianwrf&#x2F;hackUtils</span><br><span class="line"></span><br><span class="line">web渗透小工具大合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;rootphantomer&#x2F;hack_tools_for_me</span><br><span class="line"></span><br><span class="line">XSS数据接收平台</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;firesunCN&#x2F;BlueLotus_XSSReceiver</span><br><span class="line"></span><br><span class="line">XSS与CSRF工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;evilcos&#x2F;xssor</span><br><span class="line"></span><br><span class="line">Short for command injection exploiter，web向命令注入检测工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;stasinopoulos&#x2F;commix</span><br><span class="line"></span><br><span class="line">数据库注入工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;sqlmapproject&#x2F;sqlmap</span><br><span class="line"></span><br><span class="line">Web代理，通过加载sqlmap api进行sqli实时检测</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;zt2&#x2F;sqli-hunter</span><br><span class="line"></span><br><span class="line">新版中国菜刀</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;Chora10&#x2F;Cknife</span><br><span class="line"></span><br><span class="line">.git泄露利用EXP</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;lijiejie&#x2F;GitHack</span><br><span class="line"></span><br><span class="line">浏览器攻击框架</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;beefproject&#x2F;beef</span><br><span class="line"></span><br><span class="line">自动化绕过WAF脚本</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;khalilbijjou&#x2F;WAFNinja</span><br><span class="line"></span><br><span class="line">http命令行客户端，可以从命令行构造发送各种http请求（类似于Curl）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;jkbrzt&#x2F;httpie</span><br><span class="line"></span><br><span class="line">浏览器调试利器</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;firebug&#x2F;firebug</span><br><span class="line"></span><br><span class="line">一款开源WAF</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;SpiderLabs&#x2F;ModSecurity</span><br></pre></td></tr></table></figure>
+
+<h2 id="Windows域渗透工具类"><a href="#Windows域渗透工具类" class="headerlink" title="Windows域渗透工具类"></a>Windows域渗透工具类</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">windows渗透神器</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;gentilkiwi&#x2F;mimikatz</span><br><span class="line"></span><br><span class="line">Powershell渗透库合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;PowerShellMafia&#x2F;PowerSploit</span><br><span class="line"></span><br><span class="line">Powershell tools合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;clymb3r&#x2F;PowerShell</span><br></pre></td></tr></table></figure>
+
+<h2 id="Fuzz类"><a href="#Fuzz类" class="headerlink" title="Fuzz类"></a>Fuzz类</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Web向Fuzz工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;xmendez&#x2F;wfuzz</span><br><span class="line"></span><br><span class="line">HTTP暴力破解，撞库攻击脚本</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;lijiejie&#x2F;htpwdScan</span><br></pre></td></tr></table></figure>
+
+<h2 id="漏洞利用及攻击框架"><a href="#漏洞利用及攻击框架" class="headerlink" title="漏洞利用及攻击框架"></a>漏洞利用及攻击框架</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">MSF</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;rapid7&#x2F;metasploit-framework</span><br><span class="line"></span><br><span class="line">Poc调用框架，可加载Pocsuite,Tangscan，Beebeeto等</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;erevus-cn&#x2F;pocscan</span><br><span class="line"></span><br><span class="line">Pocsuite</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;knownsec&#x2F;Pocsuite</span><br><span class="line"></span><br><span class="line">Beebeeto</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;n0tr00t&#x2F;Beebeeto-framework</span><br></pre></td></tr></table></figure>
+
+<h2 id="漏洞POC-amp-EXP"><a href="#漏洞POC-amp-EXP" class="headerlink" title="漏洞POC&amp;EXP"></a>漏洞POC&amp;EXP</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ExploitDB官方git版本</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;offensive-security&#x2F;exploit-database</span><br><span class="line"></span><br><span class="line">php漏洞代码分析</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;80vul&#x2F;phpcodz</span><br><span class="line"></span><br><span class="line">Simple test for CVE-2016-2107</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;FiloSottile&#x2F;CVE-2016-2107</span><br><span class="line"></span><br><span class="line">CVE-2015-7547 POC</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;fjserna&#x2F;CVE-2015-7547</span><br><span class="line"></span><br><span class="line">JAVA反序列化POC生成工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;frohoff&#x2F;ysoserial</span><br><span class="line"></span><br><span class="line">JAVA反序列化EXP</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;foxglovesec&#x2F;JavaUnserializeExploits</span><br><span class="line"></span><br><span class="line">Jenkins CommonCollections EXP</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;CaledoniaProject&#x2F;jenkins-cli-exploit</span><br><span class="line"></span><br><span class="line">CVE-2015-2426 EXP (windows内核提权)</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;vlad902&#x2F;hacking-team-windows-kernel-lpe</span><br><span class="line"></span><br><span class="line">use docker to show web attack(php本地文件包含结合phpinfo getshell 以及ssrf结合curl的利用演示)</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;hxer&#x2F;vulnapp</span><br><span class="line"></span><br><span class="line">php7缓存覆写漏洞Demo及相关工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;GoSecure&#x2F;php7-opcache-override</span><br><span class="line"></span><br><span class="line">XcodeGhost木马样本</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;XcodeGhostSource&#x2F;XcodeGhost</span><br><span class="line"></span><br><span class="line">中间人攻击及钓鱼</span><br><span class="line"></span><br><span class="line">中间人攻击框架</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;secretsquirrel&#x2F;the-backdoor-factory</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;secretsquirrel&#x2F;BDFProxy</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;byt3bl33d3r&#x2F;MITMf</span><br><span class="line"></span><br><span class="line">Inject code, jam wifi, and spy on wifi users</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;DanMcInerney&#x2F;LANs.py</span><br><span class="line"></span><br><span class="line">可扩展的中间人代理工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;intrepidusgroup&#x2F;mallory</span><br><span class="line"></span><br><span class="line">wifi钓鱼</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;sophron&#x2F;wifiphisher</span><br></pre></td></tr></table></figure>
+
+<h2 id="密码破解类"><a href="#密码破解类" class="headerlink" title="密码破解类"></a>密码破解类</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">密码破解工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;shinnok&#x2F;johnny</span><br><span class="line"></span><br><span class="line">本地存储的各类密码提取利器</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;AlessandroZ&#x2F;LaZagne</span><br></pre></td></tr></table></figure>
+
+<h2 id="二进制及代码分析工具"><a href="#二进制及代码分析工具" class="headerlink" title="二进制及代码分析工具"></a>二进制及代码分析工具</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">二进制分析工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;devttys0&#x2F;binwalk</span><br><span class="line"></span><br><span class="line">系统扫描器，用于寻找程序和库然后收集他们的依赖关系，链接等信息</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;quarkslab&#x2F;binmap</span><br><span class="line"></span><br><span class="line">rp++ is a full-cpp written tool that aims to find ROP sequences in PE&#x2F;Elf&#x2F;Mach-O (doesn&#39;t support the FAT binaries) x86&#x2F;x64 binaries.</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;0vercl0k&#x2F;rp</span><br><span class="line"></span><br><span class="line">Windows Exploit Development工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;lillypad&#x2F;badger</span><br><span class="line"></span><br><span class="line">二进制静态分析工具（python）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;bdcht&#x2F;amoco</span><br><span class="line"></span><br><span class="line">Python Exploit Development Assistance for GDB</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;longld&#x2F;peda</span><br><span class="line"></span><br><span class="line">对BillGates Linux Botnet系木马活动的监控工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;ValdikSS&#x2F;billgates-botnet-tracker</span><br><span class="line"></span><br><span class="line">木马配置参数提取工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;kevthehermit&#x2F;RATDecoders</span><br><span class="line"></span><br><span class="line">Shellphish编写的二进制分析工具（CTF向）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;angr&#x2F;angr</span><br><span class="line"></span><br><span class="line">针对python的静态代码分析工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;yinwang0&#x2F;pysonar2</span><br><span class="line"></span><br><span class="line">一个自动化的脚本（shell）分析工具，用来给出警告和建议</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;koalaman&#x2F;shellcheck</span><br><span class="line"></span><br><span class="line">基于AST变换的简易Javascript反混淆辅助工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;ChiChou&#x2F;etacsufbo</span><br></pre></td></tr></table></figure>
+
+<h2 id="EXP编写框架及工具"><a href="#EXP编写框架及工具" class="headerlink" title="EXP编写框架及工具"></a>EXP编写框架及工具</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">二进制EXP编写工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;t00sh&#x2F;rop-tool</span><br><span class="line"></span><br><span class="line">CTF Pwn 类题目脚本编写框架</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;Gallopsled&#x2F;pwntools</span><br><span class="line"></span><br><span class="line">an easy-to-use io library for pwning development</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;zTrix&#x2F;zio</span><br><span class="line"></span><br><span class="line">跨平台注入工具（ Inject JavaScript to explore native apps on Windows, Mac, Linux, iOS and Android.）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;frida&#x2F;frida</span><br></pre></td></tr></table></figure>
+
+<h2 id="隐写"><a href="#隐写" class="headerlink" title="隐写"></a>隐写</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">隐写检测工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;abeluck&#x2F;stegdetect</span><br></pre></td></tr></table></figure>
+
+<h2 id="各类安全资料"><a href="#各类安全资料" class="headerlink" title="各类安全资料"></a>各类安全资料</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">域渗透教程</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;l3m0n&#x2F;pentest_study</span><br><span class="line"></span><br><span class="line">python security教程（原文链接http:&#x2F;&#x2F;www.primalsecurity.net&#x2F;tutorials&#x2F;python-tutorials&#x2F;）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;smartFlash&#x2F;pySecurity</span><br><span class="line"></span><br><span class="line">data_hacking合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;ClickSecurity&#x2F;data_hacking</span><br><span class="line"></span><br><span class="line">mobile-security-wiki</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;exploitprotocol&#x2F;mobile-security-wiki</span><br><span class="line"></span><br><span class="line">书籍《reverse-engineering-for-beginners》</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;veficos&#x2F;reverse-engineering-for-beginners</span><br><span class="line"></span><br><span class="line">一些信息安全标准及设备配置</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;luyg24&#x2F;IT_security</span><br><span class="line"></span><br><span class="line">APT相关笔记</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;kbandla&#x2F;APTnotes</span><br><span class="line"></span><br><span class="line">Kcon资料</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;knownsec&#x2F;KCon</span><br><span class="line"></span><br><span class="line">ctf及黑客资源合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;bt3gl&#x2F;My-Gray-Hacker-Resources</span><br><span class="line"></span><br><span class="line">ctf和安全工具大合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;zardus&#x2F;ctf-tools</span><br><span class="line"></span><br><span class="line">《DO NOT FUCK WITH A HACKER》</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;citypw&#x2F;DNFWAH</span><br><span class="line"></span><br><span class="line">各类CTF资源</span><br><span class="line"></span><br><span class="line">近年ctf writeup大全</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;ctfs&#x2F;write-ups-2016</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;ctfs&#x2F;write-ups-2015</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;ctfs&#x2F;write-ups-2014</span><br><span class="line"></span><br><span class="line">fbctf竞赛平台Demo</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;facebook&#x2F;fbctf</span><br><span class="line"></span><br><span class="line">ctf Resources</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;ctfs&#x2F;resources</span><br></pre></td></tr></table></figure>
+
+<h2 id="各类编程资源"><a href="#各类编程资源" class="headerlink" title="各类编程资源"></a>各类编程资源</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">大礼包（什么都有）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;bayandin&#x2F;awesome-awesomeness</span><br><span class="line"></span><br><span class="line">bash-handbook</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;denysdovhan&#x2F;bash-handbook</span><br><span class="line"></span><br><span class="line">python资源大全</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;jobbole&#x2F;awesome-python-cn</span><br><span class="line"></span><br><span class="line">git学习资料</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;xirong&#x2F;my-git</span><br><span class="line"></span><br><span class="line">安卓开源代码解析</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;android-cn&#x2F;android-open-project-analysis</span><br><span class="line"></span><br><span class="line">python框架，库，资源大合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;vinta&#x2F;awesome-python</span><br><span class="line"></span><br><span class="line">JS 正则表达式库（用于简化构造复杂的JS正则表达式）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;VerbalExpressions&#x2F;JSVerbalExpressions</span><br></pre></td></tr></table></figure>
+
+<h2 id="Python类"><a href="#Python类" class="headerlink" title="Python类"></a>Python类</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">python 正则表达式库（用于简化构造复杂的python正则表达式）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;VerbalExpressions&#x2F;PythonVerbalExpressions</span><br><span class="line"></span><br><span class="line">python任务管理以及命令执行库</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;pyinvoke&#x2F;invoke</span><br><span class="line"></span><br><span class="line">python exe打包库</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;pyinstaller&#x2F;pyinstaller</span><br><span class="line"></span><br><span class="line">py3 爬虫框架</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;orf&#x2F;cyborg</span><br><span class="line"></span><br><span class="line">一个提供底层接口数据包编程和网络协议支持的python库</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;CoreSecurity&#x2F;impacket</span><br><span class="line"></span><br><span class="line">python requests 库</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;kennethreitz&#x2F;requests</span><br><span class="line"></span><br><span class="line">python 实用工具合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;mahmoud&#x2F;boltons</span><br><span class="line"></span><br><span class="line">python爬虫系统</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;binux&#x2F;pyspider</span><br><span class="line"></span><br><span class="line">ctf向 python工具包</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;P1kachu&#x2F;v0lt</span><br></pre></td></tr></table></figure>
+
+<h2 id="科学上网"><a href="#科学上网" class="headerlink" title="科学上网"></a>科学上网</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">科学上网工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;XX-net&#x2F;XX-Net</span><br></pre></td></tr></table></figure>
+
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">各种安全相关思维导图整理收集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;phith0n&#x2F;Mind-Map</span><br><span class="line"></span><br><span class="line">微信自动抢红包动态库</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;east520&#x2F;AutoGetRedEnv</span><br><span class="line"></span><br><span class="line">微信抢红包插件（安卓版）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;geeeeeeeeek&#x2F;WeChatLuckyMoney</span><br><span class="line"></span><br><span class="line">神器</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;yangyangwithgnu&#x2F;hardseed</span><br></pre></td></tr></table></figure>
+
+<p>本文收集自网络。</p>
+]]></content>
       <categories>
-        <category>L</category>
-        <category>软件共享</category>
+        <category>技术共享</category>
       </categories>
       <tags>
-        <tag>软件共享</tag>
-        <tag>格式工厂绿色免安装版</tag>
+        <tag>漏洞练习平台</tag>
+        <tag>渗透漏洞练习平台</tag>
       </tags>
   </entry>
   <entry>
@@ -764,6 +926,27 @@ Deny from all
       </tags>
   </entry>
   <entry>
+    <title>-moz、-ms等css前缀各是什么意思</title>
+    <url>/liulanqiqz.html</url>
+    <content><![CDATA[<p>-moz、-ms、-webkit、-o、-khtml这几个css前缀各是什么意思。由于各浏览器版本不断更新，内核数量不一样，详细信息可以自行百度浏览器内核信息。</p>
+<h2 id="moz-前缀"><a href="#moz-前缀" class="headerlink" title="-moz-前缀"></a>-moz-前缀</h2><p>css前缀为”-moz-“对应的是使用Gecko内核的浏览器，比如火狐浏览器</p>
+<a id="more"></a>
+<h2 id="ms-前缀"><a href="#ms-前缀" class="headerlink" title="-ms-前缀"></a>-ms-前缀</h2><p>css前缀为”-ms-“对应的是使用Trident内核的浏览器，比如 IE、UC浏览器、360极速浏览器、猎豹安全浏览器、傲游浏览器、百度浏览器、世界之窗浏览器、搜狗高速浏览器等</p>
+<h2 id="webkit-前缀"><a href="#webkit-前缀" class="headerlink" title="-webkit-前缀"></a>-webkit-前缀</h2><p>css前缀为”-webkit-“对应的是使用WebKit内核的浏览器，比如苹果、360极速浏览器、搜狗高速浏览器3、世界之窗极速版、猎豹浏览器、QQ浏览器等</p>
+<h2 id="o-前缀"><a href="#o-前缀" class="headerlink" title="-o-前缀"></a>-o-前缀</h2><p>css前缀为”-o-“对应的是使用Presto内核的浏览器，比如Opera(欧朋)、NDSBrowser等</p>
+<h2 id="khtml-前缀"><a href="#khtml-前缀" class="headerlink" title="-khtml-前缀"></a>-khtml-前缀</h2><p>css前缀为”-khtml-“对应的是使用Trident内核的浏览器，苹果浏览器之前的版本就是使用Trident内核，后来才改为使用WebKit内核。</p>
+]]></content>
+      <categories>
+        <category>css</category>
+      </categories>
+      <tags>
+        <tag>浏览器前缀</tag>
+        <tag>浏览器css前缀</tag>
+        <tag>浏览器css前缀都有什么</tag>
+        <tag>各css前缀都代表什么浏览器</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>无需安装客户端下载酷我音乐歌曲（酷我音乐真实地址解析方法）</title>
     <url>/kwzsdz.html</url>
     <content><![CDATA[<h2 id="无需安装客户端下载酷我音乐中的歌曲"><a href="#无需安装客户端下载酷我音乐中的歌曲" class="headerlink" title="无需安装客户端下载酷我音乐中的歌曲"></a>无需安装客户端下载酷我音乐中的歌曲</h2><p>遇到喜欢的歌曲，但是又不想用客户端下载这首歌，应该怎么办呢？</p>
@@ -804,156 +987,6 @@ Deny from all
       <tags>
         <tag>酷我音乐真实地址</tag>
         <tag>免安装客户端下载酷我中的音乐</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo如何迁移到另一台电脑进行写作</title>
-    <url>/hexoghdn.html</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>因为只能固定在一台电脑上进行写文章有点麻烦，所以研究了一下Hexo如何迁移到另一台电脑。</p>
-<p>网上有很多更换电脑写作的教程，但是不是很实用，网友给出的办法是把Hexo主要文件都存在Github，更换电脑以后再安装环境、下载Hexo主要文件、安装插件、发布文章。但是我还是感觉太麻烦了。我个人建议是按照本文的方法把Hexo放在虚拟机里，这样就可以用U盘什么的随身携到，只要有电脑，安装一个虚拟机，不需要繁琐步骤，走到哪写到哪。</p>
-<a id="more"></a>
-<h2 id="备份文件"><a href="#备份文件" class="headerlink" title="备份文件"></a>备份文件</h2><p>如果要迁移到另一台电脑或虚拟机中，首先把Hexo中的重要文件复制出来。</p>
-<p>以下是必须备份的文件夹和文件：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">scaffolds            文章模版                           必须备份</span><br><span class="line">source               博客文章                           必须备份</span><br><span class="line">themes               主题                              必须备份</span><br><span class="line">.gitignore           限定在push时那些文件可以忽略         必须备份</span><br><span class="line">_config.yml          站点配置文件                       必须备份</span><br><span class="line">package.json         安装包的名称                       必须备份</span><br><span class="line"></span><br><span class="line">.ssh                 密钥文件                          必须备份</span><br></pre></td></tr></table></figure>
-<p>ssh密钥不在Hexo目录中，ssh密钥目录及生成方法详见本站第一篇文章中的<strong>创建GitHub仓库</strong>部分。</p>
-<p>上面的文件可以复制到优盘里或者干脆打包上传到网盘。</p>
-<h2 id="搭建环境"><a href="#搭建环境" class="headerlink" title="搭建环境"></a>搭建环境</h2><p>在虚拟机或新电脑中搭建环境，和当初建立博客流程基本一样，安装Node.js和Git。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Node.js官网：http:&#x2F;&#x2F;nodejs.org&#x2F;en&#x2F;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Git官网：http:&#x2F;&#x2F;git-scm.com&#x2F;</span><br></pre></td></tr></table></figure>
-<p>下载好安装包只要一直下一步就可以，这里不详细说了。<br>安装好安装Node.js和Git后，看一下有没有在path中自动添加npm环境变量。<br>如果没有就添加Path环境变量，使npm命令生效。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">;C:\Program Files\nodejs\node_modules\npm</span><br><span class="line">把这段添加到Path环境变量中</span><br></pre></td></tr></table></figure>
-
-<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>在任意盘中单击右键选择Git Bash Here打开终端，输入以下两条命令进行安装Hexo：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br><span class="line">npm install hexo --save</span><br></pre></td></tr></table></figure>
-
-<p>然后在任意本地磁盘根目录新建博客文件夹，名字随意。<br>在刚才创建的文件夹中单击右键选择Git Bash Here打开终端执行以下命令：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
-<p>现在博客的基础已经搭建好了。</p>
-<h2 id="迁移"><a href="#迁移" class="headerlink" title="迁移"></a>迁移</h2><p>把刚才备份的文件移动到新电脑的博客文件夹，替换文件。</p>
-<p>密钥文件也要放到正确位置。</p>
-<p>然后在博客根目录右键选择Git Bash Here按照以前的方法重新安装一遍所需要的Hexo插件。</p>
-<p>这里就不需要详细说了。</p>
-<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>在博客根目录单击右键选择Git Bash Here打开终端运行以下命令配置Git：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config –global user.email “邮箱”</span><br><span class="line">git config –global user.name “用户名” </span><br></pre></td></tr></table></figure>
-<p>邮箱和用户名就是你注册Github时设置的邮箱和用户名</p>
-<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>到此为止博客就已经迁移完成了，</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">生成新的public文件夹 </span><br><span class="line">hexo g</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">开始上传hexo博客 </span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<p>我个人还是建议将博客迁移到虚拟机中，然后随时备份虚拟机文件。</p>
-<p>本人的最终解决办法是，利用WTG制作了随身系统盘，用于博客的稳定后台，随用随插。</p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo如何更换电脑</tag>
-        <tag>Hexo如何备份</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>让Hexo对指定文件或文件夹不进行渲染处理</title>
-    <url>/hexojzxr.html</url>
-    <content><![CDATA[<p>Hexo会将source目录下的所有.md文件和.html文件都进行渲染，这样就导致了我们没办法在博客中加入自定义页面或一些不想被渲染的页面。比如README.md文件、谷歌和百度的验证文件等。</p>
-<p>其实这个问题很简单，只需要修改站点配置文件_config.yml中的skip_render即可。但是修改了站点配置文件后，要执行以下hexo clean命令，否则修改后的skip_render可能不会生效。</p>
-<h2 id="指定不渲染文件或文件夹所有文件"><a href="#指定不渲染文件或文件夹所有文件" class="headerlink" title="指定不渲染文件或文件夹所有文件"></a>指定不渲染文件或文件夹所有文件</h2><a id="more"></a>
-<p>制定不渲染某个文件只需要更改站点配置文件中的skip_render写为以下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render: README.md</span><br></pre></td></tr></table></figure>
-
-<p>如果要指定不渲染多个文件可以写成下面的格式：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">  - &quot;README.md&quot;</span><br><span class="line">  - &quot;google****.html&quot;</span><br><span class="line">  - &quot;baidu****.html&quot;</span><br></pre></td></tr></table></figure>
-
-<p>如果要指定不渲染某文件夹下所有文件：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">  - &quot;文件夹名&#x2F;*&quot;</span><br><span class="line">或</span><br><span class="line">skip_render:</span><br><span class="line">  - &quot;文件夹名&#x2F;**&quot;</span><br></pre></td></tr></table></figure>
-
-<h2 id="指定不渲染某文件夹下某个格式的文件"><a href="#指定不渲染某文件夹下某个格式的文件" class="headerlink" title="指定不渲染某文件夹下某个格式的文件"></a>指定不渲染某文件夹下某个格式的文件</h2><p>如果是不渲染单个文件夹中的所有html文件就把skip_render写成下面的样子：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render: 文件夹名&#x2F;*.html</span><br></pre></td></tr></table></figure>
-
-<p>如果是多个文件夹多个文件格式可以这样写：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">  - &quot;文件夹1&#x2F;*.html&quot;</span><br><span class="line">  - &quot;文件夹2&#x2F;*.md&quot;</span><br></pre></td></tr></table></figure>
-
-<h2 id="不渲染指定HTML文件"><a href="#不渲染指定HTML文件" class="headerlink" title="不渲染指定HTML文件"></a>不渲染指定HTML文件</h2><p>如果只有一个html文件不需要渲染可以在这个文件的头部加入以下代码：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">layout: false</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<h2 id="混合写法"><a href="#混合写法" class="headerlink" title="混合写法"></a>混合写法</h2><p>比如我想要指定不渲染<strong>README.md文件</strong>、<strong>baidu**</strong>.html文件<strong>、</strong>liyme文件夹下所有文件<strong>、和</strong>liyme9255文件夹下所有html文件**。可以这样写：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">  - &quot;README.md&quot;</span><br><span class="line">  - &quot;baidu****.html&quot;</span><br><span class="line">  - &quot;liyme&#x2F;**&quot;</span><br><span class="line">  - &quot;liyme9255&#x2F;*.html&quot;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>渲染</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>渗透漏洞练习平台整理</title>
-    <url>/ldlxptzl.html</url>
-    <content><![CDATA[<h2 id="漏洞及渗透练习平台"><a href="#漏洞及渗透练习平台" class="headerlink" title="漏洞及渗透练习平台"></a>漏洞及渗透练习平台</h2><p><strong>WebGoat漏洞练习环境</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;github.com&#x2F;WebGoat&#x2F;WebGoat</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;WebGoat&#x2F;WebGoat-Legacy</span><br><span class="line"></span><br><span class="line">Damn Vulnerable Web Application(漏洞练习平台)</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;RandomStorm&#x2F;DVWA</span><br></pre></td></tr></table></figure>
-
-<h2 id="数据库注入练习平台"><a href="#数据库注入练习平台" class="headerlink" title="数据库注入练习平台"></a>数据库注入练习平台</h2><a id="more"></a>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;github.com&#x2F;Audi-1&#x2F;sqli-labs</span><br><span class="line"></span><br><span class="line">用node编写的漏洞练习平台，like OWASP Node Goat</span><br><span class="line">&lt;!-- more --&gt;</span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;cr0hn&#x2F;vulnerable-node</span><br></pre></td></tr></table></figure>
-
-<h2 id="花式扫描器"><a href="#花式扫描器" class="headerlink" title="花式扫描器"></a>花式扫描器</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">端口扫描器Nmap</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;nmap&#x2F;nmap</span><br><span class="line"></span><br><span class="line">本地网络扫描器</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;SkyLined&#x2F;LocalNetworkScanner</span><br><span class="line"></span><br><span class="line">子域名扫描器</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;lijiejie&#x2F;subDomainsBrute</span><br><span class="line"></span><br><span class="line">漏洞路由扫描器</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;jh00nbr&#x2F;Routerhunter-2.0</span><br><span class="line"></span><br><span class="line">迷你批量信息泄漏扫描脚本</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;lijiejie&#x2F;BBScan</span><br><span class="line"></span><br><span class="line">Waf类型检测工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;EnableSecurity&#x2F;wafw00f</span><br></pre></td></tr></table></figure>
-
-<h2 id="信息搜集工具"><a href="#信息搜集工具" class="headerlink" title="信息搜集工具"></a>信息搜集工具</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">社工插件，可查找以email、phone、username的注册的所有网站账号信息</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;n0tr00t&#x2F;Sreg</span><br><span class="line"></span><br><span class="line">Github信息搜集，可实时扫描查询git最新上传有关邮箱账号密码信息</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;sea-god&#x2F;gitscan</span><br><span class="line"></span><br><span class="line">github Repo信息搜集工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;metac0rtex&#x2F;GitHarvester</span><br></pre></td></tr></table></figure>
-
-<h2 id="WEB相关"><a href="#WEB相关" class="headerlink" title="WEB相关"></a>WEB相关</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">webshell大合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;tennc&#x2F;webshell</span><br><span class="line"></span><br><span class="line">渗透以及web攻击脚本</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;brianwrf&#x2F;hackUtils</span><br><span class="line"></span><br><span class="line">web渗透小工具大合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;rootphantomer&#x2F;hack_tools_for_me</span><br><span class="line"></span><br><span class="line">XSS数据接收平台</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;firesunCN&#x2F;BlueLotus_XSSReceiver</span><br><span class="line"></span><br><span class="line">XSS与CSRF工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;evilcos&#x2F;xssor</span><br><span class="line"></span><br><span class="line">Short for command injection exploiter，web向命令注入检测工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;stasinopoulos&#x2F;commix</span><br><span class="line"></span><br><span class="line">数据库注入工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;sqlmapproject&#x2F;sqlmap</span><br><span class="line"></span><br><span class="line">Web代理，通过加载sqlmap api进行sqli实时检测</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;zt2&#x2F;sqli-hunter</span><br><span class="line"></span><br><span class="line">新版中国菜刀</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;Chora10&#x2F;Cknife</span><br><span class="line"></span><br><span class="line">.git泄露利用EXP</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;lijiejie&#x2F;GitHack</span><br><span class="line"></span><br><span class="line">浏览器攻击框架</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;beefproject&#x2F;beef</span><br><span class="line"></span><br><span class="line">自动化绕过WAF脚本</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;khalilbijjou&#x2F;WAFNinja</span><br><span class="line"></span><br><span class="line">http命令行客户端，可以从命令行构造发送各种http请求（类似于Curl）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;jkbrzt&#x2F;httpie</span><br><span class="line"></span><br><span class="line">浏览器调试利器</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;firebug&#x2F;firebug</span><br><span class="line"></span><br><span class="line">一款开源WAF</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;SpiderLabs&#x2F;ModSecurity</span><br></pre></td></tr></table></figure>
-
-<h2 id="Windows域渗透工具类"><a href="#Windows域渗透工具类" class="headerlink" title="Windows域渗透工具类"></a>Windows域渗透工具类</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">windows渗透神器</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;gentilkiwi&#x2F;mimikatz</span><br><span class="line"></span><br><span class="line">Powershell渗透库合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;PowerShellMafia&#x2F;PowerSploit</span><br><span class="line"></span><br><span class="line">Powershell tools合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;clymb3r&#x2F;PowerShell</span><br></pre></td></tr></table></figure>
-
-<h2 id="Fuzz类"><a href="#Fuzz类" class="headerlink" title="Fuzz类"></a>Fuzz类</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Web向Fuzz工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;xmendez&#x2F;wfuzz</span><br><span class="line"></span><br><span class="line">HTTP暴力破解，撞库攻击脚本</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;lijiejie&#x2F;htpwdScan</span><br></pre></td></tr></table></figure>
-
-<h2 id="漏洞利用及攻击框架"><a href="#漏洞利用及攻击框架" class="headerlink" title="漏洞利用及攻击框架"></a>漏洞利用及攻击框架</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">MSF</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;rapid7&#x2F;metasploit-framework</span><br><span class="line"></span><br><span class="line">Poc调用框架，可加载Pocsuite,Tangscan，Beebeeto等</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;erevus-cn&#x2F;pocscan</span><br><span class="line"></span><br><span class="line">Pocsuite</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;knownsec&#x2F;Pocsuite</span><br><span class="line"></span><br><span class="line">Beebeeto</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;n0tr00t&#x2F;Beebeeto-framework</span><br></pre></td></tr></table></figure>
-
-<h2 id="漏洞POC-amp-EXP"><a href="#漏洞POC-amp-EXP" class="headerlink" title="漏洞POC&amp;EXP"></a>漏洞POC&amp;EXP</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ExploitDB官方git版本</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;offensive-security&#x2F;exploit-database</span><br><span class="line"></span><br><span class="line">php漏洞代码分析</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;80vul&#x2F;phpcodz</span><br><span class="line"></span><br><span class="line">Simple test for CVE-2016-2107</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;FiloSottile&#x2F;CVE-2016-2107</span><br><span class="line"></span><br><span class="line">CVE-2015-7547 POC</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;fjserna&#x2F;CVE-2015-7547</span><br><span class="line"></span><br><span class="line">JAVA反序列化POC生成工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;frohoff&#x2F;ysoserial</span><br><span class="line"></span><br><span class="line">JAVA反序列化EXP</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;foxglovesec&#x2F;JavaUnserializeExploits</span><br><span class="line"></span><br><span class="line">Jenkins CommonCollections EXP</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;CaledoniaProject&#x2F;jenkins-cli-exploit</span><br><span class="line"></span><br><span class="line">CVE-2015-2426 EXP (windows内核提权)</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;vlad902&#x2F;hacking-team-windows-kernel-lpe</span><br><span class="line"></span><br><span class="line">use docker to show web attack(php本地文件包含结合phpinfo getshell 以及ssrf结合curl的利用演示)</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;hxer&#x2F;vulnapp</span><br><span class="line"></span><br><span class="line">php7缓存覆写漏洞Demo及相关工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;GoSecure&#x2F;php7-opcache-override</span><br><span class="line"></span><br><span class="line">XcodeGhost木马样本</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;XcodeGhostSource&#x2F;XcodeGhost</span><br><span class="line"></span><br><span class="line">中间人攻击及钓鱼</span><br><span class="line"></span><br><span class="line">中间人攻击框架</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;secretsquirrel&#x2F;the-backdoor-factory</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;secretsquirrel&#x2F;BDFProxy</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;byt3bl33d3r&#x2F;MITMf</span><br><span class="line"></span><br><span class="line">Inject code, jam wifi, and spy on wifi users</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;DanMcInerney&#x2F;LANs.py</span><br><span class="line"></span><br><span class="line">可扩展的中间人代理工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;intrepidusgroup&#x2F;mallory</span><br><span class="line"></span><br><span class="line">wifi钓鱼</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;sophron&#x2F;wifiphisher</span><br></pre></td></tr></table></figure>
-
-<h2 id="密码破解类"><a href="#密码破解类" class="headerlink" title="密码破解类"></a>密码破解类</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">密码破解工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;shinnok&#x2F;johnny</span><br><span class="line"></span><br><span class="line">本地存储的各类密码提取利器</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;AlessandroZ&#x2F;LaZagne</span><br></pre></td></tr></table></figure>
-
-<h2 id="二进制及代码分析工具"><a href="#二进制及代码分析工具" class="headerlink" title="二进制及代码分析工具"></a>二进制及代码分析工具</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">二进制分析工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;devttys0&#x2F;binwalk</span><br><span class="line"></span><br><span class="line">系统扫描器，用于寻找程序和库然后收集他们的依赖关系，链接等信息</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;quarkslab&#x2F;binmap</span><br><span class="line"></span><br><span class="line">rp++ is a full-cpp written tool that aims to find ROP sequences in PE&#x2F;Elf&#x2F;Mach-O (doesn&#39;t support the FAT binaries) x86&#x2F;x64 binaries.</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;0vercl0k&#x2F;rp</span><br><span class="line"></span><br><span class="line">Windows Exploit Development工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;lillypad&#x2F;badger</span><br><span class="line"></span><br><span class="line">二进制静态分析工具（python）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;bdcht&#x2F;amoco</span><br><span class="line"></span><br><span class="line">Python Exploit Development Assistance for GDB</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;longld&#x2F;peda</span><br><span class="line"></span><br><span class="line">对BillGates Linux Botnet系木马活动的监控工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;ValdikSS&#x2F;billgates-botnet-tracker</span><br><span class="line"></span><br><span class="line">木马配置参数提取工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;kevthehermit&#x2F;RATDecoders</span><br><span class="line"></span><br><span class="line">Shellphish编写的二进制分析工具（CTF向）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;angr&#x2F;angr</span><br><span class="line"></span><br><span class="line">针对python的静态代码分析工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;yinwang0&#x2F;pysonar2</span><br><span class="line"></span><br><span class="line">一个自动化的脚本（shell）分析工具，用来给出警告和建议</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;koalaman&#x2F;shellcheck</span><br><span class="line"></span><br><span class="line">基于AST变换的简易Javascript反混淆辅助工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;ChiChou&#x2F;etacsufbo</span><br></pre></td></tr></table></figure>
-
-<h2 id="EXP编写框架及工具"><a href="#EXP编写框架及工具" class="headerlink" title="EXP编写框架及工具"></a>EXP编写框架及工具</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">二进制EXP编写工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;t00sh&#x2F;rop-tool</span><br><span class="line"></span><br><span class="line">CTF Pwn 类题目脚本编写框架</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;Gallopsled&#x2F;pwntools</span><br><span class="line"></span><br><span class="line">an easy-to-use io library for pwning development</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;zTrix&#x2F;zio</span><br><span class="line"></span><br><span class="line">跨平台注入工具（ Inject JavaScript to explore native apps on Windows, Mac, Linux, iOS and Android.）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;frida&#x2F;frida</span><br></pre></td></tr></table></figure>
-
-<h2 id="隐写"><a href="#隐写" class="headerlink" title="隐写"></a>隐写</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">隐写检测工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;abeluck&#x2F;stegdetect</span><br></pre></td></tr></table></figure>
-
-<h2 id="各类安全资料"><a href="#各类安全资料" class="headerlink" title="各类安全资料"></a>各类安全资料</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">域渗透教程</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;l3m0n&#x2F;pentest_study</span><br><span class="line"></span><br><span class="line">python security教程（原文链接http:&#x2F;&#x2F;www.primalsecurity.net&#x2F;tutorials&#x2F;python-tutorials&#x2F;）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;smartFlash&#x2F;pySecurity</span><br><span class="line"></span><br><span class="line">data_hacking合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;ClickSecurity&#x2F;data_hacking</span><br><span class="line"></span><br><span class="line">mobile-security-wiki</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;exploitprotocol&#x2F;mobile-security-wiki</span><br><span class="line"></span><br><span class="line">书籍《reverse-engineering-for-beginners》</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;veficos&#x2F;reverse-engineering-for-beginners</span><br><span class="line"></span><br><span class="line">一些信息安全标准及设备配置</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;luyg24&#x2F;IT_security</span><br><span class="line"></span><br><span class="line">APT相关笔记</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;kbandla&#x2F;APTnotes</span><br><span class="line"></span><br><span class="line">Kcon资料</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;knownsec&#x2F;KCon</span><br><span class="line"></span><br><span class="line">ctf及黑客资源合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;bt3gl&#x2F;My-Gray-Hacker-Resources</span><br><span class="line"></span><br><span class="line">ctf和安全工具大合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;zardus&#x2F;ctf-tools</span><br><span class="line"></span><br><span class="line">《DO NOT FUCK WITH A HACKER》</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;citypw&#x2F;DNFWAH</span><br><span class="line"></span><br><span class="line">各类CTF资源</span><br><span class="line"></span><br><span class="line">近年ctf writeup大全</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;ctfs&#x2F;write-ups-2016</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;ctfs&#x2F;write-ups-2015</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;ctfs&#x2F;write-ups-2014</span><br><span class="line"></span><br><span class="line">fbctf竞赛平台Demo</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;facebook&#x2F;fbctf</span><br><span class="line"></span><br><span class="line">ctf Resources</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;ctfs&#x2F;resources</span><br></pre></td></tr></table></figure>
-
-<h2 id="各类编程资源"><a href="#各类编程资源" class="headerlink" title="各类编程资源"></a>各类编程资源</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">大礼包（什么都有）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;bayandin&#x2F;awesome-awesomeness</span><br><span class="line"></span><br><span class="line">bash-handbook</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;denysdovhan&#x2F;bash-handbook</span><br><span class="line"></span><br><span class="line">python资源大全</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;jobbole&#x2F;awesome-python-cn</span><br><span class="line"></span><br><span class="line">git学习资料</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;xirong&#x2F;my-git</span><br><span class="line"></span><br><span class="line">安卓开源代码解析</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;android-cn&#x2F;android-open-project-analysis</span><br><span class="line"></span><br><span class="line">python框架，库，资源大合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;vinta&#x2F;awesome-python</span><br><span class="line"></span><br><span class="line">JS 正则表达式库（用于简化构造复杂的JS正则表达式）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;VerbalExpressions&#x2F;JSVerbalExpressions</span><br></pre></td></tr></table></figure>
-
-<h2 id="Python类"><a href="#Python类" class="headerlink" title="Python类"></a>Python类</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">python 正则表达式库（用于简化构造复杂的python正则表达式）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;VerbalExpressions&#x2F;PythonVerbalExpressions</span><br><span class="line"></span><br><span class="line">python任务管理以及命令执行库</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;pyinvoke&#x2F;invoke</span><br><span class="line"></span><br><span class="line">python exe打包库</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;pyinstaller&#x2F;pyinstaller</span><br><span class="line"></span><br><span class="line">py3 爬虫框架</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;orf&#x2F;cyborg</span><br><span class="line"></span><br><span class="line">一个提供底层接口数据包编程和网络协议支持的python库</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;CoreSecurity&#x2F;impacket</span><br><span class="line"></span><br><span class="line">python requests 库</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;kennethreitz&#x2F;requests</span><br><span class="line"></span><br><span class="line">python 实用工具合集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;mahmoud&#x2F;boltons</span><br><span class="line"></span><br><span class="line">python爬虫系统</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;binux&#x2F;pyspider</span><br><span class="line"></span><br><span class="line">ctf向 python工具包</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;P1kachu&#x2F;v0lt</span><br></pre></td></tr></table></figure>
-
-<h2 id="科学上网"><a href="#科学上网" class="headerlink" title="科学上网"></a>科学上网</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">科学上网工具</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;XX-net&#x2F;XX-Net</span><br></pre></td></tr></table></figure>
-
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">各种安全相关思维导图整理收集</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;phith0n&#x2F;Mind-Map</span><br><span class="line"></span><br><span class="line">微信自动抢红包动态库</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;east520&#x2F;AutoGetRedEnv</span><br><span class="line"></span><br><span class="line">微信抢红包插件（安卓版）</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;geeeeeeeeek&#x2F;WeChatLuckyMoney</span><br><span class="line"></span><br><span class="line">神器</span><br><span class="line"></span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;yangyangwithgnu&#x2F;hardseed</span><br></pre></td></tr></table></figure>
-
-<p>本文收集自网络。</p>
-]]></content>
-      <categories>
-        <category>技术共享</category>
-      </categories>
-      <tags>
-        <tag>漏洞练习平台</tag>
-        <tag>渗透漏洞练习平台</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>-moz、-ms等css前缀各是什么意思</title>
-    <url>/liulanqiqz.html</url>
-    <content><![CDATA[<p>-moz、-ms、-webkit、-o、-khtml这几个css前缀各是什么意思。由于各浏览器版本不断更新，内核数量不一样，详细信息可以自行百度浏览器内核信息。</p>
-<h2 id="moz-前缀"><a href="#moz-前缀" class="headerlink" title="-moz-前缀"></a>-moz-前缀</h2><p>css前缀为”-moz-“对应的是使用Gecko内核的浏览器，比如火狐浏览器</p>
-<a id="more"></a>
-<h2 id="ms-前缀"><a href="#ms-前缀" class="headerlink" title="-ms-前缀"></a>-ms-前缀</h2><p>css前缀为”-ms-“对应的是使用Trident内核的浏览器，比如 IE、UC浏览器、360极速浏览器、猎豹安全浏览器、傲游浏览器、百度浏览器、世界之窗浏览器、搜狗高速浏览器等</p>
-<h2 id="webkit-前缀"><a href="#webkit-前缀" class="headerlink" title="-webkit-前缀"></a>-webkit-前缀</h2><p>css前缀为”-webkit-“对应的是使用WebKit内核的浏览器，比如苹果、360极速浏览器、搜狗高速浏览器3、世界之窗极速版、猎豹浏览器、QQ浏览器等</p>
-<h2 id="o-前缀"><a href="#o-前缀" class="headerlink" title="-o-前缀"></a>-o-前缀</h2><p>css前缀为”-o-“对应的是使用Presto内核的浏览器，比如Opera(欧朋)、NDSBrowser等</p>
-<h2 id="khtml-前缀"><a href="#khtml-前缀" class="headerlink" title="-khtml-前缀"></a>-khtml-前缀</h2><p>css前缀为”-khtml-“对应的是使用Trident内核的浏览器，苹果浏览器之前的版本就是使用Trident内核，后来才改为使用WebKit内核。</p>
-]]></content>
-      <categories>
-        <category>css</category>
-      </categories>
-      <tags>
-        <tag>浏览器前缀</tag>
-        <tag>浏览器css前缀</tag>
-        <tag>浏览器css前缀都有什么</tag>
-        <tag>各css前缀都代表什么浏览器</tag>
       </tags>
   </entry>
   <entry>
@@ -1001,62 +1034,6 @@ Deny from all
       <tags>
         <tag>浏览器插件</tag>
         <tag>下载在线音乐视频</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>可以下载网页媒体的浏览器插件FVD Downloader</title>
-    <url>/llqxzcj.html</url>
-    <content><![CDATA[<h2 id="可以下载在线视频和音乐的浏览器插件"><a href="#可以下载在线视频和音乐的浏览器插件" class="headerlink" title="可以下载在线视频和音乐的浏览器插件"></a>可以下载在线视频和音乐的浏览器插件</h2><p>推荐给大家一个很方便的音乐视频下载插件，360浏览器就可以使用，播放音乐或视频的时候插件会自动扫描地址进行下载。可以下载绝大多数网站的音乐和视频。</p>
-<p>官方介绍：</p>
-<blockquote>
-<p>它可以下载MP3或Flash游戏、下载音乐、高清下载、下载视频等，让您获取网页媒体更快捷，现新增对视频网站的解析，包括优酷、土豆等84家视频网站。</p>
-</blockquote>
-<a id="more"></a>
-<h2 id="安装和使用FVD-Downloader插件"><a href="#安装和使用FVD-Downloader插件" class="headerlink" title="安装和使用FVD Downloader插件"></a>安装和使用FVD Downloader插件</h2><p>360浏览器安装插件很简单，只需要打开360浏览器，右上角管理，添加插件，搜索<strong>FVD Downloader</strong>安装即可。如下图。</p>
-<p><img src="/images/llqxzcj3.png" alt="FVD Downloader"></p>
-<p>安装以后工具栏就会增加一个灰色的下载箭头。如下图。</p>
-<p><img src="/images/llqxzcj2.png" alt="FVD Downloader"></p>
-<p>再播放视频或音乐的页面扫描到文件地址箭头会变成蓝色，点击工具栏的蓝色下载箭头，就可以看到当前网页的所有媒体文件，点击按钮即可下载文件。</p>
-<p>附上一张图：</p>
-<p><img src="/images/llqxzcj.png" alt="FVD Downloader"></p>
-<p>下载以后先听一下是不是自己要下载的歌曲或视频，因为通常网页中媒体文件不止一个。</p>
-<p>网页中的媒体文件一般会用一串字符当名字所以下载后自行重命名。</p>
-]]></content>
-      <categories>
-        <category>L</category>
-        <category>浏览器插件</category>
-      </categories>
-      <tags>
-        <tag>浏览器插件</tag>
-        <tag>下载在线音乐视频</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Github和Coding互相配合以达到301重定向功能</title>
-    <url>/lygcdx.html</url>
-    <content><![CDATA[<h2 id="利用Github的301重定向"><a href="#利用Github的301重定向" class="headerlink" title="利用Github的301重定向"></a>利用Github的301重定向</h2><p>大家都知道，Coding是不支持301重定向的，使用自定义域名中的跳转至首选域名的功能只能达到302跳转的功能。</p>
-<p>然而Github是支持301重定向的，那么我们可以换一种思路对域名进行301重定向。</p>
-<a id="more"></a>
-<p>我的博客是在Github和Coding同时部署的，在域名中设置国内IP访问Coding国外IP访问Github。</p>
-<p>我的主域名是www开头的二级域名，一开始只用Github时是可以将一级域名重定向到www域名的。</p>
-<p>在绑定了Coding后我把www域名和一级域名都指向到了Coding，然后使用Coding提供的跳转至首选域名的功能。</p>
-<p>因为经常有黑帽SEO利用302跳转功能，所以搜索引擎对302并不是很友好。</p>
-<p>然后我突发奇想，如果只设置一个一级域名指向到Github，然后设置两个www域名解析，一个指向Github，一个指向Coding。这样是不是就可以利用Github的301重定向进行跳转。</p>
-<p>测试以后确实有效，访问ly554.com时，Github会重定向到<span class="exturl" data-url="aHR0cDovL3d3dy5seTU1NC5jb20s6ICM5LmL5YmN6K6+572u5LqG5Lit5Zu9aXDliJnmjIflkJHliLBjb2Rpbmcs5omA5Lul6YeN5a6a5ZCR5ZCO5oiR5Lus6K6/6Zeu5LqG5omY566h5ZyoY29kaW5n55qE5Y2a5a6iLi8=">www.ly554.com，而之前设置了中国IP则指向到Coding，所以重定向后我们访问了托管在Coding的博客。<i class="fa fa-external-link-alt"></i></span></p>
-<p>成功。看一下我的域名解析列表应该就很容易看懂了。</p>
-<p>在下面附上我的域名解析列表：</p>
-<p><img src="/images/lygcdx.png" alt="Github和Coding互相配合以达到301重定向功能"></p>
-<h2 id="Coding申请-SSL-TLS-证书时需要注意"><a href="#Coding申请-SSL-TLS-证书时需要注意" class="headerlink" title="Coding申请 SSL/TLS 证书时需要注意"></a>Coding申请 SSL/TLS 证书时需要注意</h2><p>Coding的 SSL/TLS 证书每次申请只能使用90天</p>
-<p>申请 SSL/TLS 证书时，要将指向Coding的www域名的线路类型从国内改为默认，然后把指向到Github的www域名关掉，就可以成功申请了。</p>
-<p>因为Coding申请 SSL/TLS 证书需要通过 Let’s Encrypt 的 HTTP 方式验证域名所有权。因为 Let’s Encrypt是国外网络，如果不更改域名设置，验证域名所有权时不能正确指向到Coding而是指向到Github，所以就会导致申请失败。</p>
-]]></content>
-      <categories>
-        <category>博客</category>
-        <category>优化</category>
-      </categories>
-      <tags>
-        <tag>301重定向</tag>
-        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -1116,6 +1093,108 @@ Deny from all
       </tags>
   </entry>
   <entry>
+    <title>可以下载网页媒体的浏览器插件FVD Downloader</title>
+    <url>/llqxzcj.html</url>
+    <content><![CDATA[<h2 id="可以下载在线视频和音乐的浏览器插件"><a href="#可以下载在线视频和音乐的浏览器插件" class="headerlink" title="可以下载在线视频和音乐的浏览器插件"></a>可以下载在线视频和音乐的浏览器插件</h2><p>推荐给大家一个很方便的音乐视频下载插件，360浏览器就可以使用，播放音乐或视频的时候插件会自动扫描地址进行下载。可以下载绝大多数网站的音乐和视频。</p>
+<p>官方介绍：</p>
+<blockquote>
+<p>它可以下载MP3或Flash游戏、下载音乐、高清下载、下载视频等，让您获取网页媒体更快捷，现新增对视频网站的解析，包括优酷、土豆等84家视频网站。</p>
+</blockquote>
+<a id="more"></a>
+<h2 id="安装和使用FVD-Downloader插件"><a href="#安装和使用FVD-Downloader插件" class="headerlink" title="安装和使用FVD Downloader插件"></a>安装和使用FVD Downloader插件</h2><p>360浏览器安装插件很简单，只需要打开360浏览器，右上角管理，添加插件，搜索<strong>FVD Downloader</strong>安装即可。如下图。</p>
+<p><img src="/images/llqxzcj3.png" alt="FVD Downloader"></p>
+<p>安装以后工具栏就会增加一个灰色的下载箭头。如下图。</p>
+<p><img src="/images/llqxzcj2.png" alt="FVD Downloader"></p>
+<p>再播放视频或音乐的页面扫描到文件地址箭头会变成蓝色，点击工具栏的蓝色下载箭头，就可以看到当前网页的所有媒体文件，点击按钮即可下载文件。</p>
+<p>附上一张图：</p>
+<p><img src="/images/llqxzcj.png" alt="FVD Downloader"></p>
+<p>下载以后先听一下是不是自己要下载的歌曲或视频，因为通常网页中媒体文件不止一个。</p>
+<p>网页中的媒体文件一般会用一串字符当名字所以下载后自行重命名。</p>
+]]></content>
+      <categories>
+        <category>L</category>
+        <category>浏览器插件</category>
+      </categories>
+      <tags>
+        <tag>浏览器插件</tag>
+        <tag>下载在线音乐视频</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Github和Coding互相配合以达到301重定向功能</title>
+    <url>/lygcdx.html</url>
+    <content><![CDATA[<h2 id="利用Github的301重定向"><a href="#利用Github的301重定向" class="headerlink" title="利用Github的301重定向"></a>利用Github的301重定向</h2><p>大家都知道，Coding是不支持301重定向的，使用自定义域名中的跳转至首选域名的功能只能达到302跳转的功能。</p>
+<p>然而Github是支持301重定向的，那么我们可以换一种思路对域名进行301重定向。</p>
+<a id="more"></a>
+<p>我的博客是在Github和Coding同时部署的，在域名中设置国内IP访问Coding国外IP访问Github。</p>
+<p>我的主域名是www开头的二级域名，一开始只用Github时是可以将一级域名重定向到www域名的。</p>
+<p>在绑定了Coding后我把www域名和一级域名都指向到了Coding，然后使用Coding提供的跳转至首选域名的功能。</p>
+<p>因为经常有黑帽SEO利用302跳转功能，所以搜索引擎对302并不是很友好。</p>
+<p>然后我突发奇想，如果只设置一个一级域名指向到Github，然后设置两个www域名解析，一个指向Github，一个指向Coding。这样是不是就可以利用Github的301重定向进行跳转。</p>
+<p>测试以后确实有效，访问ly554.com时，Github会重定向到<span class="exturl" data-url="aHR0cDovL3d3dy5seTU1NC5jb20s6ICM5LmL5YmN6K6+572u5LqG5Lit5Zu9aXDliJnmjIflkJHliLBjb2Rpbmcs5omA5Lul6YeN5a6a5ZCR5ZCO5oiR5Lus6K6/6Zeu5LqG5omY566h5ZyoY29kaW5n55qE5Y2a5a6iLi8=">www.ly554.com，而之前设置了中国IP则指向到Coding，所以重定向后我们访问了托管在Coding的博客。<i class="fa fa-external-link-alt"></i></span></p>
+<p>成功。看一下我的域名解析列表应该就很容易看懂了。</p>
+<p>在下面附上我的域名解析列表：</p>
+<p><img src="/images/lygcdx.png" alt="Github和Coding互相配合以达到301重定向功能"></p>
+<h2 id="Coding申请-SSL-TLS-证书时需要注意"><a href="#Coding申请-SSL-TLS-证书时需要注意" class="headerlink" title="Coding申请 SSL/TLS 证书时需要注意"></a>Coding申请 SSL/TLS 证书时需要注意</h2><p>Coding的 SSL/TLS 证书每次申请只能使用90天</p>
+<p>申请 SSL/TLS 证书时，要将指向Coding的www域名的线路类型从国内改为默认，然后把指向到Github的www域名关掉，就可以成功申请了。</p>
+<p>因为Coding申请 SSL/TLS 证书需要通过 Let’s Encrypt 的 HTTP 方式验证域名所有权。因为 Let’s Encrypt是国外网络，如果不更改域名设置，验证域名所有权时不能正确指向到Coding而是指向到Github，所以就会导致申请失败。</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+        <category>优化</category>
+      </categories>
+      <tags>
+        <tag>301重定向</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>M3U8下载工具</title>
+    <url>/muxzgj.html</url>
+    <content><![CDATA[<h2 id="M3U8-TS格式"><a href="#M3U8-TS格式" class="headerlink" title="M3U8 TS格式"></a>M3U8 TS格式</h2><p>M3U8格式是一种基于HTTP Live Streaming文件视频格式，它主要是存放整个视频的基本信息和分片(Segment)组成。通常分片的格式为TS。</p>
+<h2 id="M3U8下载工具"><a href="#M3U8下载工具" class="headerlink" title="M3U8下载工具"></a>M3U8下载工具</h2><p>最近遇到了一款基于FFmpeg的开发M3U8下载工具，非常实用并且包含很多实用功能。</p>
+<a id="more"></a>
+<p><img src="/images/muxzgj.png" alt="M3U8下载工具"></p>
+<p>Ps：图中的M3U8地址是个福利，自己试（坏笑）。</p>
+<p>安装过程很简单，将压缩包解压后运行文件夹中的<strong>M3U8 Downloader 0.1.1 Setup.exe</strong>即可进行安装。</p>
+<p>打开安装好的<strong>M3U8 Downloader</strong>将M3U8地址粘贴进去或将M3U8文件拖拽到<strong>输入M3U8地址处</strong>，设置好<strong>下载路径</strong>，选择下载后<strong>保存的格式（FLV,MP4,MKV,TS）</strong>，点击下载即可自动下载M3U8视频。并且会自动转码、合并为一个文件。</p>
+<p>此软件支持下载含有key文件的m3u8视频。下载方式相同。</p>
+<h2 id="TS文件转码"><a href="#TS文件转码" class="headerlink" title="TS文件转码"></a>TS文件转码</h2><p>这款软件还支持对TS文件进行转码，只需要把下载好的TS文件拖拽到<strong>输入M3U8地址处</strong>，选择<strong>文件格式（FLV,MP4,MKV,TS）</strong>、<strong>下载路径</strong>，点击下载即可将TS文件转换为所选择的格式。</p>
+<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><p>M3U8下载工具</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1ui7yGORGhhGu4XN7zBuSXw</span><br><span class="line">密码：09oh</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>软件共享</category>
+      </categories>
+      <tags>
+        <tag>M3U8下载</tag>
+        <tag>TS转MP4</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用Markdown标记语言时遇到的一个坑</title>
+    <url>/markdown-keng.html</url>
+    <content><![CDATA[<h2 id="Markdown标题-符没有效果"><a href="#Markdown标题-符没有效果" class="headerlink" title="Markdown标题#符没有效果"></a>Markdown标题#符没有效果</h2><p>今天使用markdown写文章的时候遇到一个问题</p>
+<p>使用标题符号#没有效果</p>
+<p>使用编辑器写出来就有效果</p>
+<p>发布到博客中却没有标题效果直接显示#</p>
+<a id="more"></a>
+<p>最后得出结论</p>
+<p>#后面要加空格</p>
+<p>！！！</p>
+<p>我真的是</p>
+<p>可能是傻掉了吧</p>
+<h2 id="标题-号后面要加空格才会生效"><a href="#标题-号后面要加空格才会生效" class="headerlink" title="标题#号后面要加空格才会生效"></a>标题#号后面要加空格才会生效</h2><h2 id="标题-号后面要加空格才会生效-1"><a href="#标题-号后面要加空格才会生效-1" class="headerlink" title="标题#号后面要加空格才会生效"></a>标题#号后面要加空格才会生效</h2><h2 id="标题-号后面要加空格才会生效-2"><a href="#标题-号后面要加空格才会生效-2" class="headerlink" title="标题#号后面要加空格才会生效"></a>标题#号后面要加空格才会生效</h2><h2 id="标题-号后面要加空格才会生效-3"><a href="#标题-号后面要加空格才会生效-3" class="headerlink" title="标题#号后面要加空格才会生效"></a>标题#号后面要加空格才会生效</h2><h2 id="重要的事情说4遍！！！"><a href="#重要的事情说4遍！！！" class="headerlink" title="重要的事情说4遍！！！"></a>重要的事情说4遍！！！</h2>]]></content>
+      <categories>
+        <category>Markdown</category>
+      </categories>
+      <tags>
+        <tag>无法解析标题#</tag>
+        <tag>markdown使用标题#无效</tag>
+        <tag>markdown</tag>
+        <tag>标题#无效</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo Next 增加百度自动推送</title>
     <url>/nextbdts.html</url>
     <content><![CDATA[<h2 id="Next增加百度自动推送功能"><a href="#Next增加百度自动推送功能" class="headerlink" title="Next增加百度自动推送功能"></a>Next增加百度自动推送功能</h2><p>百度官方介绍：</p>
@@ -1146,28 +1225,6 @@ Deny from all
       <tags>
         <tag>SEO</tag>
         <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>M3U8下载工具</title>
-    <url>/muxzgj.html</url>
-    <content><![CDATA[<h2 id="M3U8-TS格式"><a href="#M3U8-TS格式" class="headerlink" title="M3U8 TS格式"></a>M3U8 TS格式</h2><p>M3U8格式是一种基于HTTP Live Streaming文件视频格式，它主要是存放整个视频的基本信息和分片(Segment)组成。通常分片的格式为TS。</p>
-<h2 id="M3U8下载工具"><a href="#M3U8下载工具" class="headerlink" title="M3U8下载工具"></a>M3U8下载工具</h2><p>最近遇到了一款基于FFmpeg的开发M3U8下载工具，非常实用并且包含很多实用功能。</p>
-<a id="more"></a>
-<p><img src="/images/muxzgj.png" alt="M3U8下载工具"></p>
-<p>Ps：图中的M3U8地址是个福利，自己试（坏笑）。</p>
-<p>安装过程很简单，将压缩包解压后运行文件夹中的<strong>M3U8 Downloader 0.1.1 Setup.exe</strong>即可进行安装。</p>
-<p>打开安装好的<strong>M3U8 Downloader</strong>将M3U8地址粘贴进去或将M3U8文件拖拽到<strong>输入M3U8地址处</strong>，设置好<strong>下载路径</strong>，选择下载后<strong>保存的格式（FLV,MP4,MKV,TS）</strong>，点击下载即可自动下载M3U8视频。并且会自动转码、合并为一个文件。</p>
-<p>此软件支持下载含有key文件的m3u8视频。下载方式相同。</p>
-<h2 id="TS文件转码"><a href="#TS文件转码" class="headerlink" title="TS文件转码"></a>TS文件转码</h2><p>这款软件还支持对TS文件进行转码，只需要把下载好的TS文件拖拽到<strong>输入M3U8地址处</strong>，选择<strong>文件格式（FLV,MP4,MKV,TS）</strong>、<strong>下载路径</strong>，点击下载即可将TS文件转换为所选择的格式。</p>
-<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><p>M3U8下载工具</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1ui7yGORGhhGu4XN7zBuSXw</span><br><span class="line">密码：09oh</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>软件共享</category>
-      </categories>
-      <tags>
-        <tag>M3U8下载</tag>
-        <tag>TS转MP4</tag>
       </tags>
   </entry>
   <entry>
@@ -1212,30 +1269,6 @@ Deny from all
       </tags>
   </entry>
   <entry>
-    <title>使用Markdown标记语言时遇到的一个坑</title>
-    <url>/markdown-keng.html</url>
-    <content><![CDATA[<h2 id="Markdown标题-符没有效果"><a href="#Markdown标题-符没有效果" class="headerlink" title="Markdown标题#符没有效果"></a>Markdown标题#符没有效果</h2><p>今天使用markdown写文章的时候遇到一个问题</p>
-<p>使用标题符号#没有效果</p>
-<p>使用编辑器写出来就有效果</p>
-<p>发布到博客中却没有标题效果直接显示#</p>
-<a id="more"></a>
-<p>最后得出结论</p>
-<p>#后面要加空格</p>
-<p>！！！</p>
-<p>我真的是</p>
-<p>可能是傻掉了吧</p>
-<h2 id="标题-号后面要加空格才会生效"><a href="#标题-号后面要加空格才会生效" class="headerlink" title="标题#号后面要加空格才会生效"></a>标题#号后面要加空格才会生效</h2><h2 id="标题-号后面要加空格才会生效-1"><a href="#标题-号后面要加空格才会生效-1" class="headerlink" title="标题#号后面要加空格才会生效"></a>标题#号后面要加空格才会生效</h2><h2 id="标题-号后面要加空格才会生效-2"><a href="#标题-号后面要加空格才会生效-2" class="headerlink" title="标题#号后面要加空格才会生效"></a>标题#号后面要加空格才会生效</h2><h2 id="标题-号后面要加空格才会生效-3"><a href="#标题-号后面要加空格才会生效-3" class="headerlink" title="标题#号后面要加空格才会生效"></a>标题#号后面要加空格才会生效</h2><h2 id="重要的事情说4遍！！！"><a href="#重要的事情说4遍！！！" class="headerlink" title="重要的事情说4遍！！！"></a>重要的事情说4遍！！！</h2>]]></content>
-      <categories>
-        <category>Markdown</category>
-      </categories>
-      <tags>
-        <tag>无法解析标题#</tag>
-        <tag>markdown使用标题#无效</tag>
-        <tag>markdown</tag>
-        <tag>标题#无效</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>NVIDIA显卡更改3D设置时无法应用选定的设置到您的系统</title>
     <url>/nkwfyy.html</url>
     <content><![CDATA[<h2 id="NVIDIA显卡在控制面板管理3D设置选择高性能NVIDIA处理器时提示-拒绝访问-无法应用选定的设置到您的系统。"><a href="#NVIDIA显卡在控制面板管理3D设置选择高性能NVIDIA处理器时提示-拒绝访问-无法应用选定的设置到您的系统。" class="headerlink" title="NVIDIA显卡在控制面板管理3D设置选择高性能NVIDIA处理器时提示:拒绝访问,无法应用选定的设置到您的系统。"></a>NVIDIA显卡在控制面板管理3D设置选择高性能NVIDIA处理器时提示:拒绝访问,无法应用选定的设置到您的系统。</h2><p>今天忽然出现这个问题，在一番百度后，尝试了几个办法，禁用显卡驱动重开、重启电脑等都没效果。</p>
@@ -1254,6 +1287,31 @@ Deny from all
         <tag>N卡无法应用选定的设置到您的系统</tag>
         <tag>3D设置无法应用选定的设置到您的系统</tag>
         <tag>更改高性能提醒无法应用选定的设置到您的系统</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>免杀PHP大马支持菜刀、Xise</title>
+    <url>/phpmsdmy.html</url>
+    <content><![CDATA[<h2 id="免杀PHP大马介绍"><a href="#免杀PHP大马介绍" class="headerlink" title="免杀PHP大马介绍"></a>免杀PHP大马介绍</h2><p>此Shell免杀，可过一切WAF。</p>
+<p>无视安全狗，D盾，护卫神，安骑士，云锁，360等安全软件。</p>
+<p>支持通过菜刀、xise一句话连接。</p>
+<p>资源来源于网络，不确定是否有后门，大家自测。</p>
+<a id="more"></a>
+<h2 id="免杀PHP-WebShell"><a href="#免杀PHP-WebShell" class="headerlink" title="免杀PHP WebShell"></a>免杀PHP WebShell</h2><p><strong>界面截图：</strong></p>
+<p><img src="/images/phpmsdmy.png" alt="免杀PHP大马"></p>
+<p><img src="/images/phpmsdmy2.png" alt="免杀PHP WebShell"></p>
+<h2 id="免杀测试"><a href="#免杀测试" class="headerlink" title="免杀测试"></a>免杀测试</h2><p><img src="/images/phpmsdmy3.png" alt="免杀PHP WebShell测试"></p>
+<p><img src="/images/phpmsdmy4.png" alt="免杀PHP WebShell测试"></p>
+<p><img src="/images/phpmsdmy5.png" alt="免杀PHP WebShell测试"></p>
+<p><img src="/images/phpmsdmy6.png" alt="免杀PHP WebShell测试"></p>
+<h2 id="新增功能"><a href="#新增功能" class="headerlink" title="新增功能"></a>新增功能</h2><p><img src="/images/phpmsdmy7.png" alt="免杀PHP大马新增功能"></p>
+<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1uEd9bcg4ZfFfR-5AvKow2w</span><br><span class="line">密码：31oe</span><br><span class="line">解压密码：ly554.com</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>技术共享</category>
+      </categories>
+      <tags>
+        <tag>免杀PHP大马</tag>
+        <tag>免杀WebShell</tag>
       </tags>
   </entry>
   <entry>
@@ -1296,31 +1354,6 @@ Deny from all
       </tags>
   </entry>
   <entry>
-    <title>免杀PHP大马支持菜刀、Xise</title>
-    <url>/phpmsdmy.html</url>
-    <content><![CDATA[<h2 id="免杀PHP大马介绍"><a href="#免杀PHP大马介绍" class="headerlink" title="免杀PHP大马介绍"></a>免杀PHP大马介绍</h2><p>此Shell免杀，可过一切WAF。</p>
-<p>无视安全狗，D盾，护卫神，安骑士，云锁，360等安全软件。</p>
-<p>支持通过菜刀、xise一句话连接。</p>
-<p>资源来源于网络，不确定是否有后门，大家自测。</p>
-<a id="more"></a>
-<h2 id="免杀PHP-WebShell"><a href="#免杀PHP-WebShell" class="headerlink" title="免杀PHP WebShell"></a>免杀PHP WebShell</h2><p><strong>界面截图：</strong></p>
-<p><img src="/images/phpmsdmy.png" alt="免杀PHP大马"></p>
-<p><img src="/images/phpmsdmy2.png" alt="免杀PHP WebShell"></p>
-<h2 id="免杀测试"><a href="#免杀测试" class="headerlink" title="免杀测试"></a>免杀测试</h2><p><img src="/images/phpmsdmy3.png" alt="免杀PHP WebShell测试"></p>
-<p><img src="/images/phpmsdmy4.png" alt="免杀PHP WebShell测试"></p>
-<p><img src="/images/phpmsdmy5.png" alt="免杀PHP WebShell测试"></p>
-<p><img src="/images/phpmsdmy6.png" alt="免杀PHP WebShell测试"></p>
-<h2 id="新增功能"><a href="#新增功能" class="headerlink" title="新增功能"></a>新增功能</h2><p><img src="/images/phpmsdmy7.png" alt="免杀PHP大马新增功能"></p>
-<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1uEd9bcg4ZfFfR-5AvKow2w</span><br><span class="line">密码：31oe</span><br><span class="line">解压密码：ly554.com</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>技术共享</category>
-      </categories>
-      <tags>
-        <tag>免杀PHP大马</tag>
-        <tag>免杀WebShell</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>使用PsCos更换PS启动界面</title>
     <url>/psgenghuanqd.html</url>
     <content><![CDATA[<p>如何更换Photoshop启动界面的工具使用教程,本软件适用于Adobe Photoshop CC 2015、Adobe Photoshop CC 2017、Adobe Photoshop CC 2018等。所需工具我会上传在网盘放在本文末尾,工具源于网络,感谢无私分享者。</p>
@@ -1340,29 +1373,6 @@ Deny from all
         <tag>更换PS启动界面</tag>
         <tag>怎么更换PS启动界面</tag>
         <tag>PS启动界面更换教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>推荐几个在线图片压缩网站</title>
-    <url>/tpyswz.html</url>
-    <content><![CDATA[<p>网站中包含图片时会因为图片文件较大，导致网站加载变慢，推荐几个我经常用的图片在线压缩网站。</p>
-<h2 id="TinyPNG"><a href="#TinyPNG" class="headerlink" title="TinyPNG"></a>TinyPNG</h2><p>TinyPNG是我最常用的图片压缩网站，不过最近经常出现无法访问的问题，它除了在线版，还有插件版，并且可以一次同时压缩20张图片，压缩以后还可以打包下载。</p>
-<a id="more"></a>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">TinyPNG官网：http:&#x2F;&#x2F;tinypng.com&#x2F;</span><br></pre></td></tr></table></figure>
-
-<h2 id="Optimizilla"><a href="#Optimizilla" class="headerlink" title="Optimizilla"></a>Optimizilla</h2><p>Optimizilla和TinyPNG差不多，同样是一次可以同时压缩20张图片，压缩以后支持打包下载，但是这个网站有个亮点，支持可视化调节压缩程度，并且<strong>支持中文！</strong>，在网页上可以选择语言。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Optimizilla官网：http:&#x2F;&#x2F;optimizilla.com&#x2F;</span><br></pre></td></tr></table></figure>
-
-<h2 id="其他网站"><a href="#其他网站" class="headerlink" title="其他网站"></a>其他网站</h2><p>图片压缩网站还有很多，就不逐一介绍，在下边列出来大家选择使用。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Kraken：https:&#x2F;&#x2F;kraken.io&#x2F;web-interface</span><br><span class="line">Resize Photos：http:&#x2F;&#x2F;www.resize-photos.com&#x2F;</span><br><span class="line">压缩图：http:&#x2F;&#x2F;www.yasuotu.com&#x2F;</span><br><span class="line">图好快：https:&#x2F;&#x2F;www.tuhaokuai.com&#x2F;</span><br><span class="line">色彩笔：http:&#x2F;&#x2F;www.secaibi.com&#x2F;tools&#x2F;</span><br></pre></td></tr></table></figure>
-
-<p>最后再介绍一下关于图片有损和无损的区别：<br>从目前WEB常见的几种格式来看：<br>JPG：(除了纯色、纯渐变等特殊情况)永远有损，无论什么工具。<br>GIF：处理256色以内的图片无损，超过256色则有损。<br>PNG-8：类似GIF。<br>PNG-24/-32：真正的无损。体积也较大。</p>
-]]></content>
-      <categories>
-        <category>图片处理</category>
-      </categories>
-      <tags>
-        <tag>在线图片压缩网站</tag>
       </tags>
   </entry>
   <entry>
@@ -1405,6 +1415,29 @@ Deny from all
         <tag>UV</tag>
         <tag>UU</tag>
         <tag>IP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>推荐几个在线图片压缩网站</title>
+    <url>/tpyswz.html</url>
+    <content><![CDATA[<p>网站中包含图片时会因为图片文件较大，导致网站加载变慢，推荐几个我经常用的图片在线压缩网站。</p>
+<h2 id="TinyPNG"><a href="#TinyPNG" class="headerlink" title="TinyPNG"></a>TinyPNG</h2><p>TinyPNG是我最常用的图片压缩网站，不过最近经常出现无法访问的问题，它除了在线版，还有插件版，并且可以一次同时压缩20张图片，压缩以后还可以打包下载。</p>
+<a id="more"></a>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">TinyPNG官网：http:&#x2F;&#x2F;tinypng.com&#x2F;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Optimizilla"><a href="#Optimizilla" class="headerlink" title="Optimizilla"></a>Optimizilla</h2><p>Optimizilla和TinyPNG差不多，同样是一次可以同时压缩20张图片，压缩以后支持打包下载，但是这个网站有个亮点，支持可视化调节压缩程度，并且<strong>支持中文！</strong>，在网页上可以选择语言。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Optimizilla官网：http:&#x2F;&#x2F;optimizilla.com&#x2F;</span><br></pre></td></tr></table></figure>
+
+<h2 id="其他网站"><a href="#其他网站" class="headerlink" title="其他网站"></a>其他网站</h2><p>图片压缩网站还有很多，就不逐一介绍，在下边列出来大家选择使用。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Kraken：https:&#x2F;&#x2F;kraken.io&#x2F;web-interface</span><br><span class="line">Resize Photos：http:&#x2F;&#x2F;www.resize-photos.com&#x2F;</span><br><span class="line">压缩图：http:&#x2F;&#x2F;www.yasuotu.com&#x2F;</span><br><span class="line">图好快：https:&#x2F;&#x2F;www.tuhaokuai.com&#x2F;</span><br><span class="line">色彩笔：http:&#x2F;&#x2F;www.secaibi.com&#x2F;tools&#x2F;</span><br></pre></td></tr></table></figure>
+
+<p>最后再介绍一下关于图片有损和无损的区别：<br>从目前WEB常见的几种格式来看：<br>JPG：(除了纯色、纯渐变等特殊情况)永远有损，无论什么工具。<br>GIF：处理256色以内的图片无损，超过256色则有损。<br>PNG-8：类似GIF。<br>PNG-24/-32：真正的无损。体积也较大。</p>
+]]></content>
+      <categories>
+        <category>图片处理</category>
+      </categories>
+      <tags>
+        <tag>在线图片压缩网站</tag>
       </tags>
   </entry>
   <entry>
@@ -1474,6 +1507,29 @@ Deny from all
       </tags>
   </entry>
   <entry>
+    <title>解决Windows10自动安装游戏</title>
+    <url>/windowszdxz.html</url>
+    <content><![CDATA[<p>今天在虚拟机装了Windows10官方版系统，进行精简优化以后，忽然发现重启以后会自动把已经卸载了的系统自带游戏重新安装回来。</p>
+<p>比如迪士尼梦幻王国，泡泡魔女传奇什么的，卸载后又会重新安装。</p>
+<p>在网上找了很多解决办法，最终只有更改注册表最简单。</p>
+<p>只需要如下操作：</p>
+<a id="more"></a>
+<p>在任意位置新建文本文档，写入以下内容，并将文本文档重命名为<strong>liyu996.reg</strong>，后缀名是reg不是txt。</p>
+<p>内容：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line"></span><br><span class="line">[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]</span><br><span class="line">&quot;FeatureManagementEnabled&quot;&#x3D;dword:00000000</span><br><span class="line">&quot;OemPreInstalledAppsEnabled&quot;&#x3D;dword:00000000</span><br><span class="line">&quot;PreInstalledAppsEnabled&quot;&#x3D;dword:00000000</span><br><span class="line">&quot;SilentInstalledAppsEnabled&quot;&#x3D;dword:00000000</span><br></pre></td></tr></table></figure>
+<p>保存，运行liyu996.reg，提示是否写入注册表选择是。</p>
+<p>这样Windows就不会再静默安装那些无聊游戏了。</p>
+]]></content>
+      <categories>
+        <category>系统优化</category>
+        <category>常见问题</category>
+      </categories>
+      <tags>
+        <tag>Windows10自动安装游戏</tag>
+        <tag>Win10静默安装游戏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Windows10如何开启管理员账户</title>
     <url>/winadmin.html</url>
     <content><![CDATA[<p>在使用Windows10系统的过程中，有一些操作是必须要用管理员用户来完成，有一些软件的安装也是。比如昨天朋友叫我帮忙安装CAD2006，稍后我会写一下安装过程和针对Win10的问题解决。</p>
@@ -1495,29 +1551,6 @@ Deny from all
       </categories>
       <tags>
         <tag>Win10管理员权限</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>解决Windows10自动安装游戏</title>
-    <url>/windowszdxz.html</url>
-    <content><![CDATA[<p>今天在虚拟机装了Windows10官方版系统，进行精简优化以后，忽然发现重启以后会自动把已经卸载了的系统自带游戏重新安装回来。</p>
-<p>比如迪士尼梦幻王国，泡泡魔女传奇什么的，卸载后又会重新安装。</p>
-<p>在网上找了很多解决办法，最终只有更改注册表最简单。</p>
-<p>只需要如下操作：</p>
-<a id="more"></a>
-<p>在任意位置新建文本文档，写入以下内容，并将文本文档重命名为<strong>liyu996.reg</strong>，后缀名是reg不是txt。</p>
-<p>内容：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line"></span><br><span class="line">[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]</span><br><span class="line">&quot;FeatureManagementEnabled&quot;&#x3D;dword:00000000</span><br><span class="line">&quot;OemPreInstalledAppsEnabled&quot;&#x3D;dword:00000000</span><br><span class="line">&quot;PreInstalledAppsEnabled&quot;&#x3D;dword:00000000</span><br><span class="line">&quot;SilentInstalledAppsEnabled&quot;&#x3D;dword:00000000</span><br></pre></td></tr></table></figure>
-<p>保存，运行liyu996.reg，提示是否写入注册表选择是。</p>
-<p>这样Windows就不会再静默安装那些无聊游戏了。</p>
-]]></content>
-      <categories>
-        <category>系统优化</category>
-        <category>常见问题</category>
-      </categories>
-      <tags>
-        <tag>Windows10自动安装游戏</tag>
-        <tag>Win10静默安装游戏</tag>
       </tags>
   </entry>
   <entry>
@@ -1550,35 +1583,6 @@ Deny from all
       <tags>
         <tag>Windows激活</tag>
         <tag>KMS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows10获取数字权利永久激活简化版脚本</title>
-    <url>/winsyjjb.html</url>
-    <content><![CDATA[<h2 id="Windows10永久激活工具简化版脚本"><a href="#Windows10永久激活工具简化版脚本" class="headerlink" title="Windows10永久激活工具简化版脚本"></a>Windows10永久激活工具简化版脚本</h2><p>有些人使用怕有后门，怕自己电脑变矿机。</p>
-<p>今天遇到一款由国内网友制作的简化脚本，激活方式和HWIDGen相同，简化了许多步骤，CMD命令运行，免去了个别人的担忧。</p>
-<a id="more"></a>
-
-<p><img src="/images/winsyjjb.png" alt="Windows10永久激活工具"></p>
-<p>之前发过另外一款数字激活Windows10的软件：<br><span class="exturl" data-url="aHR0cDovL3d3dy5seTU1NC5jb20vd2luc3lqamguaHRtbA==">Windows10免费永久激活方法(非广告无套路)<i class="fa fa-external-link-alt"></i></span></p>
-<p><strong>注意：激活前电脑必须已经能够联网并且必须未禁用Windows Update服务，如已禁用请先开启该服务。</strong></p>
-<p>使用方式简单，解压压缩包后，右键管理员运行目录内的<strong>获取数字权利.cmd</strong>，然后我们就可以直接按照提示流程进行激活，默认情况下直接选择<strong>数字1</strong>自动激活本机，执行完成后脚本会提示你系统已经激活。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">脚本中的网址我做了修改，改成了本文地址。</span><br><span class="line"></span><br><span class="line">脚本发布贴：http:&#x2F;&#x2F;bbs.pcbeta.com&#x2F;forum.php?mod&#x3D;viewthread&amp;tid&#x3D;1786788&amp;page&#x3D;1#pid48314667</span><br></pre></td></tr></table></figure>
-
-<h2 id="HWIDGen激活原理"><a href="#HWIDGen激活原理" class="headerlink" title="HWIDGen激活原理"></a>HWIDGen激活原理</h2><p>我们知道Windows 10现在激活后会带有数字权利，数字权利可以在我们重装系统后自动激活无需再次激活。所谓数字权利就是和系统绑定的激活许可证。</p>
-<p>默认情况下当Windows10系统被激活后会生成与硬件ID对应的许可证，这个许可证会存储在微软的激活服务器中。</p>
-<p>当系统重新安装时系统会自动将硬件ID提交给微软，在服务器中查找对应的许可证，如果许可证符合系统便会自动激活。</p>
-<p>至于HWIDGen是如何通过修改系统内核数据来激活系统，我也没看懂具体操作的方式，但代码中有修改内核数据、注册表等过程。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">有兴趣的可以看GitHub上的脚本代码</span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;vyvojar&#x2F;slshim</span><br></pre></td></tr></table></figure>
-
-<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Windows10永久激活工具简化版脚本</span><br><span class="line"></span><br><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1eFiTyUxnN0ZbNnPCnlyzPw</span><br><span class="line">密码：zu1n</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Windows</category>
-        <category>软件共享</category>
-      </categories>
-      <tags>
-        <tag>软件共享</tag>
-        <tag>Windows10永久激活方法</tag>
       </tags>
   </entry>
   <entry>
@@ -1634,6 +1638,62 @@ Deny from all
       </tags>
   </entry>
   <entry>
+    <title>Windows10获取数字权利永久激活简化版脚本</title>
+    <url>/winsyjjb.html</url>
+    <content><![CDATA[<h2 id="Windows10永久激活工具简化版脚本"><a href="#Windows10永久激活工具简化版脚本" class="headerlink" title="Windows10永久激活工具简化版脚本"></a>Windows10永久激活工具简化版脚本</h2><p>有些人使用怕有后门，怕自己电脑变矿机。</p>
+<p>今天遇到一款由国内网友制作的简化脚本，激活方式和HWIDGen相同，简化了许多步骤，CMD命令运行，免去了个别人的担忧。</p>
+<a id="more"></a>
+
+<p><img src="/images/winsyjjb.png" alt="Windows10永久激活工具"></p>
+<p>之前发过另外一款数字激活Windows10的软件：<br><span class="exturl" data-url="aHR0cDovL3d3dy5seTU1NC5jb20vd2luc3lqamguaHRtbA==">Windows10免费永久激活方法(非广告无套路)<i class="fa fa-external-link-alt"></i></span></p>
+<p><strong>注意：激活前电脑必须已经能够联网并且必须未禁用Windows Update服务，如已禁用请先开启该服务。</strong></p>
+<p>使用方式简单，解压压缩包后，右键管理员运行目录内的<strong>获取数字权利.cmd</strong>，然后我们就可以直接按照提示流程进行激活，默认情况下直接选择<strong>数字1</strong>自动激活本机，执行完成后脚本会提示你系统已经激活。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">脚本中的网址我做了修改，改成了本文地址。</span><br><span class="line"></span><br><span class="line">脚本发布贴：http:&#x2F;&#x2F;bbs.pcbeta.com&#x2F;forum.php?mod&#x3D;viewthread&amp;tid&#x3D;1786788&amp;page&#x3D;1#pid48314667</span><br></pre></td></tr></table></figure>
+
+<h2 id="HWIDGen激活原理"><a href="#HWIDGen激活原理" class="headerlink" title="HWIDGen激活原理"></a>HWIDGen激活原理</h2><p>我们知道Windows 10现在激活后会带有数字权利，数字权利可以在我们重装系统后自动激活无需再次激活。所谓数字权利就是和系统绑定的激活许可证。</p>
+<p>默认情况下当Windows10系统被激活后会生成与硬件ID对应的许可证，这个许可证会存储在微软的激活服务器中。</p>
+<p>当系统重新安装时系统会自动将硬件ID提交给微软，在服务器中查找对应的许可证，如果许可证符合系统便会自动激活。</p>
+<p>至于HWIDGen是如何通过修改系统内核数据来激活系统，我也没看懂具体操作的方式，但代码中有修改内核数据、注册表等过程。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">有兴趣的可以看GitHub上的脚本代码</span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;vyvojar&#x2F;slshim</span><br></pre></td></tr></table></figure>
+
+<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Windows10永久激活工具简化版脚本</span><br><span class="line"></span><br><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1eFiTyUxnN0ZbNnPCnlyzPw</span><br><span class="line">密码：zu1n</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Windows</category>
+        <category>软件共享</category>
+      </categories>
+      <tags>
+        <tag>软件共享</tag>
+        <tag>Windows10永久激活方法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>国产Windows10永久激活工具(C#)</title>
+    <url>/wyjjhcs.html</url>
+    <content><![CDATA[<h2 id="国产Windows10永久激活工具"><a href="#国产Windows10永久激活工具" class="headerlink" title="国产Windows10永久激活工具"></a>国产Windows10永久激活工具</h2><p><img src="/images/wyjjhcs.png" alt="Windows10永久激活工具"></p>
+<p>Windows10永久激活工具(C#版)，是由52pojie会员制作的Windows10数字权利激活工具，这款工具可以自动获取数字权利对Windows系统进行永久激活。</p>
+<p>Windows10各种版本的永久激活工具我发了很多了，就不重复再说介绍原理什么的了。</p>
+<a id="more"></a>
+<p>之前发的几个Windows10永久激活工具地址：<br><a href="https://blog.lizxx.com/winsyjjh.html">Windows10免费永久激活方法(非广告无套路)</a><br><a href="https://blog.lizxx.com/winsyjjb.html">Windows10获取数字权利永久激活简化版脚本</a></p>
+<p>利用工具激活并获取数字权利后，只要在CPU和主板设备没有更换的情况下，重新安装相同的Windows系统都不需要重新激活，联网直接自动激活。</p>
+<p>所以说，利用这类工具所激活的Windows系统都属于微软官方正版激活。</p>
+<h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><p>直接点安装KEY，然后点激活，就可以了。</p>
+<p>在软件任意位置右键可以自行选择KEY。也可以使用默认KEY。</p>
+<h2 id="支持的版本"><a href="#支持的版本" class="headerlink" title="支持的版本"></a>支持的版本</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">版本SKU对照表：</span><br><span class="line"></span><br><span class="line">Cloud sku&#x3D;178</span><br><span class="line">CloudN sku&#x3D;179</span><br><span class="line"></span><br><span class="line">CoreN sku&#x3D;98</span><br><span class="line">CoreCountrySpecific sku&#x3D;99</span><br><span class="line">CoreSingleLanguage sku&#x3D;100</span><br><span class="line">Core sku&#x3D;101</span><br><span class="line"></span><br><span class="line">Education sku&#x3D;121</span><br><span class="line">EducationN sku&#x3D;122</span><br><span class="line"></span><br><span class="line">Enterprise sku&#x3D;4</span><br><span class="line">EnterpriseN sku&#x3D;27</span><br><span class="line">EnterpriseS sku&#x3D;125</span><br><span class="line">EnterpriseSN sku&#x3D;126</span><br><span class="line"></span><br><span class="line">Professional sku&#x3D;48</span><br><span class="line">ProfessionalN sku&#x3D;49</span><br><span class="line">ProfessionalEducation sku&#x3D;164</span><br><span class="line">ProfessionalEducationN sku&#x3D;165</span><br><span class="line">ProfessionalWorkstation sku&#x3D;161</span><br><span class="line">ProfessionalWorkstationN sku&#x3D;162</span><br></pre></td></tr></table></figure>
+<h2 id="更新记录"><a href="#更新记录" class="headerlink" title="更新记录"></a>更新记录</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">2018-05-31 v2.3</span><br><span class="line">- 右键菜单漏了一个专业N，已加上。</span><br><span class="line">2018-05-29 v2.1</span><br><span class="line">- 添加右键菜单选择KEY</span><br></pre></td></tr></table></figure>
+
+<h2 id="发布地址"><a href="#发布地址" class="headerlink" title="发布地址"></a>发布地址</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">软件发布贴：https:&#x2F;&#x2F;www.52pojie.cn&#x2F;thread-742884-1-1.html</span><br></pre></td></tr></table></figure>
+
+<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Windows10数字许可激活C#版v2.3</span><br><span class="line"></span><br><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1BmxCwJ-ylRbK0Kbc5HlE1A</span><br><span class="line">密码：opda</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Windows</category>
+        <category>软件共享</category>
+      </categories>
+      <tags>
+        <tag>软件共享</tag>
+        <tag>Windows10永久激活方法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>利用浏览器书签一键调用VIP解析接口</title>
     <url>/yjjxjk.html</url>
     <content><![CDATA[<h2 id="利用浏览器书签一键调用VIP解析接口"><a href="#利用浏览器书签一键调用VIP解析接口" class="headerlink" title="利用浏览器书签一键调用VIP解析接口"></a>利用浏览器书签一键调用VIP解析接口</h2><p>在使用第三方VIP视频解析接口感觉常麻烦的要死。懒癌重度患者(°ー°〃)</p>
@@ -1654,6 +1714,90 @@ Deny from all
       </categories>
       <tags>
         <tag>一键调用VIP解析接口</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>针对Hexo和Next主题的SEO优化</title>
+    <url>/wznextseo.html</url>
+    <content><![CDATA[<h2 id="SEO是什么？"><a href="#SEO是什么？" class="headerlink" title="SEO是什么？"></a>SEO是什么？</h2><p>对于SEO（Search Engine Optimization）最简单的解释方法就是，利用搜索引擎的搜索规则进行提高网站在有关搜索引擎的排名，让人们更容易看到你的网站。<br>SEO还包含站外SEO和站内SEO两个方面，抛开站外SEO，自己能做的有两方面，一：针对个人网站的页面排版进行SEO相关的优化、二：针对于搜索引擎的主动优化。</p>
+<h2 id="对于搜索引擎的优化"><a href="#对于搜索引擎的优化" class="headerlink" title="对于搜索引擎的优化"></a>对于搜索引擎的优化</h2><a id="more"></a>
+<p>在我大天朝，搜索引擎用的最多的毫无疑问就是百度了。谷歌在国内毕竟不是很容易访问，所以还是尽可能地去迎合百度吧。</p>
+<h3 id="添加百度Sitemap"><a href="#添加百度Sitemap" class="headerlink" title="添加百度Sitemap"></a>添加百度Sitemap</h3><p>首先安装两个插件用于生成Sitemap文件：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">这个是正常的Sitemap文件：</span><br><span class="line">npm install hexo-generator-sitemap --save-dev</span><br><span class="line">这个是百度专有的Sitemap文件：</span><br><span class="line">npm install hexo-generator-baidu-sitemap --save-dev</span><br><span class="line">安装以后本地运行Hexo服务，打开http:&#x2F;&#x2F;localhost:4000&#x2F;sitemap.xml和http:&#x2F;&#x2F;localhost:4000&#x2F;baidusitemap.xml就可以看到两个Sitemap文件了。</span><br></pre></td></tr></table></figure>
+<p>在网站的站点配置文件中添加以下代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sitemap:</span><br><span class="line">path: sitemap.xml</span><br><span class="line">baidusitemap:</span><br><span class="line">path: baidusitemap.xml</span><br></pre></td></tr></table></figure>
+
+<p><strong>然后注册百度站长平台</strong></p>
+<p><strong>添加个人网站</strong></p>
+<p>这里要注意：在百度站长平台添加网站有，文件、html标签、cname，三种验证方式。<br>由于我们用的是Github分配的域名所以cname方式不可取。<br>然后我使用添加文件的方式，将验证文件放在source文件夹下，但是Hexo在发布的时候会处理所有html文件，结果就在百度验证文件里添加了其他的东西，导致验证失败了。<br>所以最终的方法就是添加html标签，添加完相应的标签后上传到自己的博客中，稍等一会百度那边就通过认证了。</p>
+<p><strong>后经测试也可以在站点配置中添加指定不渲染验证文件，只需要打开站点配置文件，找到skip_render: 添加以下内容：</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render: </span><br><span class="line">  - baidu******.html</span><br><span class="line">  - google*****.html</span><br></pre></td></tr></table></figure>
+
+<p><strong>提交Sitemap文件</strong></p>
+<p>在百度站长平台打开链接提交页面，选择自动提交，选Sitemap，按照提示添加自己的Sitemap地址即可。</p>
+<p>接下来只需要等上一两天就可以看到爬行的Url数量了。</p>
+<h3 id="添加robots-txt文件"><a href="#添加robots-txt文件" class="headerlink" title="添加robots.txt文件"></a>添加robots.txt文件</h3><p>新建文本文档，命名为robots，添加以下内容，把robots.txt放在source文件夹下。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># hexo robots.txt</span><br><span class="line">User-agent: *</span><br><span class="line">Allow: &#x2F;</span><br><span class="line">Allow: &#x2F;archives&#x2F;</span><br><span class="line"></span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;js&#x2F;</span><br><span class="line">Disallow: &#x2F;css&#x2F;</span><br><span class="line">Disallow: &#x2F;fonts&#x2F;</span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;fancybox&#x2F;</span><br><span class="line"></span><br><span class="line">Sitemap: http:&#x2F;&#x2F;你的域名&#x2F;sitemap.xml</span><br><span class="line">Sitemap: http:&#x2F;&#x2F;你的域名&#x2F;baidusitemap.xml</span><br><span class="line"></span><br><span class="line">可以针对自己的博客目录进行修改</span><br></pre></td></tr></table></figure>
+
+<h2 id="针对Next主题的优化"><a href="#针对Next主题的优化" class="headerlink" title="针对Next主题的优化"></a>针对Next主题的优化</h2><h3 id="给出站链接添加nofollow标签"><a href="#给出站链接添加nofollow标签" class="headerlink" title="给出站链接添加nofollow标签"></a>给出站链接添加nofollow标签</h3><p>蜘蛛程序会顺着a标签跳出到其他网站可能就回不来了。nofollow标签是由谷歌领头创新的反垃圾标签，可以让蜘蛛程序不抓取带有nofollow属性的任何出站链接。</p>
+<p>Next主题需要改以下几个地方：</p>
+<p>找到footer.swig，路径在Hexo文件夹\themes\next\layout_partials，将下面代码中的a标签加上rel=”external nofollow”属性:<br>将下面这段：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;&#123; __(&#39;footer.powered&#39;, &#39;&lt;a  class&#x3D;&quot;theme-link&quot;  href&#x3D;&quot;http:&#x2F;&#x2F;hexo.io&quot;&gt;Hexo&lt;&#x2F;a&gt;&#39;) &#125;&#125;</span><br></pre></td></tr></table></figure>
+<p>改为：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;&#123; __(&#39;footer.powered&#39;, &#39;&lt;a class&#x3D;&quot;theme-link&quot; href&#x3D;&quot;http:&#x2F;&#x2F;hexo.io&quot; rel&#x3D;&quot;external nofollow&quot;&gt;Hexo&lt;&#x2F;a&gt;&#39;) &#125;&#125;</span><br><span class="line"></span><br><span class="line">在我的网站中我关闭了这一条的显示，只需要打开主题配置文件，路径在Hexo文件夹\themes\next\_config.yml，将powered、enable、version这三个后面的true改为false即可</span><br></pre></td></tr></table></figure>
+<p>将下面这段：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a class&#x3D;&quot;theme-link&quot; href&#x3D;&quot;https:&#x2F;&#x2F;github.com&#x2F;iissnan&#x2F;hexo-theme-next&quot;&gt;</span><br></pre></td></tr></table></figure>
+<p>改为：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a class&#x3D;&quot;theme-link&quot; href&#x3D;&quot;https:&#x2F;&#x2F;github.com&#x2F;iissnan&#x2F;hexo-theme-next&quot; rel&#x3D;&quot;external nofollow&quot;&gt;</span><br></pre></td></tr></table></figure>
+
+<p>修改sidebar.swig文件，路径在Hexo文件夹\themes\next\layout_macro，将下面代码中的a标签加上rel=”external nofollow”属性:<br>将下面这段：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;&#123;&#123; link &#125;&#125;&quot; target&#x3D;&quot;_blank&quot;&gt;&#123;&#123; name &#125;&#125;&lt;&#x2F;a&gt;</span><br></pre></td></tr></table></figure>
+<p>改为：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;&#123;&#123; link &#125;&#125;&quot; target&#x3D;&quot;_blank&quot; rel&#x3D;&quot;external nofollow&quot;&gt;&#123;&#123; name &#125;&#125;&lt;&#x2F;a&gt;</span><br><span class="line"></span><br><span class="line">这个改完以后会在侧边栏友情链接处添加external nofollow，自行选择是否添加</span><br></pre></td></tr></table></figure>
+<p>将下面这段：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;&#123;&#123; link.split(&#39;||&#39;)[0] | trim &#125;&#125;&quot; target&#x3D;&quot;_blank&quot; title&#x3D;&quot;&#123;&#123; name &#125;&#125;&quot;&gt;</span><br></pre></td></tr></table></figure>
+<p>改为：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;&#123;&#123; link.split(&#39;||&#39;)[0] | trim &#125;&#125;&quot; target&#x3D;&quot;_blank&quot; rel&#x3D;&quot;external nofollow&quot; title&#x3D;&quot;&#123;&#123; name &#125;&#125;&quot;&gt;</span><br><span class="line"></span><br><span class="line">这段改完以后会在侧边栏友情链接上面的个人链接处添加external nofollow，自行选择是否添加。</span><br></pre></td></tr></table></figure>
+<p>将下面这段：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;http:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;&#123;&#123; theme.creative_commons &#125;&#125;&#x2F;4.0&quot; class&#x3D;&quot;cc-opacity&quot; target&#x3D;&quot;_blank&quot;&gt;</span><br></pre></td></tr></table></figure>
+<p>改为：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;http:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;&#123;&#123; theme.creative_commons &#125;&#125;&#x2F;4.0&quot; class&#x3D;&quot;cc-opacity&quot; target&#x3D;&quot;_blank&quot; rel&#x3D;&quot;external nofollow&quot;&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="keywords和description"><a href="#keywords和description" class="headerlink" title="keywords和description"></a>keywords和description</h3><p>在Hexo文件夹\scaffolds\post.md中添加如下代码，用于生成的文章中添加关键字和描述。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">keywords:</span><br><span class="line">description:</span><br></pre></td></tr></table></figure>
+<p><del>在Hexo文件夹\themes\next\layout_partials\head.swig有如下代码，用于生成文章的keywords。原本是没有description的位置，可以自己在这段代码后加上以下代码：</del></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% if page.description %&#125;</span><br><span class="line">	&lt;meta name&#x3D;&quot;description&quot; content&#x3D;&quot;&#123;&#123; page.description &#125;&#125;&quot; &#x2F;&gt;</span><br><span class="line">&#123;% elif theme.description %&#125;</span><br><span class="line">	&lt;meta name&#x3D;&quot;description&quot; content&#x3D;&quot;&#123;&#123; theme.description &#125;&#125;&quot; &#x2F;&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>后来经过实践发现NexT会默认添加description，所以这里可以不添加这段代码。</p>
+</blockquote>
+<h3 id="首页title标签优化"><a href="#首页title标签优化" class="headerlink" title="首页title标签优化"></a>首页title标签优化</h3><p>更改index.swig文件，路径在Hexo文件夹\themes\next\layout，将下面代码</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% block title %&#125; &#123;&#123; config.title &#125;&#125; &#123;% endblock %&#125;</span><br></pre></td></tr></table></figure>
+<p>更改为</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% block title %&#125;  &#123;&#123; config.title &#125;&#125; - &#123;&#123; theme.description &#125;&#125;  &#123;% endblock %&#125;</span><br><span class="line">改成这样你的网站会更符合网站名称 - 网站描述这种习惯</span><br></pre></td></tr></table></figure>
+<p>或</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% block title %&#125;&#123;&#123; config.title &#125;&#125;&#123;% if theme.index_with_subtitle and config.subtitle %&#125; - &#123;&#123;config.subtitle &#125;&#125;&#123;% endif %&#125;&#123;&#123; theme.description &#125;&#125; &#123;% endblock %&#125;</span><br><span class="line">改成这样会把关键词也显示在Title标题里。注意：别堆砌关键字，整个标题一般不超过80个字符，可以通过chinaz的seo综合查询检查。</span><br></pre></td></tr></table></figure>
+
+<h3 id="打开主题自带SEO功能"><a href="#打开主题自带SEO功能" class="headerlink" title="打开主题自带SEO功能"></a>打开主题自带SEO功能</h3><p>Next主题自带了一个SEO功能，默认是关闭的，只需要手动打开即可。</p>
+<p>打开主题配置文件，路径在Hexo文件夹\themes\next_config.yml，找到seo: false，更改为seo: true即可</p>
+<h2 id="Hexo通用优化"><a href="#Hexo通用优化" class="headerlink" title="Hexo通用优化"></a>Hexo通用优化</h2><h3 id="修改文章链接形式"><a href="#修改文章链接形式" class="headerlink" title="修改文章链接形式"></a>修改文章链接形式</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Hexo默认的文章链接形式为domain&#x2F;year&#x2F;month&#x2F;day&#x2F;postname，默认就是一个四级url，并且可能造成url过长，对搜索引擎是十分不友好的，我们可以改成domain&#x2F;postname 的形式。编辑站点_config.yml文件，修改其中的permalink字段改为permalink: :title.html即可。</span><br></pre></td></tr></table></figure>
+
+<h2 id="关于绑定域名"><a href="#关于绑定域名" class="headerlink" title="关于绑定域名"></a>关于绑定域名</h2><p>搜索引擎认为带www和不带www域名是两个不同的网站，如果带www和不带www的域名指向同一个站点，内容相同，是会导致权重分散的。，这里需要用到301重定向实现带www与不带www域名永久重定向到其中一个，达到权重集中带www和不带www域名其中一个上。<br>Github支持301重定向，如果你把CNAME中填写的是一级域名，并把二级域名也指向到xxxx.github.io，访问二级域名会301重定向到CNAME中填写的一级域名。从而不会导致权重分散。</p>
+<h2 id="写文章时需要注意"><a href="#写文章时需要注意" class="headerlink" title="写文章时需要注意"></a>写文章时需要注意</h2><ol>
+<li><p>写文章插入图片时尽量使用站内图片。调用外部图片可能会导致蜘蛛跳出。</p>
+</li>
+<li><p>写文章时插入链接时不要使用a标签，尽量使用调用方式或者代码高亮方式，这样可以防止蜘蛛跳出。</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>网站优化</category>
+        <category>SEO</category>
+      </categories>
+      <tags>
+        <tag>SEO</tag>
+        <tag>Next主题SEO</tag>
+        <tag>HexoSEO</tag>
+        <tag>文章SEO</tag>
       </tags>
   </entry>
   <entry>
@@ -1782,117 +1926,6 @@ Deny from all
       </categories>
       <tags>
         <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>国产Windows10永久激活工具(C#)</title>
-    <url>/wyjjhcs.html</url>
-    <content><![CDATA[<h2 id="国产Windows10永久激活工具"><a href="#国产Windows10永久激活工具" class="headerlink" title="国产Windows10永久激活工具"></a>国产Windows10永久激活工具</h2><p><img src="/images/wyjjhcs.png" alt="Windows10永久激活工具"></p>
-<p>Windows10永久激活工具(C#版)，是由52pojie会员制作的Windows10数字权利激活工具，这款工具可以自动获取数字权利对Windows系统进行永久激活。</p>
-<p>Windows10各种版本的永久激活工具我发了很多了，就不重复再说介绍原理什么的了。</p>
-<a id="more"></a>
-<p>之前发的几个Windows10永久激活工具地址：<br><a href="https://blog.lizxx.com/winsyjjh.html">Windows10免费永久激活方法(非广告无套路)</a><br><a href="https://blog.lizxx.com/winsyjjb.html">Windows10获取数字权利永久激活简化版脚本</a></p>
-<p>利用工具激活并获取数字权利后，只要在CPU和主板设备没有更换的情况下，重新安装相同的Windows系统都不需要重新激活，联网直接自动激活。</p>
-<p>所以说，利用这类工具所激活的Windows系统都属于微软官方正版激活。</p>
-<h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><p>直接点安装KEY，然后点激活，就可以了。</p>
-<p>在软件任意位置右键可以自行选择KEY。也可以使用默认KEY。</p>
-<h2 id="支持的版本"><a href="#支持的版本" class="headerlink" title="支持的版本"></a>支持的版本</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">版本SKU对照表：</span><br><span class="line"></span><br><span class="line">Cloud sku&#x3D;178</span><br><span class="line">CloudN sku&#x3D;179</span><br><span class="line"></span><br><span class="line">CoreN sku&#x3D;98</span><br><span class="line">CoreCountrySpecific sku&#x3D;99</span><br><span class="line">CoreSingleLanguage sku&#x3D;100</span><br><span class="line">Core sku&#x3D;101</span><br><span class="line"></span><br><span class="line">Education sku&#x3D;121</span><br><span class="line">EducationN sku&#x3D;122</span><br><span class="line"></span><br><span class="line">Enterprise sku&#x3D;4</span><br><span class="line">EnterpriseN sku&#x3D;27</span><br><span class="line">EnterpriseS sku&#x3D;125</span><br><span class="line">EnterpriseSN sku&#x3D;126</span><br><span class="line"></span><br><span class="line">Professional sku&#x3D;48</span><br><span class="line">ProfessionalN sku&#x3D;49</span><br><span class="line">ProfessionalEducation sku&#x3D;164</span><br><span class="line">ProfessionalEducationN sku&#x3D;165</span><br><span class="line">ProfessionalWorkstation sku&#x3D;161</span><br><span class="line">ProfessionalWorkstationN sku&#x3D;162</span><br></pre></td></tr></table></figure>
-<h2 id="更新记录"><a href="#更新记录" class="headerlink" title="更新记录"></a>更新记录</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">2018-05-31 v2.3</span><br><span class="line">- 右键菜单漏了一个专业N，已加上。</span><br><span class="line">2018-05-29 v2.1</span><br><span class="line">- 添加右键菜单选择KEY</span><br></pre></td></tr></table></figure>
-
-<h2 id="发布地址"><a href="#发布地址" class="headerlink" title="发布地址"></a>发布地址</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">软件发布贴：https:&#x2F;&#x2F;www.52pojie.cn&#x2F;thread-742884-1-1.html</span><br></pre></td></tr></table></figure>
-
-<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Windows10数字许可激活C#版v2.3</span><br><span class="line"></span><br><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1BmxCwJ-ylRbK0Kbc5HlE1A</span><br><span class="line">密码：opda</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Windows</category>
-        <category>软件共享</category>
-      </categories>
-      <tags>
-        <tag>软件共享</tag>
-        <tag>Windows10永久激活方法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>针对Hexo和Next主题的SEO优化</title>
-    <url>/wznextseo.html</url>
-    <content><![CDATA[<h2 id="SEO是什么？"><a href="#SEO是什么？" class="headerlink" title="SEO是什么？"></a>SEO是什么？</h2><p>对于SEO（Search Engine Optimization）最简单的解释方法就是，利用搜索引擎的搜索规则进行提高网站在有关搜索引擎的排名，让人们更容易看到你的网站。<br>SEO还包含站外SEO和站内SEO两个方面，抛开站外SEO，自己能做的有两方面，一：针对个人网站的页面排版进行SEO相关的优化、二：针对于搜索引擎的主动优化。</p>
-<h2 id="对于搜索引擎的优化"><a href="#对于搜索引擎的优化" class="headerlink" title="对于搜索引擎的优化"></a>对于搜索引擎的优化</h2><a id="more"></a>
-<p>在我大天朝，搜索引擎用的最多的毫无疑问就是百度了。谷歌在国内毕竟不是很容易访问，所以还是尽可能地去迎合百度吧。</p>
-<h3 id="添加百度Sitemap"><a href="#添加百度Sitemap" class="headerlink" title="添加百度Sitemap"></a>添加百度Sitemap</h3><p>首先安装两个插件用于生成Sitemap文件：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">这个是正常的Sitemap文件：</span><br><span class="line">npm install hexo-generator-sitemap --save-dev</span><br><span class="line">这个是百度专有的Sitemap文件：</span><br><span class="line">npm install hexo-generator-baidu-sitemap --save-dev</span><br><span class="line">安装以后本地运行Hexo服务，打开http:&#x2F;&#x2F;localhost:4000&#x2F;sitemap.xml和http:&#x2F;&#x2F;localhost:4000&#x2F;baidusitemap.xml就可以看到两个Sitemap文件了。</span><br></pre></td></tr></table></figure>
-<p>在网站的站点配置文件中添加以下代码：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sitemap:</span><br><span class="line">path: sitemap.xml</span><br><span class="line">baidusitemap:</span><br><span class="line">path: baidusitemap.xml</span><br></pre></td></tr></table></figure>
-
-<p><strong>然后注册百度站长平台</strong></p>
-<p><strong>添加个人网站</strong></p>
-<p>这里要注意：在百度站长平台添加网站有，文件、html标签、cname，三种验证方式。<br>由于我们用的是Github分配的域名所以cname方式不可取。<br>然后我使用添加文件的方式，将验证文件放在source文件夹下，但是Hexo在发布的时候会处理所有html文件，结果就在百度验证文件里添加了其他的东西，导致验证失败了。<br>所以最终的方法就是添加html标签，添加完相应的标签后上传到自己的博客中，稍等一会百度那边就通过认证了。</p>
-<p><strong>后经测试也可以在站点配置中添加指定不渲染验证文件，只需要打开站点配置文件，找到skip_render: 添加以下内容：</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render: </span><br><span class="line">  - baidu******.html</span><br><span class="line">  - google*****.html</span><br></pre></td></tr></table></figure>
-
-<p><strong>提交Sitemap文件</strong></p>
-<p>在百度站长平台打开链接提交页面，选择自动提交，选Sitemap，按照提示添加自己的Sitemap地址即可。</p>
-<p>接下来只需要等上一两天就可以看到爬行的Url数量了。</p>
-<h3 id="添加robots-txt文件"><a href="#添加robots-txt文件" class="headerlink" title="添加robots.txt文件"></a>添加robots.txt文件</h3><p>新建文本文档，命名为robots，添加以下内容，把robots.txt放在source文件夹下。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># hexo robots.txt</span><br><span class="line">User-agent: *</span><br><span class="line">Allow: &#x2F;</span><br><span class="line">Allow: &#x2F;archives&#x2F;</span><br><span class="line"></span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;js&#x2F;</span><br><span class="line">Disallow: &#x2F;css&#x2F;</span><br><span class="line">Disallow: &#x2F;fonts&#x2F;</span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;fancybox&#x2F;</span><br><span class="line"></span><br><span class="line">Sitemap: http:&#x2F;&#x2F;你的域名&#x2F;sitemap.xml</span><br><span class="line">Sitemap: http:&#x2F;&#x2F;你的域名&#x2F;baidusitemap.xml</span><br><span class="line"></span><br><span class="line">可以针对自己的博客目录进行修改</span><br></pre></td></tr></table></figure>
-
-<h2 id="针对Next主题的优化"><a href="#针对Next主题的优化" class="headerlink" title="针对Next主题的优化"></a>针对Next主题的优化</h2><h3 id="给出站链接添加nofollow标签"><a href="#给出站链接添加nofollow标签" class="headerlink" title="给出站链接添加nofollow标签"></a>给出站链接添加nofollow标签</h3><p>蜘蛛程序会顺着a标签跳出到其他网站可能就回不来了。nofollow标签是由谷歌领头创新的反垃圾标签，可以让蜘蛛程序不抓取带有nofollow属性的任何出站链接。</p>
-<p>Next主题需要改以下几个地方：</p>
-<p>找到footer.swig，路径在Hexo文件夹\themes\next\layout_partials，将下面代码中的a标签加上rel=”external nofollow”属性:<br>将下面这段：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;&#123; __(&#39;footer.powered&#39;, &#39;&lt;a  class&#x3D;&quot;theme-link&quot;  href&#x3D;&quot;http:&#x2F;&#x2F;hexo.io&quot;&gt;Hexo&lt;&#x2F;a&gt;&#39;) &#125;&#125;</span><br></pre></td></tr></table></figure>
-<p>改为：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;&#123; __(&#39;footer.powered&#39;, &#39;&lt;a class&#x3D;&quot;theme-link&quot; href&#x3D;&quot;http:&#x2F;&#x2F;hexo.io&quot; rel&#x3D;&quot;external nofollow&quot;&gt;Hexo&lt;&#x2F;a&gt;&#39;) &#125;&#125;</span><br><span class="line"></span><br><span class="line">在我的网站中我关闭了这一条的显示，只需要打开主题配置文件，路径在Hexo文件夹\themes\next\_config.yml，将powered、enable、version这三个后面的true改为false即可</span><br></pre></td></tr></table></figure>
-<p>将下面这段：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a class&#x3D;&quot;theme-link&quot; href&#x3D;&quot;https:&#x2F;&#x2F;github.com&#x2F;iissnan&#x2F;hexo-theme-next&quot;&gt;</span><br></pre></td></tr></table></figure>
-<p>改为：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a class&#x3D;&quot;theme-link&quot; href&#x3D;&quot;https:&#x2F;&#x2F;github.com&#x2F;iissnan&#x2F;hexo-theme-next&quot; rel&#x3D;&quot;external nofollow&quot;&gt;</span><br></pre></td></tr></table></figure>
-
-<p>修改sidebar.swig文件，路径在Hexo文件夹\themes\next\layout_macro，将下面代码中的a标签加上rel=”external nofollow”属性:<br>将下面这段：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;&#123;&#123; link &#125;&#125;&quot; target&#x3D;&quot;_blank&quot;&gt;&#123;&#123; name &#125;&#125;&lt;&#x2F;a&gt;</span><br></pre></td></tr></table></figure>
-<p>改为：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;&#123;&#123; link &#125;&#125;&quot; target&#x3D;&quot;_blank&quot; rel&#x3D;&quot;external nofollow&quot;&gt;&#123;&#123; name &#125;&#125;&lt;&#x2F;a&gt;</span><br><span class="line"></span><br><span class="line">这个改完以后会在侧边栏友情链接处添加external nofollow，自行选择是否添加</span><br></pre></td></tr></table></figure>
-<p>将下面这段：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;&#123;&#123; link.split(&#39;||&#39;)[0] | trim &#125;&#125;&quot; target&#x3D;&quot;_blank&quot; title&#x3D;&quot;&#123;&#123; name &#125;&#125;&quot;&gt;</span><br></pre></td></tr></table></figure>
-<p>改为：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;&#123;&#123; link.split(&#39;||&#39;)[0] | trim &#125;&#125;&quot; target&#x3D;&quot;_blank&quot; rel&#x3D;&quot;external nofollow&quot; title&#x3D;&quot;&#123;&#123; name &#125;&#125;&quot;&gt;</span><br><span class="line"></span><br><span class="line">这段改完以后会在侧边栏友情链接上面的个人链接处添加external nofollow，自行选择是否添加。</span><br></pre></td></tr></table></figure>
-<p>将下面这段：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;http:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;&#123;&#123; theme.creative_commons &#125;&#125;&#x2F;4.0&quot; class&#x3D;&quot;cc-opacity&quot; target&#x3D;&quot;_blank&quot;&gt;</span><br></pre></td></tr></table></figure>
-<p>改为：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;http:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;&#123;&#123; theme.creative_commons &#125;&#125;&#x2F;4.0&quot; class&#x3D;&quot;cc-opacity&quot; target&#x3D;&quot;_blank&quot; rel&#x3D;&quot;external nofollow&quot;&gt;</span><br></pre></td></tr></table></figure>
-
-<h3 id="keywords和description"><a href="#keywords和description" class="headerlink" title="keywords和description"></a>keywords和description</h3><p>在Hexo文件夹\scaffolds\post.md中添加如下代码，用于生成的文章中添加关键字和描述。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">keywords:</span><br><span class="line">description:</span><br></pre></td></tr></table></figure>
-<p><del>在Hexo文件夹\themes\next\layout_partials\head.swig有如下代码，用于生成文章的keywords。原本是没有description的位置，可以自己在这段代码后加上以下代码：</del></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% if page.description %&#125;</span><br><span class="line">	&lt;meta name&#x3D;&quot;description&quot; content&#x3D;&quot;&#123;&#123; page.description &#125;&#125;&quot; &#x2F;&gt;</span><br><span class="line">&#123;% elif theme.description %&#125;</span><br><span class="line">	&lt;meta name&#x3D;&quot;description&quot; content&#x3D;&quot;&#123;&#123; theme.description &#125;&#125;&quot; &#x2F;&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>后来经过实践发现NexT会默认添加description，所以这里可以不添加这段代码。</p>
-</blockquote>
-<h3 id="首页title标签优化"><a href="#首页title标签优化" class="headerlink" title="首页title标签优化"></a>首页title标签优化</h3><p>更改index.swig文件，路径在Hexo文件夹\themes\next\layout，将下面代码</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% block title %&#125; &#123;&#123; config.title &#125;&#125; &#123;% endblock %&#125;</span><br></pre></td></tr></table></figure>
-<p>更改为</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% block title %&#125;  &#123;&#123; config.title &#125;&#125; - &#123;&#123; theme.description &#125;&#125;  &#123;% endblock %&#125;</span><br><span class="line">改成这样你的网站会更符合网站名称 - 网站描述这种习惯</span><br></pre></td></tr></table></figure>
-<p>或</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% block title %&#125;&#123;&#123; config.title &#125;&#125;&#123;% if theme.index_with_subtitle and config.subtitle %&#125; - &#123;&#123;config.subtitle &#125;&#125;&#123;% endif %&#125;&#123;&#123; theme.description &#125;&#125; &#123;% endblock %&#125;</span><br><span class="line">改成这样会把关键词也显示在Title标题里。注意：别堆砌关键字，整个标题一般不超过80个字符，可以通过chinaz的seo综合查询检查。</span><br></pre></td></tr></table></figure>
-
-<h3 id="打开主题自带SEO功能"><a href="#打开主题自带SEO功能" class="headerlink" title="打开主题自带SEO功能"></a>打开主题自带SEO功能</h3><p>Next主题自带了一个SEO功能，默认是关闭的，只需要手动打开即可。</p>
-<p>打开主题配置文件，路径在Hexo文件夹\themes\next_config.yml，找到seo: false，更改为seo: true即可</p>
-<h2 id="Hexo通用优化"><a href="#Hexo通用优化" class="headerlink" title="Hexo通用优化"></a>Hexo通用优化</h2><h3 id="修改文章链接形式"><a href="#修改文章链接形式" class="headerlink" title="修改文章链接形式"></a>修改文章链接形式</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Hexo默认的文章链接形式为domain&#x2F;year&#x2F;month&#x2F;day&#x2F;postname，默认就是一个四级url，并且可能造成url过长，对搜索引擎是十分不友好的，我们可以改成domain&#x2F;postname 的形式。编辑站点_config.yml文件，修改其中的permalink字段改为permalink: :title.html即可。</span><br></pre></td></tr></table></figure>
-
-<h2 id="关于绑定域名"><a href="#关于绑定域名" class="headerlink" title="关于绑定域名"></a>关于绑定域名</h2><p>搜索引擎认为带www和不带www域名是两个不同的网站，如果带www和不带www的域名指向同一个站点，内容相同，是会导致权重分散的。，这里需要用到301重定向实现带www与不带www域名永久重定向到其中一个，达到权重集中带www和不带www域名其中一个上。<br>Github支持301重定向，如果你把CNAME中填写的是一级域名，并把二级域名也指向到xxxx.github.io，访问二级域名会301重定向到CNAME中填写的一级域名。从而不会导致权重分散。</p>
-<h2 id="写文章时需要注意"><a href="#写文章时需要注意" class="headerlink" title="写文章时需要注意"></a>写文章时需要注意</h2><ol>
-<li><p>写文章插入图片时尽量使用站内图片。调用外部图片可能会导致蜘蛛跳出。</p>
-</li>
-<li><p>写文章时插入链接时不要使用a标签，尽量使用调用方式或者代码高亮方式，这样可以防止蜘蛛跳出。</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>网站优化</category>
-        <category>SEO</category>
-      </categories>
-      <tags>
-        <tag>SEO</tag>
-        <tag>Next主题SEO</tag>
-        <tag>HexoSEO</tag>
-        <tag>文章SEO</tag>
       </tags>
   </entry>
   <entry>
