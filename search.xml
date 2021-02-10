@@ -28,36 +28,39 @@
       </tags>
   </entry>
   <entry>
-    <title>Adobe CC 2017 系列软件一键破解工具</title>
-    <url>/adobeqpj.html</url>
-    <content><![CDATA[<h2 id="Adobe-CC-2017-系列软件一键破解工具"><a href="#Adobe-CC-2017-系列软件一键破解工具" class="headerlink" title="Adobe CC 2017 系列软件一键破解工具"></a>Adobe CC 2017 系列软件一键破解工具</h2><p>此破解工具支持Adobe CS4 - CC 2017所有软件</p>
-<blockquote>
-<p>Universal Adobe Patcher (Adobe通用补丁)是俄罗斯PainteR大神制作的一款可以破解Adobe软件的工具，基本上新版破解器涵盖了目前所有Adobe软件破解补丁，是激活Adobe的实用工具。</p>
-</blockquote>
+    <title>2018-6-5 可用Google-Hosts更新</title>
+    <url>/blwghosts.html</url>
+    <content><![CDATA[<h2 id="Hosts文件位置"><a href="#Hosts文件位置" class="headerlink" title="Hosts文件位置"></a>Hosts文件位置</h2><p>Windows 系统hosts位于 C:\Windows\System32\drivers\etc\hosts</p>
+<p>Android（安卓）系统hosts位于 /etc/hosts</p>
+<p>Mac（苹果电脑）系统hosts位于 /etc/hosts</p>
 <a id="more"></a>
-<p><img src="/images/adobeqpj.png" alt="Adobe CC 2017 系列软件一键破解工具"></p>
-<h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><p>Adobe CC 2017 系列软件的下载地址在压缩包内文档中，大家不需要再四处去找了。</p>
-<p>安装Adobe软件程序(断网安装/试用安装/在线安装/账户安装都可以)安装路径尽里使用英文，</p>
-<p>运行一次安装好的Adobe软件程序(以便加载激活软件的功能)，</p>
-<p>关闭软件后，双击打开破解工具，在下拉列表中选择对应的软件(注意64位和32位)，</p>
-<p>点击Patch完成破解(软件默认安装在C盘可以一键完成破解)。</p>
-<p>如果软件没有安装在默认路径，点击Patch，会弹窗提示错误，点是，然后在软件安装目录里找到amtlib.dll文件，选择打开完成破解(破解后如果发现软件打不开或报错，那么就还原amtlib.dll文件，找寻其他破解方式)。</p>
-<p>如何还原amtlib.dll文件：</p>
-<p>按照上面的方法破解后，在软件安装目录会将原始的amtib.dll文件保存为amtib.dl.BAK，将现在的amtib.dll文件删除，把amtib.dll.BAK文件重命名为amtib.dll,这样就将软件初始为原始未破解的状态，方便进行其他方式破解。</p>
-<h2 id="支持的软件版本"><a href="#支持的软件版本" class="headerlink" title="支持的软件版本"></a>支持的软件版本</h2><p>此版本为 Universal Adobe Patcher 2.0 版本，下面列出所支持破解的软件：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">– Adobe After Effects CC 2017 (64-Bit)</span><br><span class="line">– Adobe Animate CC 2017 (64-Bit)</span><br><span class="line">– Adobe Audition CC 2017 (64-Bit)</span><br><span class="line">– Adobe Bridge CC 2017 (64-Bit)</span><br><span class="line">– Adobe Character Animator CC (Beta) (64-Bit)</span><br><span class="line">– Adobe Dreamweaver CC 2017 (64-Bit)</span><br><span class="line">– Adobe Illustrator CC 2017 (64-Bit)</span><br><span class="line">– Adobe InCopy CC 2017 (64-Bit)</span><br><span class="line">– Adobe InDesign CC 2017 (64-Bit)</span><br><span class="line">– Adobe Media Encoder CC 2017 (64-Bit)</span><br><span class="line">– Adobe Muse CC 2017 (64-Bit)</span><br><span class="line">– Adobe Photoshop CC 2017 (64-Bit)</span><br><span class="line">– Adobe Prelude CC 2017 (64-Bit)</span><br><span class="line">– Adobe Premiere Pro CC 2017 (64-Bit)</span><br><span class="line">– Adobe Bridge CC 2017 (32-Bit)</span><br><span class="line">– Adobe Dreamweaver CC 2017 (32-Bit)</span><br><span class="line">– Adobe Illustrator CC 2017 (32 Bit)</span><br><span class="line">– Adobe InCopy CC 2017 (32-bit)</span><br><span class="line">– Adobe InDesign CC 2017 (32-bit)</span><br><span class="line">– Adobe Photoshop CC 2017 (32-bit)</span><br><span class="line">– Adobe After Effects CC 2015.3 (64-Bit)</span><br><span class="line">– Adobe Animate CC 2015.2 (64-Bit)</span><br><span class="line">– Adobe Audition CC 2015.2 (64-Bit)</span><br><span class="line">– Adobe Illustrator CC 2015.3 (64-Bit)</span><br><span class="line">– Adobe Media Encoder CC 2015.4 (64-Bit)</span><br><span class="line">– Adobe Muse CC 2015.2 (64-Bit)</span><br><span class="line">– Adobe Photoshop CC 2015.5 (64-Bit)</span><br><span class="line">– Adobe Prelude CC 2015.4 (64-Bit)</span><br><span class="line">– Adobe Premiere Pro CC 2015.3 (64-Bit)</span><br><span class="line">– Adobe Illustrator CC 2015.3 (32 Bit)</span><br><span class="line">– Adobe Photoshop CC 2015.5 (32-bit)</span><br><span class="line">– Adobe After Effects CC 2015 (64-Bit)</span><br><span class="line">– Adobe Audition CC 2015 (64-Bit)</span><br><span class="line">– Adobe Bridge CC 2015 (64-Bit)</span><br><span class="line">– Adobe Character Animator CC (Preview) (64-Bit)</span><br><span class="line">– Adobe Dreamweaver CC 2015 (64-Bit)</span><br><span class="line">– Adobe Edge Animate CC 2015 (64-Bit)</span><br><span class="line">– Adobe Flash Professional CC 2015 (64-Bit)</span><br><span class="line">– Adobe Illustrator CC 2015 (64-Bit)</span><br><span class="line">– Adobe InCopy CC 2015 (64-Bit)</span><br><span class="line">– Adobe InDesign CC 2015 (64-Bit)</span><br><span class="line">– Adobe Media Encoder CC 2015 (64-Bit)</span><br><span class="line">– Adobe Muse CC 2015 (64-Bit)</span><br><span class="line">– Adobe Photoshop CC 2015 (64-Bit)</span><br><span class="line">– Adobe Photoshop Lightroom CC 2015 (64-Bit)</span><br><span class="line">– Adobe Prelude CC 2015 (64-Bit)</span><br><span class="line">– Adobe Premiere Pro CC 2015 (64-Bit)</span><br><span class="line">– Adobe SpeedGrade CC 2015 (64-Bit)</span><br><span class="line">– Adobe Acrobat Pro DC 2015 (32-Bit)</span><br><span class="line">– Adobe Bridge CC 2015 (32-Bit)</span><br><span class="line">– Adobe Dreamweaver CC 2015 (32-Bit)</span><br><span class="line">– Adobe Illustrator CC 2015 (32 Bit)</span><br><span class="line">– Adobe InCopy CC 2015 (32-bit)</span><br><span class="line">– Adobe InDesign CC 2015 (32-bit)</span><br><span class="line">– Adobe Photoshop CC 2015 (32-bit)</span><br><span class="line">– Adobe FrameMaker 2015 (32-bit)</span><br><span class="line">– Adobe Presenter Video Express 11 (64-bit)</span><br><span class="line">– Adobe Presenter 11 (32-bit)</span><br><span class="line">– Adobe Presenter Video Express 11 (32-bit)</span><br><span class="line">– Adobe Elements 15 Organizer (64-Bit)</span><br><span class="line">– Adobe Photoshop Elements 15 (64-Bit)</span><br><span class="line">– Adobe Premiere Elements 15 (64-Bit)</span><br><span class="line">– Adobe Elements 14 Organizer (64-Bit)</span><br><span class="line">– Adobe Photoshop Elements 14 (64-Bit)</span><br><span class="line">– Adobe Premiere Elements 14 (64-Bit)</span><br><span class="line">– Adobe Elements 14 Organizer (32-Bit)</span><br><span class="line">– Adobe Photoshop Elements 14 (32-Bit)</span><br><span class="line">– Adobe Premiere Elements 14 (32-Bit)</span><br><span class="line">– Adobe After Effects CC 2014 (64-Bit)</span><br><span class="line">– Adobe Audition CC 2014 (64-Bit)</span><br><span class="line">– Adobe Dreamweaver CC 2014 (64-Bit)</span><br><span class="line">– Adobe Flash CC 2014 (64-Bit)</span><br><span class="line">– Adobe Illustrator CC 2014 (64-Bit)</span><br><span class="line">– Adobe InCopy CC 2014 (64-Bit)</span><br><span class="line">– Adobe InDesign CC 2014 (64-Bit)</span><br><span class="line">– Adobe Media Encoder CC 2014 (64-Bit)</span><br><span class="line">– Adobe Muse CC 2014 (64-Bit)</span><br><span class="line">– Adobe Photoshop CC 2014 (64-Bit)</span><br><span class="line">– Adobe Prelude CC 2014 (64-Bit)</span><br><span class="line">– Adobe Premiere Pro CC 2014 (64-Bit)</span><br><span class="line">– Adobe SpeedGrade CC 2014 (64-Bit)</span><br><span class="line">– Adobe Dreamweaver CC 2014 (32-Bit)</span><br><span class="line">– Adobe Edge Animate CC 2014 (32-Bit)</span><br><span class="line">– Adobe Illustrator CC 2014 (32-Bit)</span><br><span class="line">– Adobe InCopy CC 2014 (32-bit)</span><br><span class="line">– Adobe InDesign CC 2014 (32-bit)</span><br><span class="line">– Adobe Photoshop CC 2014 (32-bit)</span><br><span class="line">– Adobe Elements 13 Organizer (64-Bit)</span><br><span class="line">– Adobe Photoshop Elements 13 (64-Bit)</span><br><span class="line">– Adobe Premiere Elements 13 (64-Bit)</span><br><span class="line">– Adobe Elements 13 Organizer (32-Bit)</span><br><span class="line">– Adobe Photoshop Elements 13 (32-Bit)</span><br><span class="line">– Adobe Premiere Elements 13 (32-Bit)</span><br><span class="line">– Adobe After Effects CC (64-Bit)</span><br><span class="line">– Adobe Audition CC (64-Bit)</span><br><span class="line">– Adobe Bridge CC (64-Bit)</span><br><span class="line">– Adobe Flash Builder 4.7 (64-Bit)</span><br><span class="line">– Adobe Flash Professional CC (64-Bit)</span><br><span class="line">– Adobe Illustrator CC (64-Bit)</span><br><span class="line">– Adobe InCopy CC (64-Bit)</span><br><span class="line">– Adobe InDesign CC (64-Bit)</span><br><span class="line">– Adobe Media Encoder CC (64-Bit)</span><br><span class="line">– Adobe Photoshop CC Extended (64-Bit)</span><br><span class="line">– Adobe Prelude CC (64-Bit)</span><br><span class="line">– Adobe Premiere Pro CC (64-Bit)</span><br><span class="line">– Adobe SpeedGrade CC (64-Bit)</span><br><span class="line">– Adobe Acrobat XI Pro (32-Bit)</span><br><span class="line">– Adobe Bridge CC (32-Bit)</span><br><span class="line">– Adobe Dreamweaver CC (32-Bit)</span><br><span class="line">– Adobe Edge Animate CC (32-Bit)</span><br><span class="line">– Adobe Flash Builder 4.7 (32-Bit)</span><br><span class="line">– Adobe Illustrator CC (32-Bit)</span><br><span class="line">– Adobe InCopy CC (32-Bit)</span><br><span class="line">– Adobe InDesign CC (32-Bit)</span><br><span class="line">– Adobe Muse CC (32-Bit)</span><br><span class="line">– Adobe Photoshop CC Extended (32-Bit)</span><br><span class="line">– Adobe FrameMaker 12 (32-bit)</span><br><span class="line">– Adobe Premiere Elements 12 (64-Bit)</span><br><span class="line">– Adobe Elements 12 Organizer (32-Bit)</span><br><span class="line">– Adobe Photoshop Elements 12 (32-Bit)</span><br><span class="line">– Adobe Premiere Elements 12 (32-Bit)</span><br><span class="line">– Adobe Photoshop Lightroom 5.x CC (64-Bit)</span><br><span class="line">– Adobe Photoshop Lightroom 5.x (64-Bit)</span><br><span class="line">– Adobe Photoshop Lightroom 5.x CC (32-Bit)</span><br><span class="line">– Adobe Photoshop Lightroom 5.x (32-Bit)</span><br><span class="line">– Adobe After Effects CS6 (64-Bit)</span><br><span class="line">– Adobe Bridge CS6 (64-Bit)</span><br><span class="line">– Adobe Encore CS6 (64-Bit)</span><br><span class="line">– Adobe Illustrator CS6 (64-Bit)</span><br><span class="line">– Adobe Media Encoder CS6 (64-Bit)</span><br><span class="line">– Adobe Photoshop CS6 Extended (64-Bit)</span><br><span class="line">– Adobe Premiere Pro CS6 (64-Bit)</span><br><span class="line">– Adobe SpeedGrade CS6 (64-Bit)</span><br><span class="line">– Adobe Acrobat X Pro (32-Bit)</span><br><span class="line">– Adobe Audition CS6 (32-Bit)</span><br><span class="line">– Adobe Bridge CS6 (32-Bit)</span><br><span class="line">– Adobe Dreamweaver CS6 (32-Bit)</span><br><span class="line">– Adobe Fireworks CS6 (32-Bit)</span><br><span class="line">– Adobe Flash Builder 4.6 (32-Bit)</span><br><span class="line">– Adobe Flash Professional CS6 (32-Bit)</span><br><span class="line">– Adobe Illustrator CS6 (32-Bit)</span><br><span class="line">– Adobe InDesign CS6 (32-Bit)</span><br><span class="line">– Adobe Media Encoder CS6 (32-Bit)</span><br><span class="line">– Adobe Photoshop CS6 Extended (32-Bit)</span><br><span class="line">– Adobe Prelude CS6 (32-Bit)</span><br><span class="line">– Adobe FrameMaker 11 (32-bit)</span><br><span class="line">– Adobe Premiere Elements 11 (64-Bit)</span><br><span class="line">– Adobe Elements 11 Organizer (32-Bit)</span><br><span class="line">– Adobe Photoshop Elements 11 (32-Bit)</span><br><span class="line">– Adobe Premiere Elements 11 (32-Bit)</span><br><span class="line">– Adobe Photoshop Lightroom 4.x (64-Bit)</span><br><span class="line">– Adobe Photoshop Lightroom 4.x (32-Bit)</span><br><span class="line">– Adobe After Effects CS5.5 (64-Bit)</span><br><span class="line">– Adobe Media Encoder CS5.5 (64-Bit)</span><br><span class="line">– Adobe Photoshop CS5.1 Extended (64-Bit)</span><br><span class="line">– Adobe Premiere Pro CS5.5 (64-Bit)</span><br><span class="line">– Adobe Audition CS5.5 (32-Bit)</span><br><span class="line">– Adobe Bridge CS5.1 (32-Bit)</span><br><span class="line">– Adobe Contribute CS5.1 (32-Bit)</span><br><span class="line">– Adobe Device Central CS5.5 (32-Bit)</span><br><span class="line">– Adobe Dreamweaver CS5.5 (32-Bit)</span><br><span class="line">– Adobe Encore CS5.1 (32-Bit)</span><br><span class="line">– Adobe Fireworks CS5.1 (32-Bit)</span><br><span class="line">– Adobe Flash Builder 4.5 (32-Bit)</span><br><span class="line">– Adobe Flash Catalyst CS5.5 (32-Bit)</span><br><span class="line">– Adobe Flash CS5.5 (32-Bit)</span><br><span class="line">– Adobe Illustrator CS5.1 (32-Bit)</span><br><span class="line">– Adobe InDesign CS5.5 (32-Bit)</span><br><span class="line">– Adobe Media Encoder CS5.5 (32-Bit)</span><br><span class="line">– Adobe Photoshop CS5.1 Extended (32-Bit)</span><br><span class="line">– Adobe FrameMaker 10 (32-bit)</span><br><span class="line">– Adobe Premiere Elements 10 (64-Bit)</span><br><span class="line">– Adobe Elements 10 Organizer (32-Bit)</span><br><span class="line">– Adobe Photoshop Elements 10 (32-Bit)</span><br><span class="line">– Adobe Premiere Elements 10 (32-Bit)</span><br><span class="line">– Adobe Photoshop Lightroom 3.x (64-Bit)</span><br><span class="line">– Adobe Photoshop Lightroom 3.x (32-Bit)</span><br><span class="line">– Adobe After Effects CS5 (64-Bit)</span><br><span class="line">– Adobe Media Encoder CS5 (64-Bit)</span><br><span class="line">– Adobe Photoshop CS5 Extended (64-Bit)</span><br><span class="line">– Adobe Premiere Pro CS5 (64-Bit)</span><br><span class="line">– Adobe Bridge CS5 (32-Bit)</span><br><span class="line">– Adobe Contribute CS5 (32-Bit)</span><br><span class="line">– Adobe Device Central CS5 (32-Bit)</span><br><span class="line">– Adobe Dreamweaver CS5 (32-Bit)</span><br><span class="line">– Adobe Encore CS5 (32-Bit)</span><br><span class="line">– Adobe Fireworks CS5 (32-Bit)</span><br><span class="line">– Adobe Flash Builder 4 (32-Bit)</span><br><span class="line">– Adobe Flash Catalyst CS5 (32-Bit)</span><br><span class="line">– Adobe Flash CS5 (32-Bit)</span><br><span class="line">– Adobe Illustrator CS5 (32-Bit)</span><br><span class="line">– Adobe InDesign CS5 (32-Bit)</span><br><span class="line">– Adobe Media Encoder CS5 (32-Bit)</span><br><span class="line">– Adobe Photoshop CS5 Extended (32-Bit)</span><br><span class="line">– Adobe Soundbooth CS5 (32-Bit)</span><br><span class="line">– Adobe FrameMaker 9 (32-bit)</span><br><span class="line">– Adobe Elements 9 Organizer (32-Bit)</span><br><span class="line">– Adobe Photoshop Elements 9 (32-Bit)</span><br><span class="line">– Adobe Premiere Elements 9 (32-Bit)</span><br><span class="line">– Adobe Photoshop CS4 Extended (64-Bit)</span><br><span class="line">– Adobe Acrobat 9 (32-Bit)</span><br><span class="line">– Adobe After Effects CS4 (32-Bit)</span><br><span class="line">– Adobe Contribute CS4 (32-Bit)</span><br><span class="line">– Adobe Dreamweaver CS4 (32-Bit)</span><br><span class="line">– Adobe Encore CS4 (32-Bit)</span><br><span class="line">– Adobe Fireworks CS4 (32-Bit)</span><br><span class="line">– Adobe Flash CS4 (32-Bit)</span><br><span class="line">– Adobe Illustrator CS4 (32-Bit)</span><br><span class="line">– Adobe InDesign CS4 (32-Bit)</span><br><span class="line">– Adobe Media Encoder CS4 (32-Bit)</span><br><span class="line">– Adobe OnLocation CS4 (32-Bit)</span><br><span class="line">– Adobe Photoshop CS4 Extended (32-Bit)</span><br><span class="line">– Adobe Premiere Pro CS4 (32-Bit)</span><br><span class="line">– Adobe Soundbooth CS4 (32-Bit)</span><br></pre></td></tr></table></figure>
-
-<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><blockquote>
-<p>软件来源于网络。</p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Universal Adobe Patcher 2.0</span><br><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1cRRUWesqOjqIqnPGFgKfVQ</span><br><span class="line">密码：belb</span><br></pre></td></tr></table></figure>]]></content>
+<p>iPhone（iOS）系统hosts位于 /etc/hosts</p>
+<p>Linux系统hosts位于 /etc/hosts</p>
+<p>绝大多数Unix系统都是在 /etc/hosts</p>
+<p>可以直接用记事本打开，也可以用Notepad直接编辑</p>
+<h2 id="如何使修改后的Hosts生效"><a href="#如何使修改后的Hosts生效" class="headerlink" title="如何使修改后的Hosts生效"></a>如何使修改后的Hosts生效</h2><p>Windows</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">开始 - 运行 - 输入cmd - 在CMD窗口输入</span><br><span class="line">ipconfig &#x2F;flushdns</span><br></pre></td></tr></table></figure>
+<p>Linux</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">终端输入</span><br><span class="line">sudo rcnscd restart</span><br></pre></td></tr></table></figure>
+<p>对于systemd发行版，请使用命令</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo systemctl restart NetworkManager</span><br></pre></td></tr></table></figure>
+<p>Mac OS X终端输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo killall -HUP mDNSResponder</span><br></pre></td></tr></table></figure>
+<p>Android</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">开启飞行模式 - 关闭飞行模式</span><br></pre></td></tr></table></figure>
+<p><strong>通用方法:拔掉网线(断开网络) - 插上网线(重新连接网络)</strong></p>
+<p>如果不行就清空浏览器缓存</p>
+<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><p>下载压缩包&gt;编辑本机中的Hosts文件并写入压缩包内文本中的内容：(修改前建议备份本机原来的Hosts文件)</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1p-fAfjJCku6AQlqBXXbABg</span><br><span class="line"></span><br><span class="line">密码：qh6o</span><br></pre></td></tr></table></figure>
+<p>本页资源来源于网络，出现任何问题与本站无关。</p>
+<p>感谢网络分享者。</p>
+]]></content>
       <categories>
-        <category>Adobe</category>
-        <category>破解</category>
+        <category>技术共享</category>
       </categories>
       <tags>
-        <tag>Adobe</tag>
-        <tag>破解</tag>
+        <tag>Google</tag>
+        <tag>Hosts</tag>
       </tags>
   </entry>
   <entry>
@@ -137,6 +140,39 @@
       </tags>
   </entry>
   <entry>
+    <title>Adobe CC 2017 系列软件一键破解工具</title>
+    <url>/adobeqpj.html</url>
+    <content><![CDATA[<h2 id="Adobe-CC-2017-系列软件一键破解工具"><a href="#Adobe-CC-2017-系列软件一键破解工具" class="headerlink" title="Adobe CC 2017 系列软件一键破解工具"></a>Adobe CC 2017 系列软件一键破解工具</h2><p>此破解工具支持Adobe CS4 - CC 2017所有软件</p>
+<blockquote>
+<p>Universal Adobe Patcher (Adobe通用补丁)是俄罗斯PainteR大神制作的一款可以破解Adobe软件的工具，基本上新版破解器涵盖了目前所有Adobe软件破解补丁，是激活Adobe的实用工具。</p>
+</blockquote>
+<a id="more"></a>
+<p><img src="/images/adobeqpj.png" alt="Adobe CC 2017 系列软件一键破解工具"></p>
+<h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><p>Adobe CC 2017 系列软件的下载地址在压缩包内文档中，大家不需要再四处去找了。</p>
+<p>安装Adobe软件程序(断网安装/试用安装/在线安装/账户安装都可以)安装路径尽里使用英文，</p>
+<p>运行一次安装好的Adobe软件程序(以便加载激活软件的功能)，</p>
+<p>关闭软件后，双击打开破解工具，在下拉列表中选择对应的软件(注意64位和32位)，</p>
+<p>点击Patch完成破解(软件默认安装在C盘可以一键完成破解)。</p>
+<p>如果软件没有安装在默认路径，点击Patch，会弹窗提示错误，点是，然后在软件安装目录里找到amtlib.dll文件，选择打开完成破解(破解后如果发现软件打不开或报错，那么就还原amtlib.dll文件，找寻其他破解方式)。</p>
+<p>如何还原amtlib.dll文件：</p>
+<p>按照上面的方法破解后，在软件安装目录会将原始的amtib.dll文件保存为amtib.dl.BAK，将现在的amtib.dll文件删除，把amtib.dll.BAK文件重命名为amtib.dll,这样就将软件初始为原始未破解的状态，方便进行其他方式破解。</p>
+<h2 id="支持的软件版本"><a href="#支持的软件版本" class="headerlink" title="支持的软件版本"></a>支持的软件版本</h2><p>此版本为 Universal Adobe Patcher 2.0 版本，下面列出所支持破解的软件：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">– Adobe After Effects CC 2017 (64-Bit)</span><br><span class="line">– Adobe Animate CC 2017 (64-Bit)</span><br><span class="line">– Adobe Audition CC 2017 (64-Bit)</span><br><span class="line">– Adobe Bridge CC 2017 (64-Bit)</span><br><span class="line">– Adobe Character Animator CC (Beta) (64-Bit)</span><br><span class="line">– Adobe Dreamweaver CC 2017 (64-Bit)</span><br><span class="line">– Adobe Illustrator CC 2017 (64-Bit)</span><br><span class="line">– Adobe InCopy CC 2017 (64-Bit)</span><br><span class="line">– Adobe InDesign CC 2017 (64-Bit)</span><br><span class="line">– Adobe Media Encoder CC 2017 (64-Bit)</span><br><span class="line">– Adobe Muse CC 2017 (64-Bit)</span><br><span class="line">– Adobe Photoshop CC 2017 (64-Bit)</span><br><span class="line">– Adobe Prelude CC 2017 (64-Bit)</span><br><span class="line">– Adobe Premiere Pro CC 2017 (64-Bit)</span><br><span class="line">– Adobe Bridge CC 2017 (32-Bit)</span><br><span class="line">– Adobe Dreamweaver CC 2017 (32-Bit)</span><br><span class="line">– Adobe Illustrator CC 2017 (32 Bit)</span><br><span class="line">– Adobe InCopy CC 2017 (32-bit)</span><br><span class="line">– Adobe InDesign CC 2017 (32-bit)</span><br><span class="line">– Adobe Photoshop CC 2017 (32-bit)</span><br><span class="line">– Adobe After Effects CC 2015.3 (64-Bit)</span><br><span class="line">– Adobe Animate CC 2015.2 (64-Bit)</span><br><span class="line">– Adobe Audition CC 2015.2 (64-Bit)</span><br><span class="line">– Adobe Illustrator CC 2015.3 (64-Bit)</span><br><span class="line">– Adobe Media Encoder CC 2015.4 (64-Bit)</span><br><span class="line">– Adobe Muse CC 2015.2 (64-Bit)</span><br><span class="line">– Adobe Photoshop CC 2015.5 (64-Bit)</span><br><span class="line">– Adobe Prelude CC 2015.4 (64-Bit)</span><br><span class="line">– Adobe Premiere Pro CC 2015.3 (64-Bit)</span><br><span class="line">– Adobe Illustrator CC 2015.3 (32 Bit)</span><br><span class="line">– Adobe Photoshop CC 2015.5 (32-bit)</span><br><span class="line">– Adobe After Effects CC 2015 (64-Bit)</span><br><span class="line">– Adobe Audition CC 2015 (64-Bit)</span><br><span class="line">– Adobe Bridge CC 2015 (64-Bit)</span><br><span class="line">– Adobe Character Animator CC (Preview) (64-Bit)</span><br><span class="line">– Adobe Dreamweaver CC 2015 (64-Bit)</span><br><span class="line">– Adobe Edge Animate CC 2015 (64-Bit)</span><br><span class="line">– Adobe Flash Professional CC 2015 (64-Bit)</span><br><span class="line">– Adobe Illustrator CC 2015 (64-Bit)</span><br><span class="line">– Adobe InCopy CC 2015 (64-Bit)</span><br><span class="line">– Adobe InDesign CC 2015 (64-Bit)</span><br><span class="line">– Adobe Media Encoder CC 2015 (64-Bit)</span><br><span class="line">– Adobe Muse CC 2015 (64-Bit)</span><br><span class="line">– Adobe Photoshop CC 2015 (64-Bit)</span><br><span class="line">– Adobe Photoshop Lightroom CC 2015 (64-Bit)</span><br><span class="line">– Adobe Prelude CC 2015 (64-Bit)</span><br><span class="line">– Adobe Premiere Pro CC 2015 (64-Bit)</span><br><span class="line">– Adobe SpeedGrade CC 2015 (64-Bit)</span><br><span class="line">– Adobe Acrobat Pro DC 2015 (32-Bit)</span><br><span class="line">– Adobe Bridge CC 2015 (32-Bit)</span><br><span class="line">– Adobe Dreamweaver CC 2015 (32-Bit)</span><br><span class="line">– Adobe Illustrator CC 2015 (32 Bit)</span><br><span class="line">– Adobe InCopy CC 2015 (32-bit)</span><br><span class="line">– Adobe InDesign CC 2015 (32-bit)</span><br><span class="line">– Adobe Photoshop CC 2015 (32-bit)</span><br><span class="line">– Adobe FrameMaker 2015 (32-bit)</span><br><span class="line">– Adobe Presenter Video Express 11 (64-bit)</span><br><span class="line">– Adobe Presenter 11 (32-bit)</span><br><span class="line">– Adobe Presenter Video Express 11 (32-bit)</span><br><span class="line">– Adobe Elements 15 Organizer (64-Bit)</span><br><span class="line">– Adobe Photoshop Elements 15 (64-Bit)</span><br><span class="line">– Adobe Premiere Elements 15 (64-Bit)</span><br><span class="line">– Adobe Elements 14 Organizer (64-Bit)</span><br><span class="line">– Adobe Photoshop Elements 14 (64-Bit)</span><br><span class="line">– Adobe Premiere Elements 14 (64-Bit)</span><br><span class="line">– Adobe Elements 14 Organizer (32-Bit)</span><br><span class="line">– Adobe Photoshop Elements 14 (32-Bit)</span><br><span class="line">– Adobe Premiere Elements 14 (32-Bit)</span><br><span class="line">– Adobe After Effects CC 2014 (64-Bit)</span><br><span class="line">– Adobe Audition CC 2014 (64-Bit)</span><br><span class="line">– Adobe Dreamweaver CC 2014 (64-Bit)</span><br><span class="line">– Adobe Flash CC 2014 (64-Bit)</span><br><span class="line">– Adobe Illustrator CC 2014 (64-Bit)</span><br><span class="line">– Adobe InCopy CC 2014 (64-Bit)</span><br><span class="line">– Adobe InDesign CC 2014 (64-Bit)</span><br><span class="line">– Adobe Media Encoder CC 2014 (64-Bit)</span><br><span class="line">– Adobe Muse CC 2014 (64-Bit)</span><br><span class="line">– Adobe Photoshop CC 2014 (64-Bit)</span><br><span class="line">– Adobe Prelude CC 2014 (64-Bit)</span><br><span class="line">– Adobe Premiere Pro CC 2014 (64-Bit)</span><br><span class="line">– Adobe SpeedGrade CC 2014 (64-Bit)</span><br><span class="line">– Adobe Dreamweaver CC 2014 (32-Bit)</span><br><span class="line">– Adobe Edge Animate CC 2014 (32-Bit)</span><br><span class="line">– Adobe Illustrator CC 2014 (32-Bit)</span><br><span class="line">– Adobe InCopy CC 2014 (32-bit)</span><br><span class="line">– Adobe InDesign CC 2014 (32-bit)</span><br><span class="line">– Adobe Photoshop CC 2014 (32-bit)</span><br><span class="line">– Adobe Elements 13 Organizer (64-Bit)</span><br><span class="line">– Adobe Photoshop Elements 13 (64-Bit)</span><br><span class="line">– Adobe Premiere Elements 13 (64-Bit)</span><br><span class="line">– Adobe Elements 13 Organizer (32-Bit)</span><br><span class="line">– Adobe Photoshop Elements 13 (32-Bit)</span><br><span class="line">– Adobe Premiere Elements 13 (32-Bit)</span><br><span class="line">– Adobe After Effects CC (64-Bit)</span><br><span class="line">– Adobe Audition CC (64-Bit)</span><br><span class="line">– Adobe Bridge CC (64-Bit)</span><br><span class="line">– Adobe Flash Builder 4.7 (64-Bit)</span><br><span class="line">– Adobe Flash Professional CC (64-Bit)</span><br><span class="line">– Adobe Illustrator CC (64-Bit)</span><br><span class="line">– Adobe InCopy CC (64-Bit)</span><br><span class="line">– Adobe InDesign CC (64-Bit)</span><br><span class="line">– Adobe Media Encoder CC (64-Bit)</span><br><span class="line">– Adobe Photoshop CC Extended (64-Bit)</span><br><span class="line">– Adobe Prelude CC (64-Bit)</span><br><span class="line">– Adobe Premiere Pro CC (64-Bit)</span><br><span class="line">– Adobe SpeedGrade CC (64-Bit)</span><br><span class="line">– Adobe Acrobat XI Pro (32-Bit)</span><br><span class="line">– Adobe Bridge CC (32-Bit)</span><br><span class="line">– Adobe Dreamweaver CC (32-Bit)</span><br><span class="line">– Adobe Edge Animate CC (32-Bit)</span><br><span class="line">– Adobe Flash Builder 4.7 (32-Bit)</span><br><span class="line">– Adobe Illustrator CC (32-Bit)</span><br><span class="line">– Adobe InCopy CC (32-Bit)</span><br><span class="line">– Adobe InDesign CC (32-Bit)</span><br><span class="line">– Adobe Muse CC (32-Bit)</span><br><span class="line">– Adobe Photoshop CC Extended (32-Bit)</span><br><span class="line">– Adobe FrameMaker 12 (32-bit)</span><br><span class="line">– Adobe Premiere Elements 12 (64-Bit)</span><br><span class="line">– Adobe Elements 12 Organizer (32-Bit)</span><br><span class="line">– Adobe Photoshop Elements 12 (32-Bit)</span><br><span class="line">– Adobe Premiere Elements 12 (32-Bit)</span><br><span class="line">– Adobe Photoshop Lightroom 5.x CC (64-Bit)</span><br><span class="line">– Adobe Photoshop Lightroom 5.x (64-Bit)</span><br><span class="line">– Adobe Photoshop Lightroom 5.x CC (32-Bit)</span><br><span class="line">– Adobe Photoshop Lightroom 5.x (32-Bit)</span><br><span class="line">– Adobe After Effects CS6 (64-Bit)</span><br><span class="line">– Adobe Bridge CS6 (64-Bit)</span><br><span class="line">– Adobe Encore CS6 (64-Bit)</span><br><span class="line">– Adobe Illustrator CS6 (64-Bit)</span><br><span class="line">– Adobe Media Encoder CS6 (64-Bit)</span><br><span class="line">– Adobe Photoshop CS6 Extended (64-Bit)</span><br><span class="line">– Adobe Premiere Pro CS6 (64-Bit)</span><br><span class="line">– Adobe SpeedGrade CS6 (64-Bit)</span><br><span class="line">– Adobe Acrobat X Pro (32-Bit)</span><br><span class="line">– Adobe Audition CS6 (32-Bit)</span><br><span class="line">– Adobe Bridge CS6 (32-Bit)</span><br><span class="line">– Adobe Dreamweaver CS6 (32-Bit)</span><br><span class="line">– Adobe Fireworks CS6 (32-Bit)</span><br><span class="line">– Adobe Flash Builder 4.6 (32-Bit)</span><br><span class="line">– Adobe Flash Professional CS6 (32-Bit)</span><br><span class="line">– Adobe Illustrator CS6 (32-Bit)</span><br><span class="line">– Adobe InDesign CS6 (32-Bit)</span><br><span class="line">– Adobe Media Encoder CS6 (32-Bit)</span><br><span class="line">– Adobe Photoshop CS6 Extended (32-Bit)</span><br><span class="line">– Adobe Prelude CS6 (32-Bit)</span><br><span class="line">– Adobe FrameMaker 11 (32-bit)</span><br><span class="line">– Adobe Premiere Elements 11 (64-Bit)</span><br><span class="line">– Adobe Elements 11 Organizer (32-Bit)</span><br><span class="line">– Adobe Photoshop Elements 11 (32-Bit)</span><br><span class="line">– Adobe Premiere Elements 11 (32-Bit)</span><br><span class="line">– Adobe Photoshop Lightroom 4.x (64-Bit)</span><br><span class="line">– Adobe Photoshop Lightroom 4.x (32-Bit)</span><br><span class="line">– Adobe After Effects CS5.5 (64-Bit)</span><br><span class="line">– Adobe Media Encoder CS5.5 (64-Bit)</span><br><span class="line">– Adobe Photoshop CS5.1 Extended (64-Bit)</span><br><span class="line">– Adobe Premiere Pro CS5.5 (64-Bit)</span><br><span class="line">– Adobe Audition CS5.5 (32-Bit)</span><br><span class="line">– Adobe Bridge CS5.1 (32-Bit)</span><br><span class="line">– Adobe Contribute CS5.1 (32-Bit)</span><br><span class="line">– Adobe Device Central CS5.5 (32-Bit)</span><br><span class="line">– Adobe Dreamweaver CS5.5 (32-Bit)</span><br><span class="line">– Adobe Encore CS5.1 (32-Bit)</span><br><span class="line">– Adobe Fireworks CS5.1 (32-Bit)</span><br><span class="line">– Adobe Flash Builder 4.5 (32-Bit)</span><br><span class="line">– Adobe Flash Catalyst CS5.5 (32-Bit)</span><br><span class="line">– Adobe Flash CS5.5 (32-Bit)</span><br><span class="line">– Adobe Illustrator CS5.1 (32-Bit)</span><br><span class="line">– Adobe InDesign CS5.5 (32-Bit)</span><br><span class="line">– Adobe Media Encoder CS5.5 (32-Bit)</span><br><span class="line">– Adobe Photoshop CS5.1 Extended (32-Bit)</span><br><span class="line">– Adobe FrameMaker 10 (32-bit)</span><br><span class="line">– Adobe Premiere Elements 10 (64-Bit)</span><br><span class="line">– Adobe Elements 10 Organizer (32-Bit)</span><br><span class="line">– Adobe Photoshop Elements 10 (32-Bit)</span><br><span class="line">– Adobe Premiere Elements 10 (32-Bit)</span><br><span class="line">– Adobe Photoshop Lightroom 3.x (64-Bit)</span><br><span class="line">– Adobe Photoshop Lightroom 3.x (32-Bit)</span><br><span class="line">– Adobe After Effects CS5 (64-Bit)</span><br><span class="line">– Adobe Media Encoder CS5 (64-Bit)</span><br><span class="line">– Adobe Photoshop CS5 Extended (64-Bit)</span><br><span class="line">– Adobe Premiere Pro CS5 (64-Bit)</span><br><span class="line">– Adobe Bridge CS5 (32-Bit)</span><br><span class="line">– Adobe Contribute CS5 (32-Bit)</span><br><span class="line">– Adobe Device Central CS5 (32-Bit)</span><br><span class="line">– Adobe Dreamweaver CS5 (32-Bit)</span><br><span class="line">– Adobe Encore CS5 (32-Bit)</span><br><span class="line">– Adobe Fireworks CS5 (32-Bit)</span><br><span class="line">– Adobe Flash Builder 4 (32-Bit)</span><br><span class="line">– Adobe Flash Catalyst CS5 (32-Bit)</span><br><span class="line">– Adobe Flash CS5 (32-Bit)</span><br><span class="line">– Adobe Illustrator CS5 (32-Bit)</span><br><span class="line">– Adobe InDesign CS5 (32-Bit)</span><br><span class="line">– Adobe Media Encoder CS5 (32-Bit)</span><br><span class="line">– Adobe Photoshop CS5 Extended (32-Bit)</span><br><span class="line">– Adobe Soundbooth CS5 (32-Bit)</span><br><span class="line">– Adobe FrameMaker 9 (32-bit)</span><br><span class="line">– Adobe Elements 9 Organizer (32-Bit)</span><br><span class="line">– Adobe Photoshop Elements 9 (32-Bit)</span><br><span class="line">– Adobe Premiere Elements 9 (32-Bit)</span><br><span class="line">– Adobe Photoshop CS4 Extended (64-Bit)</span><br><span class="line">– Adobe Acrobat 9 (32-Bit)</span><br><span class="line">– Adobe After Effects CS4 (32-Bit)</span><br><span class="line">– Adobe Contribute CS4 (32-Bit)</span><br><span class="line">– Adobe Dreamweaver CS4 (32-Bit)</span><br><span class="line">– Adobe Encore CS4 (32-Bit)</span><br><span class="line">– Adobe Fireworks CS4 (32-Bit)</span><br><span class="line">– Adobe Flash CS4 (32-Bit)</span><br><span class="line">– Adobe Illustrator CS4 (32-Bit)</span><br><span class="line">– Adobe InDesign CS4 (32-Bit)</span><br><span class="line">– Adobe Media Encoder CS4 (32-Bit)</span><br><span class="line">– Adobe OnLocation CS4 (32-Bit)</span><br><span class="line">– Adobe Photoshop CS4 Extended (32-Bit)</span><br><span class="line">– Adobe Premiere Pro CS4 (32-Bit)</span><br><span class="line">– Adobe Soundbooth CS4 (32-Bit)</span><br></pre></td></tr></table></figure>
+
+<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><blockquote>
+<p>软件来源于网络。</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Universal Adobe Patcher 2.0</span><br><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1cRRUWesqOjqIqnPGFgKfVQ</span><br><span class="line">密码：belb</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Adobe</category>
+        <category>破解</category>
+      </categories>
+      <tags>
+        <tag>Adobe</tag>
+        <tag>破解</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>AutoCAD2006破解版</title>
     <url>/cadelpj.html</url>
     <content><![CDATA[<h2 id="CAD2006破解版"><a href="#CAD2006破解版" class="headerlink" title="CAD2006破解版"></a>CAD2006破解版</h2><p>给大家分享一下CAD破解版，还有CASS7.1和CASS7.0</p>
@@ -153,78 +189,6 @@
       <tags>
         <tag>CAD2006破解版</tag>
         <tag>Cass7.0</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2018-6-5 可用Google-Hosts更新</title>
-    <url>/blwghosts.html</url>
-    <content><![CDATA[<h2 id="Hosts文件位置"><a href="#Hosts文件位置" class="headerlink" title="Hosts文件位置"></a>Hosts文件位置</h2><p>Windows 系统hosts位于 C:\Windows\System32\drivers\etc\hosts</p>
-<p>Android（安卓）系统hosts位于 /etc/hosts</p>
-<p>Mac（苹果电脑）系统hosts位于 /etc/hosts</p>
-<a id="more"></a>
-<p>iPhone（iOS）系统hosts位于 /etc/hosts</p>
-<p>Linux系统hosts位于 /etc/hosts</p>
-<p>绝大多数Unix系统都是在 /etc/hosts</p>
-<p>可以直接用记事本打开，也可以用Notepad直接编辑</p>
-<h2 id="如何使修改后的Hosts生效"><a href="#如何使修改后的Hosts生效" class="headerlink" title="如何使修改后的Hosts生效"></a>如何使修改后的Hosts生效</h2><p>Windows</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">开始 - 运行 - 输入cmd - 在CMD窗口输入</span><br><span class="line">ipconfig &#x2F;flushdns</span><br></pre></td></tr></table></figure>
-<p>Linux</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">终端输入</span><br><span class="line">sudo rcnscd restart</span><br></pre></td></tr></table></figure>
-<p>对于systemd发行版，请使用命令</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo systemctl restart NetworkManager</span><br></pre></td></tr></table></figure>
-<p>Mac OS X终端输入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo killall -HUP mDNSResponder</span><br></pre></td></tr></table></figure>
-<p>Android</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">开启飞行模式 - 关闭飞行模式</span><br></pre></td></tr></table></figure>
-<p><strong>通用方法:拔掉网线(断开网络) - 插上网线(重新连接网络)</strong></p>
-<p>如果不行就清空浏览器缓存</p>
-<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><p>下载压缩包&gt;编辑本机中的Hosts文件并写入压缩包内文本中的内容：(修改前建议备份本机原来的Hosts文件)</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1p-fAfjJCku6AQlqBXXbABg</span><br><span class="line"></span><br><span class="line">密码：qh6o</span><br></pre></td></tr></table></figure>
-<p>本页资源来源于网络，出现任何问题与本站无关。</p>
-<p>感谢网络分享者。</p>
-]]></content>
-      <categories>
-        <category>技术共享</category>
-      </categories>
-      <tags>
-        <tag>Google</tag>
-        <tag>Hosts</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>自动随机时间上滑刷短视频</title>
-    <url>/dspsjsh.html</url>
-    <content><![CDATA[<p>作为久别重逢的第一篇文章</p>
-<p>薅羊毛使我快乐</p>
-<p>另外 原博客ly554.com 更改为blog.lizxx.com</p>
-<h2 id="脚本介绍"><a href="#脚本介绍" class="headerlink" title="脚本介绍"></a>脚本介绍</h2><p>最近刷短视频赚钱兴起，例如刷宝短视频、快手极速版、抖音极速版等等</p>
-<p>本人也想要加入薅羊毛大军，便搞了一个自动上滑的脚本，分享给大家。</p>
-<p>为了防止系统认为是机器人，加入了随机时间上滑</p>
-<p>可设置多个软件，会自动依次启动。</p>
-<a id="more"></a>
-<h2 id="随机上滑脚本"><a href="#随机上滑脚本" class="headerlink" title="随机上滑脚本"></a>随机上滑脚本</h2><p><strong>使用方法：</strong></p>
-<p><img src="/images/dspsjsh.png" alt="随机上滑"></p>
-<p>首先安装 Auto.js 点击右下角加号新建脚本</p>
-<p><img src="/images/dspsjsh2.png" alt="薅羊毛脚本"></p>
-<p>随意设置脚本名称</p>
-<p><img src="/images/dspsjsh3.png" alt="短视频APP脚本"></p>
-<p>创建成功后点击新创建的脚本</p>
-<p><img src="/images/dspsjsh4.png" alt="薅羊毛APP脚本"></p>
-<p>点击main那条后面的小铅笔图标进行修改脚本</p>
-<p><img src="/images/dspsjsh5.png" alt="薅羊毛脚本"></p>
-<p>粘贴上脚本代码然后保存</p>
-<p><img src="/images/dspsjsh3.png" alt="随即上滑短视频脚本"></p>
-<p>然后返回点击新创建的脚本后面的三角符号运行脚本即可。</p>
-<p>就会自动启动设置好的软件，并进行上滑事件</p>
-<h2 id="Auto-js-pro-破解版"><a href="#Auto-js-pro-破解版" class="headerlink" title="Auto.js pro 破解版"></a>Auto.js pro 破解版</h2><p>附赠一个 Auto.js pro 的破解版</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Auto.js pro 破解版下载地址</span><br><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1rWzo7bGX9M_2FErGdL6ybg </span><br><span class="line">提取码：doh7</span><br></pre></td></tr></table></figure>
-
-<h2 id="脚本代码"><a href="#脚本代码" class="headerlink" title="脚本代码"></a>脚本代码</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">console.show()  &#x2F;&#x2F;显示悬浮窗（需要先打开悬浮窗权限）</span><br><span class="line"></span><br><span class="line">function nextVideo()&#123;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;获得手机分辨率</span><br><span class="line"></span><br><span class="line">var width &#x3D; device.width;</span><br><span class="line"></span><br><span class="line">var height &#x3D; device.height;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;swipe(x1,y1,x2,y2,t) 滑动函数 从x1,y1,到x2,y2用时t ms</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;屏幕的像素是从左上角开始的，向下，向右增加</span><br><span class="line"></span><br><span class="line">swipe(width&#x2F;2,height&#x2F;2,width&#x2F;2,height&#x2F;3,10);</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;获取范围内的随机数</span><br><span class="line"></span><br><span class="line">function randNum(minnum , maxnum)&#123;</span><br><span class="line"></span><br><span class="line">return Math.floor(minnum + Math.random() * (maxnum - minnum));</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 封装一下</span><br><span class="line"></span><br><span class="line">function runApp(appName,runTimes)&#123;</span><br><span class="line"></span><br><span class="line">toast(&#39;这是一个刷视频的工具,需要悬浮窗和无障碍权限,1s之后打开APP&#39;);</span><br><span class="line">    console.log(&#39;这是一个刷视频的工具,需要悬浮窗和无障碍权限,1s之后打开APP&#39;);</span><br><span class="line">sleep(1000);</span><br><span class="line"></span><br><span class="line">var launchResult&#x3D;launchApp(appName);</span><br><span class="line"></span><br><span class="line">if(!launchResult)&#123;</span><br><span class="line"></span><br><span class="line">toast(&#39;你还没有安装“&#39;+appName+&#39;”请结束脚本，否则空运行！&#39;);</span><br><span class="line">    console.log(&#39;你还没有安装“&#39;+appName+&#39;”请结束脚本，否则空运行！&#39;);</span><br><span class="line">sleep(10000);</span><br><span class="line">back();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">toast(&#39;等待软件打开，3s之后继续下个动作！&#39;);</span><br><span class="line">    console.log(&#39;等待软件打开，3s之后继续下个动作！&#39;);</span><br><span class="line"></span><br><span class="line">sleep(3000);</span><br><span class="line"></span><br><span class="line">var sleepTime &#x3D; 10;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 统计运行次数</span><br><span class="line"></span><br><span class="line">var flagTime&#x3D;0;</span><br><span class="line"></span><br><span class="line">while(true)&#123;</span><br><span class="line"></span><br><span class="line">flagTime++;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 超过次数终止程序</span><br><span class="line"></span><br><span class="line">if(flagTime&gt;runTimes)&#123;</span><br><span class="line"></span><br><span class="line">break;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 随机时间之后下个视频，避免软件认为是机器人,因为有广告</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 广告结束之后会有弹窗，因此时间设置短一点 可以防止广告结束</span><br><span class="line"></span><br><span class="line">sleepTime &#x3D; randNum(5,10);</span><br><span class="line"></span><br><span class="line">toast(sleepTime.toString() + &#39;s之后跳到下个视频！已经执行 &#39;+flagTime.toString()+&quot;次&quot;);</span><br><span class="line">    console.log(sleepTime.toString() + &#39;s之后跳到下个视频！已经执行 &#39;+flagTime.toString()+&quot;次&quot;);</span><br><span class="line"></span><br><span class="line">sleep(sleepTime*1000);</span><br><span class="line"></span><br><span class="line">nextVideo();</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">function main()&#123;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;以下是我设置好的软件和次数，可以按照下面的样式添加更多的软件；如果没有此软件你注释即可，在代码前加 &#x2F;&#x2F;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;runApp(&quot;手机中的软件名&quot;,要刷的次数);</span><br><span class="line"></span><br><span class="line">runApp(&quot;快手极速版&quot;,1900);</span><br><span class="line"></span><br><span class="line">runApp(&quot;刷宝短视频&quot;,500);</span><br><span class="line"></span><br><span class="line">runApp(&quot;抖音极速版&quot;,3000);</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">main();</span><br><span class="line">console.hide()</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>手机脚本</category>
-      </categories>
-      <tags>
-        <tag>短视频自动上滑</tag>
       </tags>
   </entry>
   <entry>
@@ -257,38 +221,6 @@
       <tags>
         <tag>加速器</tag>
         <tag>电脑优化</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>打怪吃鸡游戏人生终虚幻，真枪实弹军中成长没遗憾</title>
-    <url>/cjrw.html</url>
-    <content><![CDATA[<p>六月高考不努力，九月部队做兄弟。</p>
-<p>努力也是提前批，回头还得做兄弟。</p>
-<p>超了一本几十几，一样部队做兄弟。</p>
-<p>毕业学生来入伍，还得一起做兄弟。</p>
-<p>命中注定做兄弟，即使逞强白费力。</p>
-<a id="more"></a>
-<p>提前批次没入成，入学选拔做兄弟。</p>
-<p>大学毕业来入伍，还得一起做兄弟。</p>
-<p>本科错失好机缘，硕士直招做兄弟。</p>
-<p>硕博读完找工作，特招入伍做兄弟。</p>
-<p>六月高考不努力，九月部队做兄弟。</p>
-<p>纵然高考再努力，军校拔草做兄弟。</p>
-<p>就算到了大学去，毕业还能做兄弟。</p>
-<p>即使读了研究生，毕业也能做兄弟。</p>
-<p>就算博士毕了业，还是可以做兄弟。</p>
-<p>只要不进号子里，都有可能做兄弟。</p>
-<p>就算进了号子里，兄弟可以守着你。</p>
-<p>来吧，兄弟！一人当兵全家光荣！</p>
-<p>来吧，上军校，  包吃包住包学校，有衣服有工资有差旅费。</p>
-<p>打怪吃鸡游戏人生终虚幻 真枪实弹军中成长没遗憾</p>
-<p><img src="/images/cjrw.jpg" alt="九月部队做兄弟"></p>
-]]></content>
-      <categories>
-        <category>杂记</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -384,22 +316,6 @@
         <tag>百度爬虫</tag>
         <tag>SEO</tag>
         <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows10一键关闭自动更新工具</title>
-    <url>/gbwszdgx.html</url>
-    <content><![CDATA[<h2 id="Win10关闭自动更新工具"><a href="#Win10关闭自动更新工具" class="headerlink" title="Win10关闭自动更新工具"></a>Win10关闭自动更新工具</h2><p>Windows Update Blocker：Windows关闭自动更新软件 是由网上开发者开发并发布的一款简易一键关闭Win10自动更新的工具，Win10用户可以通过此软件一键关闭WIN10自动更新功能，完美解决WIN10经常弹出自动更新并且关不掉的情况。</p>
-<a id="more"></a>
-<p><img src="/images/gbwszdgx.png" alt="一键关闭自动更新工具"></p>
-<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Windows Update Blocker v1.1</span><br><span class="line"></span><br><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1X_EBtoj5vspUL4MkxANGgw</span><br><span class="line">密码：w7sb</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Windows</category>
-        <category>软件共享</category>
-      </categories>
-      <tags>
-        <tag>软件共享</tag>
-        <tag>Windows关闭自动更新</tag>
       </tags>
   </entry>
   <entry>
@@ -544,6 +460,58 @@
       </tags>
   </entry>
   <entry>
+    <title>Windows10一键关闭自动更新工具</title>
+    <url>/gbwszdgx.html</url>
+    <content><![CDATA[<h2 id="Win10关闭自动更新工具"><a href="#Win10关闭自动更新工具" class="headerlink" title="Win10关闭自动更新工具"></a>Win10关闭自动更新工具</h2><p>Windows Update Blocker：Windows关闭自动更新软件 是由网上开发者开发并发布的一款简易一键关闭Win10自动更新的工具，Win10用户可以通过此软件一键关闭WIN10自动更新功能，完美解决WIN10经常弹出自动更新并且关不掉的情况。</p>
+<a id="more"></a>
+<p><img src="/images/gbwszdgx.png" alt="一键关闭自动更新工具"></p>
+<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Windows Update Blocker v1.1</span><br><span class="line"></span><br><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1X_EBtoj5vspUL4MkxANGgw</span><br><span class="line">密码：w7sb</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Windows</category>
+        <category>软件共享</category>
+      </categories>
+      <tags>
+        <tag>软件共享</tag>
+        <tag>Windows关闭自动更新</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>自动随机时间上滑刷短视频</title>
+    <url>/dspsjsh.html</url>
+    <content><![CDATA[<p>作为久别重逢的第一篇文章</p>
+<p>薅羊毛使我快乐</p>
+<p>另外 原博客ly554.com 更改为blog.lizxx.com</p>
+<h2 id="脚本介绍"><a href="#脚本介绍" class="headerlink" title="脚本介绍"></a>脚本介绍</h2><p>最近刷短视频赚钱兴起，例如刷宝短视频、快手极速版、抖音极速版等等</p>
+<p>本人也想要加入薅羊毛大军，便搞了一个自动上滑的脚本，分享给大家。</p>
+<p>为了防止系统认为是机器人，加入了随机时间上滑</p>
+<p>可设置多个软件，会自动依次启动。</p>
+<a id="more"></a>
+<h2 id="随机上滑脚本"><a href="#随机上滑脚本" class="headerlink" title="随机上滑脚本"></a>随机上滑脚本</h2><p><strong>使用方法：</strong></p>
+<p><img src="/images/dspsjsh.png" alt="随机上滑"></p>
+<p>首先安装 Auto.js 点击右下角加号新建脚本</p>
+<p><img src="/images/dspsjsh2.png" alt="薅羊毛脚本"></p>
+<p>随意设置脚本名称</p>
+<p><img src="/images/dspsjsh3.png" alt="短视频APP脚本"></p>
+<p>创建成功后点击新创建的脚本</p>
+<p><img src="/images/dspsjsh4.png" alt="薅羊毛APP脚本"></p>
+<p>点击main那条后面的小铅笔图标进行修改脚本</p>
+<p><img src="/images/dspsjsh5.png" alt="薅羊毛脚本"></p>
+<p>粘贴上脚本代码然后保存</p>
+<p><img src="/images/dspsjsh3.png" alt="随即上滑短视频脚本"></p>
+<p>然后返回点击新创建的脚本后面的三角符号运行脚本即可。</p>
+<p>就会自动启动设置好的软件，并进行上滑事件</p>
+<h2 id="Auto-js-pro-破解版"><a href="#Auto-js-pro-破解版" class="headerlink" title="Auto.js pro 破解版"></a>Auto.js pro 破解版</h2><p>附赠一个 Auto.js pro 的破解版</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Auto.js pro 破解版下载地址</span><br><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1rWzo7bGX9M_2FErGdL6ybg </span><br><span class="line">提取码：doh7</span><br></pre></td></tr></table></figure>
+
+<h2 id="脚本代码"><a href="#脚本代码" class="headerlink" title="脚本代码"></a>脚本代码</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">console.show()  &#x2F;&#x2F;显示悬浮窗（需要先打开悬浮窗权限）</span><br><span class="line"></span><br><span class="line">function nextVideo()&#123;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;获得手机分辨率</span><br><span class="line"></span><br><span class="line">var width &#x3D; device.width;</span><br><span class="line"></span><br><span class="line">var height &#x3D; device.height;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;swipe(x1,y1,x2,y2,t) 滑动函数 从x1,y1,到x2,y2用时t ms</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;屏幕的像素是从左上角开始的，向下，向右增加</span><br><span class="line"></span><br><span class="line">swipe(width&#x2F;2,height&#x2F;2,width&#x2F;2,height&#x2F;3,10);</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;获取范围内的随机数</span><br><span class="line"></span><br><span class="line">function randNum(minnum , maxnum)&#123;</span><br><span class="line"></span><br><span class="line">return Math.floor(minnum + Math.random() * (maxnum - minnum));</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 封装一下</span><br><span class="line"></span><br><span class="line">function runApp(appName,runTimes)&#123;</span><br><span class="line"></span><br><span class="line">toast(&#39;这是一个刷视频的工具,需要悬浮窗和无障碍权限,1s之后打开APP&#39;);</span><br><span class="line">    console.log(&#39;这是一个刷视频的工具,需要悬浮窗和无障碍权限,1s之后打开APP&#39;);</span><br><span class="line">sleep(1000);</span><br><span class="line"></span><br><span class="line">var launchResult&#x3D;launchApp(appName);</span><br><span class="line"></span><br><span class="line">if(!launchResult)&#123;</span><br><span class="line"></span><br><span class="line">toast(&#39;你还没有安装“&#39;+appName+&#39;”请结束脚本，否则空运行！&#39;);</span><br><span class="line">    console.log(&#39;你还没有安装“&#39;+appName+&#39;”请结束脚本，否则空运行！&#39;);</span><br><span class="line">sleep(10000);</span><br><span class="line">back();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">toast(&#39;等待软件打开，3s之后继续下个动作！&#39;);</span><br><span class="line">    console.log(&#39;等待软件打开，3s之后继续下个动作！&#39;);</span><br><span class="line"></span><br><span class="line">sleep(3000);</span><br><span class="line"></span><br><span class="line">var sleepTime &#x3D; 10;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 统计运行次数</span><br><span class="line"></span><br><span class="line">var flagTime&#x3D;0;</span><br><span class="line"></span><br><span class="line">while(true)&#123;</span><br><span class="line"></span><br><span class="line">flagTime++;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 超过次数终止程序</span><br><span class="line"></span><br><span class="line">if(flagTime&gt;runTimes)&#123;</span><br><span class="line"></span><br><span class="line">break;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 随机时间之后下个视频，避免软件认为是机器人,因为有广告</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 广告结束之后会有弹窗，因此时间设置短一点 可以防止广告结束</span><br><span class="line"></span><br><span class="line">sleepTime &#x3D; randNum(5,10);</span><br><span class="line"></span><br><span class="line">toast(sleepTime.toString() + &#39;s之后跳到下个视频！已经执行 &#39;+flagTime.toString()+&quot;次&quot;);</span><br><span class="line">    console.log(sleepTime.toString() + &#39;s之后跳到下个视频！已经执行 &#39;+flagTime.toString()+&quot;次&quot;);</span><br><span class="line"></span><br><span class="line">sleep(sleepTime*1000);</span><br><span class="line"></span><br><span class="line">nextVideo();</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">function main()&#123;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;以下是我设置好的软件和次数，可以按照下面的样式添加更多的软件；如果没有此软件你注释即可，在代码前加 &#x2F;&#x2F;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;runApp(&quot;手机中的软件名&quot;,要刷的次数);</span><br><span class="line"></span><br><span class="line">runApp(&quot;快手极速版&quot;,1900);</span><br><span class="line"></span><br><span class="line">runApp(&quot;刷宝短视频&quot;,500);</span><br><span class="line"></span><br><span class="line">runApp(&quot;抖音极速版&quot;,3000);</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">main();</span><br><span class="line">console.hide()</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>手机脚本</category>
+      </categories>
+      <tags>
+        <tag>短视频自动上滑</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>如何使用Github的301重定向</title>
     <url>/githubcdx.html</url>
     <content><![CDATA[<h2 id="301重定向"><a href="#301重定向" class="headerlink" title="301重定向"></a>301重定向</h2><p>Github为大家提供了301重定向的功能，这是我很喜欢Github的原因之一。</p>
@@ -623,6 +591,40 @@
       </tags>
   </entry>
   <entry>
+    <title>让Hexo对指定文件或文件夹不进行渲染处理</title>
+    <url>/hexojzxr.html</url>
+    <content><![CDATA[<p>Hexo会将source目录下的所有.md文件和.html文件都进行渲染，这样就导致了我们没办法在博客中加入自定义页面或一些不想被渲染的页面。比如README.md文件、谷歌和百度的验证文件等。</p>
+<p>其实这个问题很简单，只需要修改站点配置文件_config.yml中的skip_render即可。但是修改了站点配置文件后，要执行以下hexo clean命令，否则修改后的skip_render可能不会生效。</p>
+<h2 id="指定不渲染文件或文件夹所有文件"><a href="#指定不渲染文件或文件夹所有文件" class="headerlink" title="指定不渲染文件或文件夹所有文件"></a>指定不渲染文件或文件夹所有文件</h2><a id="more"></a>
+<p>制定不渲染某个文件只需要更改站点配置文件中的skip_render写为以下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render: README.md</span><br></pre></td></tr></table></figure>
+
+<p>如果要指定不渲染多个文件可以写成下面的格式：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">  - &quot;README.md&quot;</span><br><span class="line">  - &quot;google****.html&quot;</span><br><span class="line">  - &quot;baidu****.html&quot;</span><br></pre></td></tr></table></figure>
+
+<p>如果要指定不渲染某文件夹下所有文件：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">  - &quot;文件夹名&#x2F;*&quot;</span><br><span class="line">或</span><br><span class="line">skip_render:</span><br><span class="line">  - &quot;文件夹名&#x2F;**&quot;</span><br></pre></td></tr></table></figure>
+
+<h2 id="指定不渲染某文件夹下某个格式的文件"><a href="#指定不渲染某文件夹下某个格式的文件" class="headerlink" title="指定不渲染某文件夹下某个格式的文件"></a>指定不渲染某文件夹下某个格式的文件</h2><p>如果是不渲染单个文件夹中的所有html文件就把skip_render写成下面的样子：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render: 文件夹名&#x2F;*.html</span><br></pre></td></tr></table></figure>
+
+<p>如果是多个文件夹多个文件格式可以这样写：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">  - &quot;文件夹1&#x2F;*.html&quot;</span><br><span class="line">  - &quot;文件夹2&#x2F;*.md&quot;</span><br></pre></td></tr></table></figure>
+
+<h2 id="不渲染指定HTML文件"><a href="#不渲染指定HTML文件" class="headerlink" title="不渲染指定HTML文件"></a>不渲染指定HTML文件</h2><p>如果只有一个html文件不需要渲染可以在这个文件的头部加入以下代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">layout: false</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<h2 id="混合写法"><a href="#混合写法" class="headerlink" title="混合写法"></a>混合写法</h2><p>比如我想要指定不渲染<strong>README.md文件</strong>、<strong>baidu**</strong>.html文件<strong>、</strong>liyme文件夹下所有文件<strong>、和</strong>liyme9255文件夹下所有html文件**。可以这样写：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">  - &quot;README.md&quot;</span><br><span class="line">  - &quot;baidu****.html&quot;</span><br><span class="line">  - &quot;liyme&#x2F;**&quot;</span><br><span class="line">  - &quot;liyme9255&#x2F;*.html&quot;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>渲染</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo博客设置404页面</title>
     <url>/hexosls.html</url>
     <content><![CDATA[<h2 id="在Github上搭建的Hexo博客设置404页面"><a href="#在Github上搭建的Hexo博客设置404页面" class="headerlink" title="在Github上搭建的Hexo博客设置404页面"></a>在Github上搭建的Hexo博客设置404页面</h2><p>在Github上设置404页面很简单，只要将404页面文件命名为404.html放在source文件夹下就可以了。</p>
@@ -652,21 +654,6 @@
         <tag>Hexo</tag>
         <tag>Next优化</tag>
       </tags>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/hnzyq.html</url>
-    <content><![CDATA[<p>我梦见和你在一起</p>
-<p>很真实 很幸福</p>
-<p>但是我醒了</p>
-<p>我想要更清楚的看你</p>
-<p>却发现你在我身边只是梦</p>
-<a id="more"></a>
-<p>我不敢再睡</p>
-<p>因为 我怕</p>
-<p>睡着后无法再见到你</p>
-<p>2018/6/4 5:00</p>
-]]></content>
   </entry>
   <entry>
     <title>简单的网站防黑安全加固</title>
@@ -764,42 +751,6 @@ Deny from all
       </tags>
   </entry>
   <entry>
-    <title>格式工厂绿色免安装版及使用方法</title>
-    <url>/gsgclsmaz.html</url>
-    <content><![CDATA[<h2 id="格式工厂绿色免安装版使用方法"><a href="#格式工厂绿色免安装版使用方法" class="headerlink" title="格式工厂绿色免安装版使用方法"></a>格式工厂绿色免安装版使用方法</h2><p>这里以4.1.0版本做示范，下载地址在文末。</p>
-<p>解压，然后直接运行文件夹中<code>FormatFactoryPortable.exe</code>就可以打开格式工厂绿色免安装版了。</p>
-<p>使用方法也很简单，软件界面如下图：</p>
-<a id="more"></a>
-<p><img src="/images/gsgclsmaz.png" alt="FVD Downloader"></p>
-<p>左侧列表中分六个栏，想转换为什么格式就选哪个。</p>
-<p>比如我要将电脑中之前文章中下载的<code>肆无忌惮 - 薛之谦.m4a</code>和<code>童声与女声合唱《天耀中华》.mp4</code>转换为mp3格式的音频。</p>
-<p>就点击列表中的<code>音频</code></p>
-<p><img src="/images/gsgclsmaz2.png" alt="FVD Downloader"></p>
-<p>选择<code>-&gt;MP3</code></p>
-<p><img src="/images/gsgclsmaz3.png" alt="FVD Downloader"></p>
-<p>最下方有个输出文件夹，就是转换以后要保存在哪。源目录就是保存在转换之前的文件相同目录中。点击添加文件夹就可以选择一个文件夹保存转换后的文件。</p>
-<p><img src="/images/gsgclsmaz4.png" alt="FVD Downloader"></p>
-<p>这里我们就用输出至源文件目录了</p>
-<p>把要转换为音频的视频和音乐直接拖到窗口中</p>
-<p><img src="/images/gsgclsmaz5.png" alt="FVD Downloader"></p>
-<p>点击确定</p>
-<p><img src="/images/gsgclsmaz6.png" alt="FVD Downloader"></p>
-<p>点击上面的开始就可以开始转换格式了</p>
-<p><img src="/images/gsgclsmaz7.png" alt="FVD Downloader"></p>
-<p>等进度条走完就转换完成了。因为我转换之前的文件是在桌面上，并且选择了输出至源文件目录，所以新的文件也会在桌面上。</p>
-<p><img src="/images/gsgclsmaz8.png" alt="FVD Downloader"></p>
-<p>上面两个是转换前的文件，下面两个是转换为mp3格式后的文件。</p>
-<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">格式工厂4.1.0绿色免安装版</span><br><span class="line"></span><br><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1g2UydpLIuxDeV2ySS7qE0A</span><br><span class="line"></span><br><span class="line">密码：cbkm</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>L</category>
-        <category>软件共享</category>
-      </categories>
-      <tags>
-        <tag>软件共享</tag>
-        <tag>格式工厂绿色免安装版</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>无需安装客户端下载酷我音乐歌曲（酷我音乐真实地址解析方法）</title>
     <url>/kwzsdz.html</url>
     <content><![CDATA[<h2 id="无需安装客户端下载酷我音乐中的歌曲"><a href="#无需安装客户端下载酷我音乐中的歌曲" class="headerlink" title="无需安装客户端下载酷我音乐中的歌曲"></a>无需安装客户端下载酷我音乐中的歌曲</h2><p>遇到喜欢的歌曲，但是又不想用客户端下载这首歌，应该怎么办呢？</p>
@@ -840,50 +791,6 @@ Deny from all
       <tags>
         <tag>酷我音乐真实地址</tag>
         <tag>免安装客户端下载酷我中的音乐</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo如何迁移到另一台电脑进行写作</title>
-    <url>/hexoghdn.html</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>因为只能固定在一台电脑上进行写文章有点麻烦，所以研究了一下Hexo如何迁移到另一台电脑。</p>
-<p>网上有很多更换电脑写作的教程，但是不是很实用，网友给出的办法是把Hexo主要文件都存在Github，更换电脑以后再安装环境、下载Hexo主要文件、安装插件、发布文章。但是我还是感觉太麻烦了。我个人建议是按照本文的方法把Hexo放在虚拟机里，这样就可以用U盘什么的随身携到，只要有电脑，安装一个虚拟机，不需要繁琐步骤，走到哪写到哪。</p>
-<a id="more"></a>
-<h2 id="备份文件"><a href="#备份文件" class="headerlink" title="备份文件"></a>备份文件</h2><p>如果要迁移到另一台电脑或虚拟机中，首先把Hexo中的重要文件复制出来。</p>
-<p>以下是必须备份的文件夹和文件：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">scaffolds            文章模版                           必须备份</span><br><span class="line">source               博客文章                           必须备份</span><br><span class="line">themes               主题                              必须备份</span><br><span class="line">.gitignore           限定在push时那些文件可以忽略         必须备份</span><br><span class="line">_config.yml          站点配置文件                       必须备份</span><br><span class="line">package.json         安装包的名称                       必须备份</span><br><span class="line"></span><br><span class="line">.ssh                 密钥文件                          必须备份</span><br></pre></td></tr></table></figure>
-<p>ssh密钥不在Hexo目录中，ssh密钥目录及生成方法详见本站第一篇文章中的<strong>创建GitHub仓库</strong>部分。</p>
-<p>上面的文件可以复制到优盘里或者干脆打包上传到网盘。</p>
-<h2 id="搭建环境"><a href="#搭建环境" class="headerlink" title="搭建环境"></a>搭建环境</h2><p>在虚拟机或新电脑中搭建环境，和当初建立博客流程基本一样，安装Node.js和Git。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Node.js官网：http:&#x2F;&#x2F;nodejs.org&#x2F;en&#x2F;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Git官网：http:&#x2F;&#x2F;git-scm.com&#x2F;</span><br></pre></td></tr></table></figure>
-<p>下载好安装包只要一直下一步就可以，这里不详细说了。<br>安装好安装Node.js和Git后，看一下有没有在path中自动添加npm环境变量。<br>如果没有就添加Path环境变量，使npm命令生效。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">;C:\Program Files\nodejs\node_modules\npm</span><br><span class="line">把这段添加到Path环境变量中</span><br></pre></td></tr></table></figure>
-
-<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>在任意盘中单击右键选择Git Bash Here打开终端，输入以下两条命令进行安装Hexo：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br><span class="line">npm install hexo --save</span><br></pre></td></tr></table></figure>
-
-<p>然后在任意本地磁盘根目录新建博客文件夹，名字随意。<br>在刚才创建的文件夹中单击右键选择Git Bash Here打开终端执行以下命令：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
-<p>现在博客的基础已经搭建好了。</p>
-<h2 id="迁移"><a href="#迁移" class="headerlink" title="迁移"></a>迁移</h2><p>把刚才备份的文件移动到新电脑的博客文件夹，替换文件。</p>
-<p>密钥文件也要放到正确位置。</p>
-<p>然后在博客根目录右键选择Git Bash Here按照以前的方法重新安装一遍所需要的Hexo插件。</p>
-<p>这里就不需要详细说了。</p>
-<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>在博客根目录单击右键选择Git Bash Here打开终端运行以下命令配置Git：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config –global user.email “邮箱”</span><br><span class="line">git config –global user.name “用户名” </span><br></pre></td></tr></table></figure>
-<p>邮箱和用户名就是你注册Github时设置的邮箱和用户名</p>
-<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>到此为止博客就已经迁移完成了，</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">生成新的public文件夹 </span><br><span class="line">hexo g</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">开始上传hexo博客 </span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<p>我个人还是建议将博客迁移到虚拟机中，然后随时备份虚拟机文件。</p>
-<p>本人的最终解决办法是，利用WTG制作了随身系统盘，用于博客的稳定后台，随用随插。</p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo如何更换电脑</tag>
-        <tag>Hexo如何备份</tag>
       </tags>
   </entry>
   <entry>
@@ -938,37 +845,28 @@ Deny from all
       </tags>
   </entry>
   <entry>
-    <title>让Hexo对指定文件或文件夹不进行渲染处理</title>
-    <url>/hexojzxr.html</url>
-    <content><![CDATA[<p>Hexo会将source目录下的所有.md文件和.html文件都进行渲染，这样就导致了我们没办法在博客中加入自定义页面或一些不想被渲染的页面。比如README.md文件、谷歌和百度的验证文件等。</p>
-<p>其实这个问题很简单，只需要修改站点配置文件_config.yml中的skip_render即可。但是修改了站点配置文件后，要执行以下hexo clean命令，否则修改后的skip_render可能不会生效。</p>
-<h2 id="指定不渲染文件或文件夹所有文件"><a href="#指定不渲染文件或文件夹所有文件" class="headerlink" title="指定不渲染文件或文件夹所有文件"></a>指定不渲染文件或文件夹所有文件</h2><a id="more"></a>
-<p>制定不渲染某个文件只需要更改站点配置文件中的skip_render写为以下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render: README.md</span><br></pre></td></tr></table></figure>
-
-<p>如果要指定不渲染多个文件可以写成下面的格式：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">  - &quot;README.md&quot;</span><br><span class="line">  - &quot;google****.html&quot;</span><br><span class="line">  - &quot;baidu****.html&quot;</span><br></pre></td></tr></table></figure>
-
-<p>如果要指定不渲染某文件夹下所有文件：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">  - &quot;文件夹名&#x2F;*&quot;</span><br><span class="line">或</span><br><span class="line">skip_render:</span><br><span class="line">  - &quot;文件夹名&#x2F;**&quot;</span><br></pre></td></tr></table></figure>
-
-<h2 id="指定不渲染某文件夹下某个格式的文件"><a href="#指定不渲染某文件夹下某个格式的文件" class="headerlink" title="指定不渲染某文件夹下某个格式的文件"></a>指定不渲染某文件夹下某个格式的文件</h2><p>如果是不渲染单个文件夹中的所有html文件就把skip_render写成下面的样子：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render: 文件夹名&#x2F;*.html</span><br></pre></td></tr></table></figure>
-
-<p>如果是多个文件夹多个文件格式可以这样写：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">  - &quot;文件夹1&#x2F;*.html&quot;</span><br><span class="line">  - &quot;文件夹2&#x2F;*.md&quot;</span><br></pre></td></tr></table></figure>
-
-<h2 id="不渲染指定HTML文件"><a href="#不渲染指定HTML文件" class="headerlink" title="不渲染指定HTML文件"></a>不渲染指定HTML文件</h2><p>如果只有一个html文件不需要渲染可以在这个文件的头部加入以下代码：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">layout: false</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<h2 id="混合写法"><a href="#混合写法" class="headerlink" title="混合写法"></a>混合写法</h2><p>比如我想要指定不渲染<strong>README.md文件</strong>、<strong>baidu**</strong>.html文件<strong>、</strong>liyme文件夹下所有文件<strong>、和</strong>liyme9255文件夹下所有html文件**。可以这样写：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">  - &quot;README.md&quot;</span><br><span class="line">  - &quot;baidu****.html&quot;</span><br><span class="line">  - &quot;liyme&#x2F;**&quot;</span><br><span class="line">  - &quot;liyme9255&#x2F;*.html&quot;</span><br></pre></td></tr></table></figure>]]></content>
+    <title>使用FVD插件下载网页中的视频</title>
+    <url>/llqcjxzsp.html</url>
+    <content><![CDATA[<h2 id="使用FVD-Downloader插件下载网页上的视频"><a href="#使用FVD-Downloader插件下载网页上的视频" class="headerlink" title="使用FVD Downloader插件下载网页上的视频"></a>使用FVD Downloader插件下载网页上的视频</h2><p>一般网页上的音乐和视频都可以使用FVD插件下载，之前的文章已经写过了FVD插件如何安装，下面写一下下载网页上视频的过程。</p>
+<h2 id="使用FVD插件下载音乐"><a href="#使用FVD插件下载音乐" class="headerlink" title="使用FVD插件下载音乐"></a>使用FVD插件下载音乐</h2><a id="more"></a>
+<p>比如腾讯视频上的这个：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">童声与女声合唱《天耀中华》</span><br><span class="line">https:&#x2F;&#x2F;v.qq.com&#x2F;x&#x2F;cover&#x2F;0sf3pc0h8chw0m6&#x2F;r00178mamzb.html</span><br></pre></td></tr></table></figure>
+<p>点击播放，电脑已经在播放这个视频时，下载插件已经检测到了文件。如下图：</p>
+<p><img src="/images/llqcjxzsp.png" alt="FVD Downloader"></p>
+<p>箭头变为蓝色，点击即可看到列表。可以看到有三个文件，都是<code>.mp4</code>格式，这是因为视频播放之前有广告，广告也是媒体文件，但是广告时间一般比较短，没有视频时间长，所以文件最大的这个肯定就是我们要的视频了。</p>
+<p>这个下载方法未必适合所有网站，因为有些网站会把稍微长一点的视频剪切成一段一段的，如果是一些大网站的视频也可以用相对应的客户端下载。</p>
+<p><img src="/images/llqcjxzsp2.png" alt="FVD Downloader"></p>
+<p>点击下载、选择保存位置、下载完成。</p>
+<p>并不是所有网页上的视频都是mp4格式，还有其他格式的视频，格式工厂这个软件还是不错的。</p>
+<p>破解版格式工厂和使用教程写在后面的文章中。</p>
+]]></content>
       <categories>
-        <category>Hexo</category>
+        <category>L</category>
+        <category>浏览器插件</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
-        <tag>渲染</tag>
+        <tag>浏览器插件</tag>
+        <tag>下载在线音乐视频</tag>
       </tags>
   </entry>
   <entry>
@@ -1015,28 +913,83 @@ Deny from all
       </tags>
   </entry>
   <entry>
-    <title>使用FVD插件下载网页中的视频</title>
-    <url>/llqcjxzsp.html</url>
-    <content><![CDATA[<h2 id="使用FVD-Downloader插件下载网页上的视频"><a href="#使用FVD-Downloader插件下载网页上的视频" class="headerlink" title="使用FVD Downloader插件下载网页上的视频"></a>使用FVD Downloader插件下载网页上的视频</h2><p>一般网页上的音乐和视频都可以使用FVD插件下载，之前的文章已经写过了FVD插件如何安装，下面写一下下载网页上视频的过程。</p>
-<h2 id="使用FVD插件下载音乐"><a href="#使用FVD插件下载音乐" class="headerlink" title="使用FVD插件下载音乐"></a>使用FVD插件下载音乐</h2><a id="more"></a>
-<p>比如腾讯视频上的这个：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">童声与女声合唱《天耀中华》</span><br><span class="line">https:&#x2F;&#x2F;v.qq.com&#x2F;x&#x2F;cover&#x2F;0sf3pc0h8chw0m6&#x2F;r00178mamzb.html</span><br></pre></td></tr></table></figure>
-<p>点击播放，电脑已经在播放这个视频时，下载插件已经检测到了文件。如下图：</p>
-<p><img src="/images/llqcjxzsp.png" alt="FVD Downloader"></p>
-<p>箭头变为蓝色，点击即可看到列表。可以看到有三个文件，都是<code>.mp4</code>格式，这是因为视频播放之前有广告，广告也是媒体文件，但是广告时间一般比较短，没有视频时间长，所以文件最大的这个肯定就是我们要的视频了。</p>
-<p>这个下载方法未必适合所有网站，因为有些网站会把稍微长一点的视频剪切成一段一段的，如果是一些大网站的视频也可以用相对应的客户端下载。</p>
-<p><img src="/images/llqcjxzsp2.png" alt="FVD Downloader"></p>
-<p>点击下载、选择保存位置、下载完成。</p>
-<p>并不是所有网页上的视频都是mp4格式，还有其他格式的视频，格式工厂这个软件还是不错的。</p>
-<p>破解版格式工厂和使用教程写在后面的文章中。</p>
+    <title>Hexo如何迁移到另一台电脑进行写作</title>
+    <url>/hexoghdn.html</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>因为只能固定在一台电脑上进行写文章有点麻烦，所以研究了一下Hexo如何迁移到另一台电脑。</p>
+<p>网上有很多更换电脑写作的教程，但是不是很实用，网友给出的办法是把Hexo主要文件都存在Github，更换电脑以后再安装环境、下载Hexo主要文件、安装插件、发布文章。但是我还是感觉太麻烦了。我个人建议是按照本文的方法把Hexo放在虚拟机里，这样就可以用U盘什么的随身携到，只要有电脑，安装一个虚拟机，不需要繁琐步骤，走到哪写到哪。</p>
+<a id="more"></a>
+<h2 id="备份文件"><a href="#备份文件" class="headerlink" title="备份文件"></a>备份文件</h2><p>如果要迁移到另一台电脑或虚拟机中，首先把Hexo中的重要文件复制出来。</p>
+<p>以下是必须备份的文件夹和文件：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">scaffolds            文章模版                           必须备份</span><br><span class="line">source               博客文章                           必须备份</span><br><span class="line">themes               主题                              必须备份</span><br><span class="line">.gitignore           限定在push时那些文件可以忽略         必须备份</span><br><span class="line">_config.yml          站点配置文件                       必须备份</span><br><span class="line">package.json         安装包的名称                       必须备份</span><br><span class="line"></span><br><span class="line">.ssh                 密钥文件                          必须备份</span><br></pre></td></tr></table></figure>
+<p>ssh密钥不在Hexo目录中，ssh密钥目录及生成方法详见本站第一篇文章中的<strong>创建GitHub仓库</strong>部分。</p>
+<p>上面的文件可以复制到优盘里或者干脆打包上传到网盘。</p>
+<h2 id="搭建环境"><a href="#搭建环境" class="headerlink" title="搭建环境"></a>搭建环境</h2><p>在虚拟机或新电脑中搭建环境，和当初建立博客流程基本一样，安装Node.js和Git。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Node.js官网：http:&#x2F;&#x2F;nodejs.org&#x2F;en&#x2F;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Git官网：http:&#x2F;&#x2F;git-scm.com&#x2F;</span><br></pre></td></tr></table></figure>
+<p>下载好安装包只要一直下一步就可以，这里不详细说了。<br>安装好安装Node.js和Git后，看一下有没有在path中自动添加npm环境变量。<br>如果没有就添加Path环境变量，使npm命令生效。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">;C:\Program Files\nodejs\node_modules\npm</span><br><span class="line">把这段添加到Path环境变量中</span><br></pre></td></tr></table></figure>
+
+<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>在任意盘中单击右键选择Git Bash Here打开终端，输入以下两条命令进行安装Hexo：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br><span class="line">npm install hexo --save</span><br></pre></td></tr></table></figure>
+
+<p>然后在任意本地磁盘根目录新建博客文件夹，名字随意。<br>在刚才创建的文件夹中单击右键选择Git Bash Here打开终端执行以下命令：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+<p>现在博客的基础已经搭建好了。</p>
+<h2 id="迁移"><a href="#迁移" class="headerlink" title="迁移"></a>迁移</h2><p>把刚才备份的文件移动到新电脑的博客文件夹，替换文件。</p>
+<p>密钥文件也要放到正确位置。</p>
+<p>然后在博客根目录右键选择Git Bash Here按照以前的方法重新安装一遍所需要的Hexo插件。</p>
+<p>这里就不需要详细说了。</p>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>在博客根目录单击右键选择Git Bash Here打开终端运行以下命令配置Git：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config –global user.email “邮箱”</span><br><span class="line">git config –global user.name “用户名” </span><br></pre></td></tr></table></figure>
+<p>邮箱和用户名就是你注册Github时设置的邮箱和用户名</p>
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>到此为止博客就已经迁移完成了，</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">生成新的public文件夹 </span><br><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">开始上传hexo博客 </span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<p>我个人还是建议将博客迁移到虚拟机中，然后随时备份虚拟机文件。</p>
+<p>本人的最终解决办法是，利用WTG制作了随身系统盘，用于博客的稳定后台，随用随插。</p>
 ]]></content>
       <categories>
-        <category>L</category>
-        <category>浏览器插件</category>
+        <category>Hexo</category>
       </categories>
       <tags>
-        <tag>浏览器插件</tag>
-        <tag>下载在线音乐视频</tag>
+        <tag>Hexo如何更换电脑</tag>
+        <tag>Hexo如何备份</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>格式工厂绿色免安装版及使用方法</title>
+    <url>/gsgclsmaz.html</url>
+    <content><![CDATA[<h2 id="格式工厂绿色免安装版使用方法"><a href="#格式工厂绿色免安装版使用方法" class="headerlink" title="格式工厂绿色免安装版使用方法"></a>格式工厂绿色免安装版使用方法</h2><p>这里以4.1.0版本做示范，下载地址在文末。</p>
+<p>解压，然后直接运行文件夹中<code>FormatFactoryPortable.exe</code>就可以打开格式工厂绿色免安装版了。</p>
+<p>使用方法也很简单，软件界面如下图：</p>
+<a id="more"></a>
+<p><img src="/images/gsgclsmaz.png" alt="FVD Downloader"></p>
+<p>左侧列表中分六个栏，想转换为什么格式就选哪个。</p>
+<p>比如我要将电脑中之前文章中下载的<code>肆无忌惮 - 薛之谦.m4a</code>和<code>童声与女声合唱《天耀中华》.mp4</code>转换为mp3格式的音频。</p>
+<p>就点击列表中的<code>音频</code></p>
+<p><img src="/images/gsgclsmaz2.png" alt="FVD Downloader"></p>
+<p>选择<code>-&gt;MP3</code></p>
+<p><img src="/images/gsgclsmaz3.png" alt="FVD Downloader"></p>
+<p>最下方有个输出文件夹，就是转换以后要保存在哪。源目录就是保存在转换之前的文件相同目录中。点击添加文件夹就可以选择一个文件夹保存转换后的文件。</p>
+<p><img src="/images/gsgclsmaz4.png" alt="FVD Downloader"></p>
+<p>这里我们就用输出至源文件目录了</p>
+<p>把要转换为音频的视频和音乐直接拖到窗口中</p>
+<p><img src="/images/gsgclsmaz5.png" alt="FVD Downloader"></p>
+<p>点击确定</p>
+<p><img src="/images/gsgclsmaz6.png" alt="FVD Downloader"></p>
+<p>点击上面的开始就可以开始转换格式了</p>
+<p><img src="/images/gsgclsmaz7.png" alt="FVD Downloader"></p>
+<p>等进度条走完就转换完成了。因为我转换之前的文件是在桌面上，并且选择了输出至源文件目录，所以新的文件也会在桌面上。</p>
+<p><img src="/images/gsgclsmaz8.png" alt="FVD Downloader"></p>
+<p>上面两个是转换前的文件，下面两个是转换为mp3格式后的文件。</p>
+<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">格式工厂4.1.0绿色免安装版</span><br><span class="line"></span><br><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1g2UydpLIuxDeV2ySS7qE0A</span><br><span class="line"></span><br><span class="line">密码：cbkm</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>L</category>
+        <category>软件共享</category>
+      </categories>
+      <tags>
+        <tag>软件共享</tag>
+        <tag>格式工厂绿色免安装版</tag>
       </tags>
   </entry>
   <entry>
@@ -1124,6 +1077,30 @@ Deny from all
       </tags>
   </entry>
   <entry>
+    <title>使用Markdown标记语言时遇到的一个坑</title>
+    <url>/markdown-keng.html</url>
+    <content><![CDATA[<h2 id="Markdown标题-符没有效果"><a href="#Markdown标题-符没有效果" class="headerlink" title="Markdown标题#符没有效果"></a>Markdown标题#符没有效果</h2><p>今天使用markdown写文章的时候遇到一个问题</p>
+<p>使用标题符号#没有效果</p>
+<p>使用编辑器写出来就有效果</p>
+<p>发布到博客中却没有标题效果直接显示#</p>
+<a id="more"></a>
+<p>最后得出结论</p>
+<p>#后面要加空格</p>
+<p>！！！</p>
+<p>我真的是</p>
+<p>可能是傻掉了吧</p>
+<h2 id="标题-号后面要加空格才会生效"><a href="#标题-号后面要加空格才会生效" class="headerlink" title="标题#号后面要加空格才会生效"></a>标题#号后面要加空格才会生效</h2><h2 id="标题-号后面要加空格才会生效-1"><a href="#标题-号后面要加空格才会生效-1" class="headerlink" title="标题#号后面要加空格才会生效"></a>标题#号后面要加空格才会生效</h2><h2 id="标题-号后面要加空格才会生效-2"><a href="#标题-号后面要加空格才会生效-2" class="headerlink" title="标题#号后面要加空格才会生效"></a>标题#号后面要加空格才会生效</h2><h2 id="标题-号后面要加空格才会生效-3"><a href="#标题-号后面要加空格才会生效-3" class="headerlink" title="标题#号后面要加空格才会生效"></a>标题#号后面要加空格才会生效</h2><h2 id="重要的事情说4遍！！！"><a href="#重要的事情说4遍！！！" class="headerlink" title="重要的事情说4遍！！！"></a>重要的事情说4遍！！！</h2>]]></content>
+      <categories>
+        <category>Markdown</category>
+      </categories>
+      <tags>
+        <tag>无法解析标题#</tag>
+        <tag>markdown使用标题#无效</tag>
+        <tag>markdown</tag>
+        <tag>标题#无效</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Github和Coding互相配合以达到301重定向功能</title>
     <url>/lygcdx.html</url>
     <content><![CDATA[<h2 id="利用Github的301重定向"><a href="#利用Github的301重定向" class="headerlink" title="利用Github的301重定向"></a>利用Github的301重定向</h2><p>大家都知道，Coding是不支持301重定向的，使用自定义域名中的跳转至首选域名的功能只能达到302跳转的功能。</p>
@@ -1152,30 +1129,6 @@ Deny from all
       </tags>
   </entry>
   <entry>
-    <title>使用Markdown标记语言时遇到的一个坑</title>
-    <url>/markdown-keng.html</url>
-    <content><![CDATA[<h2 id="Markdown标题-符没有效果"><a href="#Markdown标题-符没有效果" class="headerlink" title="Markdown标题#符没有效果"></a>Markdown标题#符没有效果</h2><p>今天使用markdown写文章的时候遇到一个问题</p>
-<p>使用标题符号#没有效果</p>
-<p>使用编辑器写出来就有效果</p>
-<p>发布到博客中却没有标题效果直接显示#</p>
-<a id="more"></a>
-<p>最后得出结论</p>
-<p>#后面要加空格</p>
-<p>！！！</p>
-<p>我真的是</p>
-<p>可能是傻掉了吧</p>
-<h2 id="标题-号后面要加空格才会生效"><a href="#标题-号后面要加空格才会生效" class="headerlink" title="标题#号后面要加空格才会生效"></a>标题#号后面要加空格才会生效</h2><h2 id="标题-号后面要加空格才会生效-1"><a href="#标题-号后面要加空格才会生效-1" class="headerlink" title="标题#号后面要加空格才会生效"></a>标题#号后面要加空格才会生效</h2><h2 id="标题-号后面要加空格才会生效-2"><a href="#标题-号后面要加空格才会生效-2" class="headerlink" title="标题#号后面要加空格才会生效"></a>标题#号后面要加空格才会生效</h2><h2 id="标题-号后面要加空格才会生效-3"><a href="#标题-号后面要加空格才会生效-3" class="headerlink" title="标题#号后面要加空格才会生效"></a>标题#号后面要加空格才会生效</h2><h2 id="重要的事情说4遍！！！"><a href="#重要的事情说4遍！！！" class="headerlink" title="重要的事情说4遍！！！"></a>重要的事情说4遍！！！</h2>]]></content>
-      <categories>
-        <category>Markdown</category>
-      </categories>
-      <tags>
-        <tag>无法解析标题#</tag>
-        <tag>markdown使用标题#无效</tag>
-        <tag>markdown</tag>
-        <tag>标题#无效</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>M3U8下载工具</title>
     <url>/muxzgj.html</url>
     <content><![CDATA[<h2 id="M3U8-TS格式"><a href="#M3U8-TS格式" class="headerlink" title="M3U8 TS格式"></a>M3U8 TS格式</h2><p>M3U8格式是一种基于HTTP Live Streaming文件视频格式，它主要是存放整个视频的基本信息和分片(Segment)组成。通常分片的格式为TS。</p>
@@ -1195,6 +1148,39 @@ Deny from all
       <tags>
         <tag>M3U8下载</tag>
         <tag>TS转MP4</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo Next 增加百度自动推送</title>
+    <url>/nextbdts.html</url>
+    <content><![CDATA[<h2 id="Next增加百度自动推送功能"><a href="#Next增加百度自动推送功能" class="headerlink" title="Next增加百度自动推送功能"></a>Next增加百度自动推送功能</h2><p>百度官方介绍：</p>
+<blockquote>
+<p>自动推送JS代码是百度站长平台最新推出的轻量级链接提交组件，站长只需将自动推送的JS代码放置在站点每一个页面源代码中，当页面被访问时，页面链接会自动推送给百度，有利于新页面更快被百度发现。</p>
+</blockquote>
+<a id="more"></a>
+<blockquote>
+<p>为了更快速的发现站点每天产生的最新内容，百度站长平台推出主动推送工具，产品上线后，部分站长反馈使用主动推送方式的技术门槛较高，于是我们顺势推出更低成本的JS自动推送工具。一步安装便可实现页面自动推送，低成本，高收益。</p>
+</blockquote>
+<p><img src="/images/nextbdts.png" alt="百度自动推送"></p>
+<p>Next主题已经整合了百度自动推送功能</p>
+<p>下面写一下如何开启</p>
+<h2 id="Hexo-Next主题如何开启百度自动推送功能"><a href="#Hexo-Next主题如何开启百度自动推送功能" class="headerlink" title="Hexo Next主题如何开启百度自动推送功能"></a>Hexo Next主题如何开启百度自动推送功能</h2><p>想要打开Next自带的百度自动推送功能很简单。</p>
+<p>首先打开主题配置文件<code>/themes/next/_config.yml</code>，</p>
+<p>找到<code>baidu_push: false</code>改为<code>baidu_push: true</code>，</p>
+<p>然后找到百度推送文件<code>/themes/next/layout/_third-party/seo/baidu-push.swig</code>，将内容改为百度站长平台提供的<strong>自动推送工具代码</strong></p>
+<p>注意：修改baidu-push.swig文件时要保留开头和结尾的两段代码，将中间的改为百度站长平台提供的自动推送代码</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% if theme.baidu_push %&#125;</span><br><span class="line">....对中间部分进行更改....</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>保存后重新部署博客即可。</p>
+<p>不同版本的Next主题配置文件位置不同，我使用的是5.1.4版本。</p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+        <category>SEO</category>
+      </categories>
+      <tags>
+        <tag>SEO</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -1236,78 +1222,6 @@ Deny from all
         <tag>Next开启分享功能</tag>
         <tag>百度分享服务</tag>
         <tag>Hexo分享服务</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo Next 增加百度自动推送</title>
-    <url>/nextbdts.html</url>
-    <content><![CDATA[<h2 id="Next增加百度自动推送功能"><a href="#Next增加百度自动推送功能" class="headerlink" title="Next增加百度自动推送功能"></a>Next增加百度自动推送功能</h2><p>百度官方介绍：</p>
-<blockquote>
-<p>自动推送JS代码是百度站长平台最新推出的轻量级链接提交组件，站长只需将自动推送的JS代码放置在站点每一个页面源代码中，当页面被访问时，页面链接会自动推送给百度，有利于新页面更快被百度发现。</p>
-</blockquote>
-<a id="more"></a>
-<blockquote>
-<p>为了更快速的发现站点每天产生的最新内容，百度站长平台推出主动推送工具，产品上线后，部分站长反馈使用主动推送方式的技术门槛较高，于是我们顺势推出更低成本的JS自动推送工具。一步安装便可实现页面自动推送，低成本，高收益。</p>
-</blockquote>
-<p><img src="/images/nextbdts.png" alt="百度自动推送"></p>
-<p>Next主题已经整合了百度自动推送功能</p>
-<p>下面写一下如何开启</p>
-<h2 id="Hexo-Next主题如何开启百度自动推送功能"><a href="#Hexo-Next主题如何开启百度自动推送功能" class="headerlink" title="Hexo Next主题如何开启百度自动推送功能"></a>Hexo Next主题如何开启百度自动推送功能</h2><p>想要打开Next自带的百度自动推送功能很简单。</p>
-<p>首先打开主题配置文件<code>/themes/next/_config.yml</code>，</p>
-<p>找到<code>baidu_push: false</code>改为<code>baidu_push: true</code>，</p>
-<p>然后找到百度推送文件<code>/themes/next/layout/_third-party/seo/baidu-push.swig</code>，将内容改为百度站长平台提供的<strong>自动推送工具代码</strong></p>
-<p>注意：修改baidu-push.swig文件时要保留开头和结尾的两段代码，将中间的改为百度站长平台提供的自动推送代码</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% if theme.baidu_push %&#125;</span><br><span class="line">....对中间部分进行更改....</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
-
-<p>保存后重新部署博客即可。</p>
-<p>不同版本的Next主题配置文件位置不同，我使用的是5.1.4版本。</p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-        <category>SEO</category>
-      </categories>
-      <tags>
-        <tag>SEO</tag>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Adobe Photoshop CC 2018破解版包含大量实用插件</title>
-    <url>/psccbpjzq.html</url>
-    <content><![CDATA[<h2 id="Adobe-Photoshop-CC-2018破解增强版-含大量PS插件"><a href="#Adobe-Photoshop-CC-2018破解增强版-含大量PS插件" class="headerlink" title="Adobe Photoshop CC 2018破解增强版(含大量PS插件)"></a>Adobe Photoshop CC 2018破解增强版(含大量PS插件)</h2><p>在网上收集到的Ps CC 2018的破解版，可以一键安装，不需要繁琐的破解过程，安装完成就是破解好的版本。</p>
-<p>并且安装过程中，整合了各种实用插件，可以自行选择是否安装。</p>
-<a id="more"></a>
-<p><strong>软件是网友购买并分享的，软件中所有赞助二维码和广告均与本站无关</strong></p>
-<p>软件还集成了PSD缩略图补丁，在文件夹中可以直接查看PSD缩略图，找素材很方便。</p>
-<p>下载地址在后面。</p>
-<h2 id="PS-CC-2018破解增强版所包含插件列表"><a href="#PS-CC-2018破解增强版所包含插件列表" class="headerlink" title="PS CC 2018破解增强版所包含插件列表"></a>PS CC 2018破解增强版所包含插件列表</h2><p>在这列出Adobe Photoshop CC 2018破解增强版安装后附带的所有插件：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">外挂滤镜：</span><br><span class="line"></span><br><span class="line">  1、图像无损放大Blow Up 3；</span><br><span class="line"></span><br><span class="line">  2、线之绘2.01；</span><br><span class="line"></span><br><span class="line">  3、Alien Skin Exposure X2(2.7.0.174)汉化版；</span><br><span class="line"></span><br><span class="line">  4、Portraiture2.3.40；</span><br><span class="line"></span><br><span class="line">  5、糖果滤镜eye-candy-7.1.0.1203：</span><br><span class="line"></span><br><span class="line">  6、灯光工厂3.2；</span><br><span class="line"></span><br><span class="line">  7、高级降噪滤镜：噪点洁具；</span><br><span class="line"></span><br><span class="line">  8、Color Efex Pro v4.0；</span><br><span class="line"></span><br><span class="line">  9、PortraitPlus；</span><br><span class="line"></span><br><span class="line">  10、水面倒影；</span><br><span class="line"></span><br><span class="line">  11、脸部控制表情；</span><br><span class="line"></span><br><span class="line">  12、Vertus Fluid Mask 3.3.15 中文汉化版（抠图滤镜）；</span><br><span class="line"></span><br><span class="line">  13、TiffenDEX4.0.8(中文版)；</span><br><span class="line"></span><br><span class="line">  14、光束大师；</span><br><span class="line"></span><br><span class="line">  15、SkinFiner2.0(磨皮滤镜)；</span><br><span class="line"></span><br><span class="line">  16、Panorama_Corrector 2.2 全景图失真校正汉化版。</span><br><span class="line"></span><br><span class="line">扩展插件：</span><br><span class="line"></span><br><span class="line">  1、TKActionsV4（亮度蒙板）；</span><br><span class="line"></span><br><span class="line">  2、超级面板1.0（用之前要在动作面板里加载相应的动作）；</span><br><span class="line"></span><br><span class="line">  3、Raya Pro1.1cn（数码后期，用之前要在动作面板里加载相应的动作）和Raya Pro v2汉化版；</span><br><span class="line"></span><br><span class="line">  4、BeautyRetouch+PixelJuggler；</span><br><span class="line"></span><br><span class="line">  5、lumenzia V4.01汉化版；</span><br><span class="line"></span><br><span class="line">  6、GuideGuide汉化版；</span><br><span class="line"></span><br><span class="line">  7、TKActions.V6.Panel（亮度蒙版）；</span><br><span class="line"></span><br><span class="line">  8、pixel2vector_2（位图转矢量）；</span><br><span class="line"></span><br><span class="line">  9、Delicious Retouch 4(OH汉化)；</span><br><span class="line"></span><br><span class="line">  10、增加扩展插件：Ps字体增强管理v1.6。</span><br><span class="line"></span><br><span class="line">集成组件：</span><br><span class="line"></span><br><span class="line">  1、集成外挂笔刷；</span><br><span class="line"></span><br><span class="line">  2、集成外挂动作；</span><br><span class="line"></span><br><span class="line">  3、集成外挂渐变；</span><br><span class="line"></span><br><span class="line">  4、集成外挂图案；</span><br><span class="line"></span><br><span class="line">  5、集成外挂形状</span><br><span class="line"></span><br><span class="line">  6、集成外挂样式。</span><br><span class="line"></span><br><span class="line">其他插件：</span><br><span class="line"></span><br><span class="line">  1、圆角脚本插件神器－CornerEdito；</span><br><span class="line"></span><br><span class="line">  2、PSD缩略图补丁；</span><br><span class="line"></span><br><span class="line">  3、109种曲线（等高线）；</span><br><span class="line"></span><br><span class="line">  4、64位ICO格式插件；</span><br><span class="line"></span><br><span class="line">  5、64位DDS格式插件；</span><br><span class="line"></span><br><span class="line">  6、NormalMapFilter64；</span><br><span class="line"></span><br><span class="line">  7、64位WebP格式插件；</span><br><span class="line"></span><br><span class="line">  8、清除XMP冗余数据。</span><br></pre></td></tr></table></figure>
-
-<h2 id="插件介绍"><a href="#插件介绍" class="headerlink" title="插件介绍"></a>插件介绍</h2><p>圆角脚本插件神器 - CornerEdito：</p>
-<p><img src="/images/psccbpjzq.gif" alt="圆角脚本插件神器CornerEdito"></p>
-<p>还包含大量图案，笔刷，样式，渐变等：</p>
-<p><img src="/images/psccbpjzq2.gif" alt="大量素材"></p>
-<p>外挂滤镜，扩展插件：</p>
-<p>从左到右依次是：滤镜、窗口-扩展功能、文件-脚本</p>
-<p><img src="/images/psccbpjzq3.png" alt="外挂滤镜"></p>
-<p>这里只是列出的一小部分，更多插件大家自行研究。</p>
-<h2 id="安装时需注意"><a href="#安装时需注意" class="headerlink" title="安装时需注意"></a>安装时需注意</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">如果内存低于8G是会卡的，如果电脑档次不算太低，但内存容量不到8G，建议你在主板支持的情况下把内存扩充到最低8G。</span><br><span class="line"></span><br><span class="line">扩展插件：超级面板1.0、Raya Pro1.1cn在使用之前要在动作面板里加载相应的动作。</span><br><span class="line"></span><br><span class="line">安装包中集成了VC++所必须的运行库，增加系统对软件的兼容性。</span><br><span class="line"></span><br><span class="line">外挂插件可作独立安装，支持64位的PS_CS5、PS_CS6、PS_CC、PS_CC2014、PS_CC2015、PS_CC2015.5、PS_CC2017、PS_CC2018。</span><br><span class="line"></span><br><span class="line">更改默认安装路径不影响外挂滤镜的使用。</span><br></pre></td></tr></table></figure>
-
-<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Adobe Photoshop CC 2018破解增强版(含大量PS插件)：</span><br><span class="line"></span><br><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1-9kOEvE6Yn_FmbH1UsyChA</span><br><span class="line">密码：glp6</span><br><span class="line"></span><br><span class="line">解压密码：ly554</span><br></pre></td></tr></table></figure>
-
-<h2 id="Adobe-Photoshop-CC-2018破解版"><a href="#Adobe-Photoshop-CC-2018破解版" class="headerlink" title="Adobe Photoshop CC 2018破解版"></a>Adobe Photoshop CC 2018破解版</h2><p>如果大家不喜欢这种被修改过的版本，PS CC 2018破解工具在下面这篇文章中：</p>
-<p>点击直达<span class="exturl" data-url="aHR0cDovL3d3dy5seTU1NC5jb20vYWRvYmVicGouaHRtbA==">Adobe CC 2018 系列软件一键破解工具<i class="fa fa-external-link-alt"></i></span></p>
-<h2 id="Adobe-Photoshop-CC-2017破解版"><a href="#Adobe-Photoshop-CC-2017破解版" class="headerlink" title="Adobe Photoshop CC 2017破解版"></a>Adobe Photoshop CC 2017破解版</h2><p>还有PS CC 2017的破解工具，在下面这篇文章中：</p>
-<p>点击直达<span class="exturl" data-url="aHR0cDovL3d3dy5seTU1NC5jb20vYWRvYmVxcGouaHRtbA==">Adobe CC 2017 系列软件一键破解工具<i class="fa fa-external-link-alt"></i></span></p>
-<p>这款破解工具支持Adobe CC 2017及2017以前的所有版本的Adobe软件进行破解</p>
-]]></content>
-      <categories>
-        <category>Adobe</category>
-        <category>破解</category>
-      </categories>
-      <tags>
-        <tag>Adobe</tag>
-        <tag>破解</tag>
       </tags>
   </entry>
   <entry>
@@ -1354,6 +1268,45 @@ Deny from all
       <tags>
         <tag>免杀PHP大马</tag>
         <tag>免杀WebShell</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Adobe Photoshop CC 2018破解版包含大量实用插件</title>
+    <url>/psccbpjzq.html</url>
+    <content><![CDATA[<h2 id="Adobe-Photoshop-CC-2018破解增强版-含大量PS插件"><a href="#Adobe-Photoshop-CC-2018破解增强版-含大量PS插件" class="headerlink" title="Adobe Photoshop CC 2018破解增强版(含大量PS插件)"></a>Adobe Photoshop CC 2018破解增强版(含大量PS插件)</h2><p>在网上收集到的Ps CC 2018的破解版，可以一键安装，不需要繁琐的破解过程，安装完成就是破解好的版本。</p>
+<p>并且安装过程中，整合了各种实用插件，可以自行选择是否安装。</p>
+<a id="more"></a>
+<p><strong>软件是网友购买并分享的，软件中所有赞助二维码和广告均与本站无关</strong></p>
+<p>软件还集成了PSD缩略图补丁，在文件夹中可以直接查看PSD缩略图，找素材很方便。</p>
+<p>下载地址在后面。</p>
+<h2 id="PS-CC-2018破解增强版所包含插件列表"><a href="#PS-CC-2018破解增强版所包含插件列表" class="headerlink" title="PS CC 2018破解增强版所包含插件列表"></a>PS CC 2018破解增强版所包含插件列表</h2><p>在这列出Adobe Photoshop CC 2018破解增强版安装后附带的所有插件：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">外挂滤镜：</span><br><span class="line"></span><br><span class="line">  1、图像无损放大Blow Up 3；</span><br><span class="line"></span><br><span class="line">  2、线之绘2.01；</span><br><span class="line"></span><br><span class="line">  3、Alien Skin Exposure X2(2.7.0.174)汉化版；</span><br><span class="line"></span><br><span class="line">  4、Portraiture2.3.40；</span><br><span class="line"></span><br><span class="line">  5、糖果滤镜eye-candy-7.1.0.1203：</span><br><span class="line"></span><br><span class="line">  6、灯光工厂3.2；</span><br><span class="line"></span><br><span class="line">  7、高级降噪滤镜：噪点洁具；</span><br><span class="line"></span><br><span class="line">  8、Color Efex Pro v4.0；</span><br><span class="line"></span><br><span class="line">  9、PortraitPlus；</span><br><span class="line"></span><br><span class="line">  10、水面倒影；</span><br><span class="line"></span><br><span class="line">  11、脸部控制表情；</span><br><span class="line"></span><br><span class="line">  12、Vertus Fluid Mask 3.3.15 中文汉化版（抠图滤镜）；</span><br><span class="line"></span><br><span class="line">  13、TiffenDEX4.0.8(中文版)；</span><br><span class="line"></span><br><span class="line">  14、光束大师；</span><br><span class="line"></span><br><span class="line">  15、SkinFiner2.0(磨皮滤镜)；</span><br><span class="line"></span><br><span class="line">  16、Panorama_Corrector 2.2 全景图失真校正汉化版。</span><br><span class="line"></span><br><span class="line">扩展插件：</span><br><span class="line"></span><br><span class="line">  1、TKActionsV4（亮度蒙板）；</span><br><span class="line"></span><br><span class="line">  2、超级面板1.0（用之前要在动作面板里加载相应的动作）；</span><br><span class="line"></span><br><span class="line">  3、Raya Pro1.1cn（数码后期，用之前要在动作面板里加载相应的动作）和Raya Pro v2汉化版；</span><br><span class="line"></span><br><span class="line">  4、BeautyRetouch+PixelJuggler；</span><br><span class="line"></span><br><span class="line">  5、lumenzia V4.01汉化版；</span><br><span class="line"></span><br><span class="line">  6、GuideGuide汉化版；</span><br><span class="line"></span><br><span class="line">  7、TKActions.V6.Panel（亮度蒙版）；</span><br><span class="line"></span><br><span class="line">  8、pixel2vector_2（位图转矢量）；</span><br><span class="line"></span><br><span class="line">  9、Delicious Retouch 4(OH汉化)；</span><br><span class="line"></span><br><span class="line">  10、增加扩展插件：Ps字体增强管理v1.6。</span><br><span class="line"></span><br><span class="line">集成组件：</span><br><span class="line"></span><br><span class="line">  1、集成外挂笔刷；</span><br><span class="line"></span><br><span class="line">  2、集成外挂动作；</span><br><span class="line"></span><br><span class="line">  3、集成外挂渐变；</span><br><span class="line"></span><br><span class="line">  4、集成外挂图案；</span><br><span class="line"></span><br><span class="line">  5、集成外挂形状</span><br><span class="line"></span><br><span class="line">  6、集成外挂样式。</span><br><span class="line"></span><br><span class="line">其他插件：</span><br><span class="line"></span><br><span class="line">  1、圆角脚本插件神器－CornerEdito；</span><br><span class="line"></span><br><span class="line">  2、PSD缩略图补丁；</span><br><span class="line"></span><br><span class="line">  3、109种曲线（等高线）；</span><br><span class="line"></span><br><span class="line">  4、64位ICO格式插件；</span><br><span class="line"></span><br><span class="line">  5、64位DDS格式插件；</span><br><span class="line"></span><br><span class="line">  6、NormalMapFilter64；</span><br><span class="line"></span><br><span class="line">  7、64位WebP格式插件；</span><br><span class="line"></span><br><span class="line">  8、清除XMP冗余数据。</span><br></pre></td></tr></table></figure>
+
+<h2 id="插件介绍"><a href="#插件介绍" class="headerlink" title="插件介绍"></a>插件介绍</h2><p>圆角脚本插件神器 - CornerEdito：</p>
+<p><img src="/images/psccbpjzq.gif" alt="圆角脚本插件神器CornerEdito"></p>
+<p>还包含大量图案，笔刷，样式，渐变等：</p>
+<p><img src="/images/psccbpjzq2.gif" alt="大量素材"></p>
+<p>外挂滤镜，扩展插件：</p>
+<p>从左到右依次是：滤镜、窗口-扩展功能、文件-脚本</p>
+<p><img src="/images/psccbpjzq3.png" alt="外挂滤镜"></p>
+<p>这里只是列出的一小部分，更多插件大家自行研究。</p>
+<h2 id="安装时需注意"><a href="#安装时需注意" class="headerlink" title="安装时需注意"></a>安装时需注意</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">如果内存低于8G是会卡的，如果电脑档次不算太低，但内存容量不到8G，建议你在主板支持的情况下把内存扩充到最低8G。</span><br><span class="line"></span><br><span class="line">扩展插件：超级面板1.0、Raya Pro1.1cn在使用之前要在动作面板里加载相应的动作。</span><br><span class="line"></span><br><span class="line">安装包中集成了VC++所必须的运行库，增加系统对软件的兼容性。</span><br><span class="line"></span><br><span class="line">外挂插件可作独立安装，支持64位的PS_CS5、PS_CS6、PS_CC、PS_CC2014、PS_CC2015、PS_CC2015.5、PS_CC2017、PS_CC2018。</span><br><span class="line"></span><br><span class="line">更改默认安装路径不影响外挂滤镜的使用。</span><br></pre></td></tr></table></figure>
+
+<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Adobe Photoshop CC 2018破解增强版(含大量PS插件)：</span><br><span class="line"></span><br><span class="line">链接：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1-9kOEvE6Yn_FmbH1UsyChA</span><br><span class="line">密码：glp6</span><br><span class="line"></span><br><span class="line">解压密码：ly554</span><br></pre></td></tr></table></figure>
+
+<h2 id="Adobe-Photoshop-CC-2018破解版"><a href="#Adobe-Photoshop-CC-2018破解版" class="headerlink" title="Adobe Photoshop CC 2018破解版"></a>Adobe Photoshop CC 2018破解版</h2><p>如果大家不喜欢这种被修改过的版本，PS CC 2018破解工具在下面这篇文章中：</p>
+<p>点击直达<span class="exturl" data-url="aHR0cDovL3d3dy5seTU1NC5jb20vYWRvYmVicGouaHRtbA==">Adobe CC 2018 系列软件一键破解工具<i class="fa fa-external-link-alt"></i></span></p>
+<h2 id="Adobe-Photoshop-CC-2017破解版"><a href="#Adobe-Photoshop-CC-2017破解版" class="headerlink" title="Adobe Photoshop CC 2017破解版"></a>Adobe Photoshop CC 2017破解版</h2><p>还有PS CC 2017的破解工具，在下面这篇文章中：</p>
+<p>点击直达<span class="exturl" data-url="aHR0cDovL3d3dy5seTU1NC5jb20vYWRvYmVxcGouaHRtbA==">Adobe CC 2017 系列软件一键破解工具<i class="fa fa-external-link-alt"></i></span></p>
+<p>这款破解工具支持Adobe CC 2017及2017以前的所有版本的Adobe软件进行破解</p>
+]]></content>
+      <categories>
+        <category>Adobe</category>
+        <category>破解</category>
+      </categories>
+      <tags>
+        <tag>Adobe</tag>
+        <tag>破解</tag>
       </tags>
   </entry>
   <entry>
@@ -1421,6 +1374,29 @@ Deny from all
       </tags>
   </entry>
   <entry>
+    <title>推荐几个在线图片压缩网站</title>
+    <url>/tpyswz.html</url>
+    <content><![CDATA[<p>网站中包含图片时会因为图片文件较大，导致网站加载变慢，推荐几个我经常用的图片在线压缩网站。</p>
+<h2 id="TinyPNG"><a href="#TinyPNG" class="headerlink" title="TinyPNG"></a>TinyPNG</h2><p>TinyPNG是我最常用的图片压缩网站，不过最近经常出现无法访问的问题，它除了在线版，还有插件版，并且可以一次同时压缩20张图片，压缩以后还可以打包下载。</p>
+<a id="more"></a>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">TinyPNG官网：http:&#x2F;&#x2F;tinypng.com&#x2F;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Optimizilla"><a href="#Optimizilla" class="headerlink" title="Optimizilla"></a>Optimizilla</h2><p>Optimizilla和TinyPNG差不多，同样是一次可以同时压缩20张图片，压缩以后支持打包下载，但是这个网站有个亮点，支持可视化调节压缩程度，并且<strong>支持中文！</strong>，在网页上可以选择语言。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Optimizilla官网：http:&#x2F;&#x2F;optimizilla.com&#x2F;</span><br></pre></td></tr></table></figure>
+
+<h2 id="其他网站"><a href="#其他网站" class="headerlink" title="其他网站"></a>其他网站</h2><p>图片压缩网站还有很多，就不逐一介绍，在下边列出来大家选择使用。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Kraken：https:&#x2F;&#x2F;kraken.io&#x2F;web-interface</span><br><span class="line">Resize Photos：http:&#x2F;&#x2F;www.resize-photos.com&#x2F;</span><br><span class="line">压缩图：http:&#x2F;&#x2F;www.yasuotu.com&#x2F;</span><br><span class="line">图好快：https:&#x2F;&#x2F;www.tuhaokuai.com&#x2F;</span><br><span class="line">色彩笔：http:&#x2F;&#x2F;www.secaibi.com&#x2F;tools&#x2F;</span><br></pre></td></tr></table></figure>
+
+<p>最后再介绍一下关于图片有损和无损的区别：<br>从目前WEB常见的几种格式来看：<br>JPG：(除了纯色、纯渐变等特殊情况)永远有损，无论什么工具。<br>GIF：处理256色以内的图片无损，超过256色则有损。<br>PNG-8：类似GIF。<br>PNG-24/-32：真正的无损。体积也较大。</p>
+]]></content>
+      <categories>
+        <category>图片处理</category>
+      </categories>
+      <tags>
+        <tag>在线图片压缩网站</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>腾讯文档-可以多人协作的在线文档</title>
     <url>/txwd.html</url>
     <content><![CDATA[<h2 id="腾讯文档"><a href="#腾讯文档" class="headerlink" title="腾讯文档"></a>腾讯文档</h2><blockquote>
@@ -1454,29 +1430,6 @@ Deny from all
       </categories>
       <tags>
         <tag>腾讯文档</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>推荐几个在线图片压缩网站</title>
-    <url>/tpyswz.html</url>
-    <content><![CDATA[<p>网站中包含图片时会因为图片文件较大，导致网站加载变慢，推荐几个我经常用的图片在线压缩网站。</p>
-<h2 id="TinyPNG"><a href="#TinyPNG" class="headerlink" title="TinyPNG"></a>TinyPNG</h2><p>TinyPNG是我最常用的图片压缩网站，不过最近经常出现无法访问的问题，它除了在线版，还有插件版，并且可以一次同时压缩20张图片，压缩以后还可以打包下载。</p>
-<a id="more"></a>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">TinyPNG官网：http:&#x2F;&#x2F;tinypng.com&#x2F;</span><br></pre></td></tr></table></figure>
-
-<h2 id="Optimizilla"><a href="#Optimizilla" class="headerlink" title="Optimizilla"></a>Optimizilla</h2><p>Optimizilla和TinyPNG差不多，同样是一次可以同时压缩20张图片，压缩以后支持打包下载，但是这个网站有个亮点，支持可视化调节压缩程度，并且<strong>支持中文！</strong>，在网页上可以选择语言。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Optimizilla官网：http:&#x2F;&#x2F;optimizilla.com&#x2F;</span><br></pre></td></tr></table></figure>
-
-<h2 id="其他网站"><a href="#其他网站" class="headerlink" title="其他网站"></a>其他网站</h2><p>图片压缩网站还有很多，就不逐一介绍，在下边列出来大家选择使用。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Kraken：https:&#x2F;&#x2F;kraken.io&#x2F;web-interface</span><br><span class="line">Resize Photos：http:&#x2F;&#x2F;www.resize-photos.com&#x2F;</span><br><span class="line">压缩图：http:&#x2F;&#x2F;www.yasuotu.com&#x2F;</span><br><span class="line">图好快：https:&#x2F;&#x2F;www.tuhaokuai.com&#x2F;</span><br><span class="line">色彩笔：http:&#x2F;&#x2F;www.secaibi.com&#x2F;tools&#x2F;</span><br></pre></td></tr></table></figure>
-
-<p>最后再介绍一下关于图片有损和无损的区别：<br>从目前WEB常见的几种格式来看：<br>JPG：(除了纯色、纯渐变等特殊情况)永远有损，无论什么工具。<br>GIF：处理256色以内的图片无损，超过256色则有损。<br>PNG-8：类似GIF。<br>PNG-24/-32：真正的无损。体积也较大。</p>
-]]></content>
-      <categories>
-        <category>图片处理</category>
-      </categories>
-      <tags>
-        <tag>在线图片压缩网站</tag>
       </tags>
   </entry>
   <entry>
@@ -1531,29 +1484,6 @@ Deny from all
       </categories>
       <tags>
         <tag>Win10管理员权限</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>解决Windows10自动安装游戏</title>
-    <url>/windowszdxz.html</url>
-    <content><![CDATA[<p>今天在虚拟机装了Windows10官方版系统，进行精简优化以后，忽然发现重启以后会自动把已经卸载了的系统自带游戏重新安装回来。</p>
-<p>比如迪士尼梦幻王国，泡泡魔女传奇什么的，卸载后又会重新安装。</p>
-<p>在网上找了很多解决办法，最终只有更改注册表最简单。</p>
-<p>只需要如下操作：</p>
-<a id="more"></a>
-<p>在任意位置新建文本文档，写入以下内容，并将文本文档重命名为<strong>liyu996.reg</strong>，后缀名是reg不是txt。</p>
-<p>内容：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line"></span><br><span class="line">[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]</span><br><span class="line">&quot;FeatureManagementEnabled&quot;&#x3D;dword:00000000</span><br><span class="line">&quot;OemPreInstalledAppsEnabled&quot;&#x3D;dword:00000000</span><br><span class="line">&quot;PreInstalledAppsEnabled&quot;&#x3D;dword:00000000</span><br><span class="line">&quot;SilentInstalledAppsEnabled&quot;&#x3D;dword:00000000</span><br></pre></td></tr></table></figure>
-<p>保存，运行liyu996.reg，提示是否写入注册表选择是。</p>
-<p>这样Windows就不会再静默安装那些无聊游戏了。</p>
-]]></content>
-      <categories>
-        <category>系统优化</category>
-        <category>常见问题</category>
-      </categories>
-      <tags>
-        <tag>Windows10自动安装游戏</tag>
-        <tag>Win10静默安装游戏</tag>
       </tags>
   </entry>
   <entry>
@@ -1618,6 +1548,29 @@ Deny from all
       </tags>
   </entry>
   <entry>
+    <title>解决Windows10自动安装游戏</title>
+    <url>/windowszdxz.html</url>
+    <content><![CDATA[<p>今天在虚拟机装了Windows10官方版系统，进行精简优化以后，忽然发现重启以后会自动把已经卸载了的系统自带游戏重新安装回来。</p>
+<p>比如迪士尼梦幻王国，泡泡魔女传奇什么的，卸载后又会重新安装。</p>
+<p>在网上找了很多解决办法，最终只有更改注册表最简单。</p>
+<p>只需要如下操作：</p>
+<a id="more"></a>
+<p>在任意位置新建文本文档，写入以下内容，并将文本文档重命名为<strong>liyu996.reg</strong>，后缀名是reg不是txt。</p>
+<p>内容：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line"></span><br><span class="line">[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]</span><br><span class="line">&quot;FeatureManagementEnabled&quot;&#x3D;dword:00000000</span><br><span class="line">&quot;OemPreInstalledAppsEnabled&quot;&#x3D;dword:00000000</span><br><span class="line">&quot;PreInstalledAppsEnabled&quot;&#x3D;dword:00000000</span><br><span class="line">&quot;SilentInstalledAppsEnabled&quot;&#x3D;dword:00000000</span><br></pre></td></tr></table></figure>
+<p>保存，运行liyu996.reg，提示是否写入注册表选择是。</p>
+<p>这样Windows就不会再静默安装那些无聊游戏了。</p>
+]]></content>
+      <categories>
+        <category>系统优化</category>
+        <category>常见问题</category>
+      </categories>
+      <tags>
+        <tag>Windows10自动安装游戏</tag>
+        <tag>Win10静默安装游戏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Windows10免费永久激活方法(非广告无套路)</title>
     <url>/winsyjjh.html</url>
     <content><![CDATA[<h2 id="Windows10永久激活工具"><a href="#Windows10永久激活工具" class="headerlink" title="Windows10永久激活工具"></a>Windows10永久激活工具</h2><p>网上有很多关于如何激活Windows10的教程，但是没有一个是永久激活(也可能是我没找到….)。</p>
@@ -1670,29 +1623,6 @@ Deny from all
       </tags>
   </entry>
   <entry>
-    <title>利用浏览器书签一键调用VIP解析接口</title>
-    <url>/yjjxjk.html</url>
-    <content><![CDATA[<h2 id="利用浏览器书签一键调用VIP解析接口"><a href="#利用浏览器书签一键调用VIP解析接口" class="headerlink" title="利用浏览器书签一键调用VIP解析接口"></a>利用浏览器书签一键调用VIP解析接口</h2><p>在使用第三方VIP视频解析接口感觉常麻烦的要死。懒癌重度患者(°ー°〃)</p>
-<p>要打开想看的视频，复制地址，打开VIP解析接口，再粘贴视频地址，然后才可以使用接口观看。</p>
-<p>这里我提供一个方法，只需要将一段代码添加到浏览器书签（收藏）就可以一键调用VIP解析端口了</p>
-<p>代码如下：</p>
-<a id="more"></a>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">javascript:window.location &#x3D;&#39;解析端口地址&#39;+window.location.href</span><br></pre></td></tr></table></figure>
-
-<p><img src="/images/yjjxjk.png" alt="利用浏览器书签一键调用VIP解析接口"></p>
-<p>只需要将这段代码添加到浏览器书签(收藏)中，</p>
-<p>打开想看的视频页面，直接点击这个书签(收藏)，便可以跳转到解析接口直接解析这个视频了。省去了很多麻烦。</p>
-<p>有些浏览器无法直接自定义添加书签(收藏)，可以先随便收藏一个页面，然后再修改这个收藏即可。(配图中我就是这么做的)</p>
-<h2 id="附上一些免费的VIP解析接口"><a href="#附上一些免费的VIP解析接口" class="headerlink" title="附上一些免费的VIP解析接口"></a>附上一些免费的VIP解析接口</h2><p>这些接口都是在网上找到的，发布时都可以用。自行测试使用。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">http:&#x2F;&#x2F;api.3ewl.cc&#x2F;qingfeng.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;jx.598110.com&#x2F;index.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;jx.598110.com&#x2F;duo&#x2F;index.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;jx.598110.com&#x2F;zuida.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;jqaaa.com&#x2F;jx.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;jiexi.92fz.cn&#x2F;player&#x2F;vip.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;api.nepian.com&#x2F;ckparse&#x2F;?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;aikan-tv.com&#x2F;?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;www.zq66.top&#x2F;xh.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;api.leytv.com&#x2F;template&#x2F;vfed&#x2F;php&#x2F;player.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;api.91exp.com&#x2F;svip&#x2F;?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;www.82190555.com&#x2F;index&#x2F;qqvod.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;api.baiyug.cn&#x2F;vip&#x2F;index.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;yun.baiyug.cn&#x2F;vip&#x2F;index.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;2gty.com&#x2F;apiurl&#x2F;yun.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;j.zz22x.com&#x2F;jx&#x2F;?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;api.pucms.com&#x2F;?url&#x3D;</span><br><span class="line">https:&#x2F;&#x2F;jx.biaoge.tv&#x2F;?url&#x3D;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>技术共享</category>
-      </categories>
-      <tags>
-        <tag>一键调用VIP解析接口</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>国产Windows10永久激活工具(C#)</title>
     <url>/wyjjhcs.html</url>
     <content><![CDATA[<h2 id="国产Windows10永久激活工具"><a href="#国产Windows10永久激活工具" class="headerlink" title="国产Windows10永久激活工具"></a>国产Windows10永久激活工具</h2><p><img src="/images/wyjjhcs.png" alt="Windows10永久激活工具"></p>
@@ -1717,134 +1647,6 @@ Deny from all
       <tags>
         <tag>软件共享</tag>
         <tag>Windows10永久激活方法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>杂记</title>
-    <url>/zaji.html</url>
-    <content><![CDATA[<p>如果两个人接吻的时候<br>有一个人睁着眼睛<br>就说明她不真诚</p>
-<hr>
-<p>我们都曾在别人的梦中出现过，若即若离的像一阵薄雾，看不清的脸庞、飞扬的裙角、稍转即逝的出现又消失…</p>
-<hr>
-<p>Save your heart for someone who cares.</p>
-<p>为了某个在乎你的人，请节约你的真心。</p>
-<a id="more"></a>
-<hr>
-<p>In life we all have an unspeakable secret, an irreversible regret, an ueachable dream and an unforgettable love.</p>
-<p>人的一生，都有一些说不出的秘密，挽不回的遗憾，触不到的梦想，忘不了的爱。</p>
-<hr>
-<p>I just wish someday and somehow,We can be back together, Together we’ll stay,Always and forever.</p>
-<p>我只希望有那么一天，不管怎样；我们能重新在一起；相依相伴，直到永远。</p>
-<hr>
-<p>Whenever you need me, I’ll be here. Whenever you’re in trouble, I’m always near.Whenever you feel alone, and you think everyone has given up…Reach out for me, and I will give you my everlasting love.</p>
-<p>当你需要我的时候，我都会在这里；当你有麻烦的时候，我都会在你身边；当你觉得孤独的时候；当你认为所有的人都已绝望；到我这里来，我会给你所有的爱。</p>
-<hr>
-<p>You haven’t always been here for me, or loved me just the same…But you will always have my heart, until my dying days.</p>
-<p>你从未完全属于我，或一如既往的爱我，但是我的心将永远属于你，直到我离开这个世界。</p>
-<hr>
-<p>I love you more each day as time goes by.</p>
-<p>随着时间流逝我一天比一天更爱你。</p>
-<hr>
-<p>我想让我们的爱情像琥珀一样，时间越久，越通透，连相爱的痕迹都清晰可见。</p>
-<hr>
-<p>But through all this time,Remember one thing. I’ll love you forever, ‘coz to my life, Love and Light, you bring.</p>
-<p>在以后的岁月里，请你记住一件事，那就是，我将永远爱你，因为你为我的生活，带来了爱与光明。</p>
-<hr>
-<p>When I wake up in the morning,You are all I see;When I think about you,And how happy you make me.You’re everything I wanted;You’re everything I need;I look at you and know;That you are all to me.</p>
-<p>当我在早晨醒来,我看到的只有你;当我想你的时候,你让我快乐无比;你是我想要的一切;你的我需要的一切。我凝视著你，知道，你是我的一切。</p>
-<hr>
-<p>If you were a teardrop,In my eye,For fear of losing you,I would never cry.And if the golden sun,Should cease to shine its light,Just one smile from you,Would make my whole world bright.</p>
-<p>如果你是我眼里的,一滴泪,为了不失去你,我将永不哭泣。如果金色的阳光，停止了它耀眼的光芒，你的一个微笑，将照亮我的整个世界。</p>
-<hr>
-<p>Since the first time I saw you,I felt something inside,I don’t know if it’s love at first sight,I do know I really like you a lot.</p>
-<p>自从第一次见到你,我的内心无法平静,我不知道这是否是一见锺情,我只知道我真的很喜欢你。</p>
-<hr>
-<p>you are my life.you’re my one and only dream.i love you,and to you that i mean.together for always, i hope we will be.i’ll love you always.</p>
-<p>你是我的生命，你是我唯一的梦想。我爱你，只有你，我希望我们能永远在一起。我会永远爱你，如果你仍然爱我。</p>
-<hr>
-<p>If I could save time in a bottle</p>
-<p>the first thing that i ‘d like to do</p>
-<p>is to save every day until eternity passes away</p>
-<p>just to spend them with you</p>
-<p>if I could make days last forever</p>
-<p>if words could make wishes come true</p>
-<p>I’d save every day like a treasure and then</p>
-<p>again I would spend them with you</p>
-<p>如果我能把时间存入一个瓶子，</p>
-<p>我要作的第一件事就是，</p>
-<p>把每一天都存下來直到永恆，</p>
-<p>再和你一起慢慢度過。</p>
-<p>如果我能把時間化作永恆，</p>
-<p>如果我的愿望能一一成真，</p>
-<p>我会把每天都像宝贝一樣存起來，</p>
-<p>再和你一起慢慢度过。</p>
-<hr>
-<p>Shall I compare thee to a summer’s day?</p>
-<p>Thou art more lovely and more temperate:</p>
-<p>Rough winds do shake the darling buds of May,</p>
-<p>And summer’s lease hath all too short a date:</p>
-<p>Sometime too hot the eye of heaven shines,</p>
-<p>And often is his gold complexion dimm’d;</p>
-<p>And every fair from fair sometime declines,</p>
-<p>By chance, or nature’s changing course untrimm’d;</p>
-<p>But thy eternal summer shall not fade,</p>
-<p>Nor lose possession of that fair thou ow’st;</p>
-<p>Nor shall Death brag thou wander’st in his shade,</p>
-<p>When in eternal lines to time thou grow’st:</p>
-<p>So long as men can breathe, or eyes can see,</p>
-<p>So long lives this and this gives life to thee.</p>
-<p>能不能让我来把你比拟做夏日?</p>
-<p>你可是更加温和，更加可爱:</p>
-<p>狂风会吹落五月里开的好花儿，</p>
-<p>夏季的生命又未免结束得太快:</p>
-<p>有时候苍天的巨眼照得太灼热，</p>
-<p>他那金彩的脸色也会被遮暗;</p>
-<p>每一样美呀，总会离开美而凋落，</p>
-<p>被时机或者自然的代谢所摧残;</p>
-<p>但是你永久的夏天决不会凋枯，</p>
-<p>你永远不会失去你美的仪态;</p>
-<p>死神夸不着你在他的影子里踯躅，</p>
-<p>你将在不朽的诗中与时间同在;</p>
-<p>只要人类在呼吸，眼睛看得见，</p>
-<p>我这诗就活着，使你的生命绵延。</p>
-<p>——莎士比亚《十四行诗》Sonnet 18</p>
-<hr>
-<p>A long while amid the noises of coming and going,</p>
-<p>of drinking and oath and smutty jest,</p>
-<p>There we two, content, happy in being together,</p>
-<p>speaking little, perhaps not a word.</p>
-<p>过了许久，在喧扰的人来人往中</p>
-<p>在酒吧喧闹的噪声、宣言和粗俗的玩笑声中</p>
-<p>我们俩，知足、快乐地坐在一起</p>
-<p>说的很少，似乎一个字都没说</p>
-<p>——惠特曼《人群中，多看了你一眼》</p>
-<hr>
-<p>你站在桥上看风景</p>
-<p>看风景的人在楼上看你</p>
-<p>明月装饰了你的窗子</p>
-<p>你装饰了别人的梦</p>
-<p>卞之琳《断章》</p>
-<hr>
-<p>Rich love knows nought of ‘thine that is not mine,</p>
-<p>Both have the strength and both the length thereof,</p>
-<p>Both of us, of the love which makes us one.</p>
-<p>丰盛的爱不分彼此</p>
-<p>所以我们才有力量走向永恒</p>
-<p>你和我，因为爱，成为一体</p>
-<p>——罗塞蒂《虽然我先爱你》段落</p>
-<hr>
-<p><img src="/images/zaji.png" alt="虽然是我先爱你"></p>
-<p>I loved you first</p>
-<p>By Christina Rossetti</p>
-<p>I loved you first, but afterwards your love<br>Outsoaring mine, sang such a loftier song<br>As drowned the friendly cooings of my dove.<br>Which owes the other most? my love was long,<br>And yours one moment seemed to wax more strong;<br>I loved and guessed at you, you construed me<br>And loved me for what might or might not be –<br>Nay, weights and measures do us both a wrong.<br>For verily love knows not ‘mine’ or ‘thine;’<br>With separate ‘I’ and ‘thou’ free love has done,<br>For one is both and both are one in love:<br>Rich love knows nought of ‘thine that is not mine;’<br>Both have the strength and both the length thereof,<br>Both of us, of the love which makes us one.</p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=516657051&auto=1&height=66"></iframe>
-
-]]></content>
-      <categories>
-        <category>杂记</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -1929,6 +1731,29 @@ Deny from all
         <tag>Next主题SEO</tag>
         <tag>HexoSEO</tag>
         <tag>文章SEO</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>利用浏览器书签一键调用VIP解析接口</title>
+    <url>/yjjxjk.html</url>
+    <content><![CDATA[<h2 id="利用浏览器书签一键调用VIP解析接口"><a href="#利用浏览器书签一键调用VIP解析接口" class="headerlink" title="利用浏览器书签一键调用VIP解析接口"></a>利用浏览器书签一键调用VIP解析接口</h2><p>在使用第三方VIP视频解析接口感觉常麻烦的要死。懒癌重度患者(°ー°〃)</p>
+<p>要打开想看的视频，复制地址，打开VIP解析接口，再粘贴视频地址，然后才可以使用接口观看。</p>
+<p>这里我提供一个方法，只需要将一段代码添加到浏览器书签（收藏）就可以一键调用VIP解析端口了</p>
+<p>代码如下：</p>
+<a id="more"></a>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">javascript:window.location &#x3D;&#39;解析端口地址&#39;+window.location.href</span><br></pre></td></tr></table></figure>
+
+<p><img src="/images/yjjxjk.png" alt="利用浏览器书签一键调用VIP解析接口"></p>
+<p>只需要将这段代码添加到浏览器书签(收藏)中，</p>
+<p>打开想看的视频页面，直接点击这个书签(收藏)，便可以跳转到解析接口直接解析这个视频了。省去了很多麻烦。</p>
+<p>有些浏览器无法直接自定义添加书签(收藏)，可以先随便收藏一个页面，然后再修改这个收藏即可。(配图中我就是这么做的)</p>
+<h2 id="附上一些免费的VIP解析接口"><a href="#附上一些免费的VIP解析接口" class="headerlink" title="附上一些免费的VIP解析接口"></a>附上一些免费的VIP解析接口</h2><p>这些接口都是在网上找到的，发布时都可以用。自行测试使用。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">http:&#x2F;&#x2F;api.3ewl.cc&#x2F;qingfeng.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;jx.598110.com&#x2F;index.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;jx.598110.com&#x2F;duo&#x2F;index.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;jx.598110.com&#x2F;zuida.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;jqaaa.com&#x2F;jx.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;jiexi.92fz.cn&#x2F;player&#x2F;vip.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;api.nepian.com&#x2F;ckparse&#x2F;?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;aikan-tv.com&#x2F;?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;www.zq66.top&#x2F;xh.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;api.leytv.com&#x2F;template&#x2F;vfed&#x2F;php&#x2F;player.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;api.91exp.com&#x2F;svip&#x2F;?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;www.82190555.com&#x2F;index&#x2F;qqvod.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;api.baiyug.cn&#x2F;vip&#x2F;index.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;yun.baiyug.cn&#x2F;vip&#x2F;index.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;2gty.com&#x2F;apiurl&#x2F;yun.php?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;j.zz22x.com&#x2F;jx&#x2F;?url&#x3D;</span><br><span class="line">http:&#x2F;&#x2F;api.pucms.com&#x2F;?url&#x3D;</span><br><span class="line">https:&#x2F;&#x2F;jx.biaoge.tv&#x2F;?url&#x3D;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>技术共享</category>
+      </categories>
+      <tags>
+        <tag>一键调用VIP解析接口</tag>
       </tags>
   </entry>
   <entry>
